@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment variables — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# editor
+.DS_Store
