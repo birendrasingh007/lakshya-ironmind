@@ -1,0 +1,2025 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ftraversaal-ai%2Flennyhub-rag%2Ftree%2Fmain
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=traversaal-ai%2Flennyhub-rag
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "traversaal-ai" [ref=e70] [cursor=pointer]:
+            - /url: /traversaal-ai
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "lennyhub-rag" [ref=e73] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Ftraversaal-ai%2Flennyhub-rag
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 158" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Ftraversaal-ai%2Flennyhub-rag
+                - img [ref=e82]
+                - text: Fork
+                - generic "158" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Ftraversaal-ai%2Flennyhub-rag
+                - img [ref=e88]
+                - text: Star
+                - generic "517 users starred this repository" [ref=e90]: "517"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 3" [ref=e99] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "3" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests" [ref=e106] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+          - listitem [ref=e110]:
+            - link "Actions" [ref=e111] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/actions
+              - img [ref=e112]
+              - generic [ref=e114]: Actions
+          - listitem [ref=e115]:
+            - link "Projects" [ref=e116] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/projects
+              - img [ref=e117]
+              - generic [ref=e119]: Projects
+          - listitem [ref=e120]:
+            - link "Security and quality" [ref=e121] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/security
+              - img [ref=e122]
+              - generic [ref=e124]: Security and quality
+          - listitem [ref=e125]:
+            - link "Insights" [ref=e126] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/pulse
+              - img [ref=e127]
+              - generic [ref=e129]: Insights
+    - generic [ref=e142]:
+      - heading "traversaal-ai/lennyhub-rag" [level=1] [ref=e144]
+      - generic [ref=e145]:
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - button "main branch" [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]:
+                  - generic [ref=e155]:
+                    - img [ref=e157]
+                    - generic [ref=e160]: main
+                  - generic:
+                    - img
+              - generic [ref=e161]:
+                - link "1 Branch" [ref=e162] [cursor=pointer]:
+                  - /url: /traversaal-ai/lennyhub-rag/branches
+                  - generic [ref=e163]:
+                    - generic:
+                      - img
+                    - generic [ref=e165]:
+                      - strong [ref=e166]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e167] [cursor=pointer]:
+                  - /url: /traversaal-ai/lennyhub-rag/tags
+                  - generic [ref=e168]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]:
+                      - strong [ref=e171]: "0"
+                      - text: Tags
+            - generic [ref=e172]:
+              - generic [ref=e176]:
+                - img [ref=e178]
+                - combobox "Go to file" [ref=e180]
+              - button "Code" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]:
+                  - generic:
+                    - img
+                  - generic [ref=e183]: Code
+                  - generic:
+                    - img
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "Folders and files" [level=2] [ref=e186]
+              - table "Folders and files" [ref=e187]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e188]:
+                  - row "Latest commit hamzafarooq commits by hamzafarooq Update image in README for knowledge graph Commit 1471464 · Jan 19, 20263 months ago History 25 Commits" [ref=e189]:
+                    - cell "Latest commit hamzafarooq commits by hamzafarooq Update image in README for knowledge graph Commit 1471464 · Jan 19, 20263 months ago History 25 Commits" [ref=e190]:
+                      - generic [ref=e191]:
+                        - heading "Latest commit" [level=2] [ref=e192]
+                        - generic [ref=e193]:
+                          - generic [ref=e195]:
+                            - link "hamzafarooq" [ref=e196] [cursor=pointer]:
+                              - /url: /hamzafarooq
+                              - img "hamzafarooq" [ref=e197]
+                            - link "commits by hamzafarooq" [ref=e198] [cursor=pointer]:
+                              - /url: /traversaal-ai/lennyhub-rag/commits?author=hamzafarooq
+                              - text: hamzafarooq
+                          - link "Update image in README for knowledge graph" [ref=e202] [cursor=pointer]:
+                            - /url: /traversaal-ai/lennyhub-rag/commit/1471464eed0226edbd3d06bb8ef73ba142cab5e7
+                        - generic [ref=e203]:
+                          - generic [ref=e205]:
+                            - link "Commit 1471464" [ref=e206] [cursor=pointer]:
+                              - /url: /traversaal-ai/lennyhub-rag/commit/1471464eed0226edbd3d06bb8ef73ba142cab5e7
+                              - text: "1471464"
+                            - text: ·
+                            - generic "Jan 19, 2026, 9:35 AM PST" [ref=e207]: Jan 19, 20263 months ago
+                          - generic [ref=e208]:
+                            - heading "History" [level=2] [ref=e209]
+                            - link "25 Commits" [ref=e210] [cursor=pointer]:
+                              - /url: /traversaal-ai/lennyhub-rag/commits/main/
+                              - generic [ref=e211]:
+                                - generic:
+                                  - img
+                                - generic [ref=e212]: 25 Commits
+                  - row "assets, (Directory) KW added Jan 19, 20263 months ago" [ref=e213]:
+                    - cell "assets, (Directory)" [ref=e214]:
+                      - generic [ref=e215]:
+                        - img [ref=e216]
+                        - link "assets, (Directory)" [ref=e221] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/tree/main/assets
+                          - text: assets
+                    - cell "KW added" [ref=e222]:
+                      - link "KW added" [ref=e225] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/b7721755073a9abc71d38921708406d510b25a08
+                    - cell "Jan 19, 20263 months ago" [ref=e226]:
+                      - generic [ref=e227]: Jan 19, 20263 months ago
+                  - row "data, (Directory) parallel processing Jan 15, 20263 months ago" [ref=e228]:
+                    - cell "data, (Directory)" [ref=e229]:
+                      - generic [ref=e230]:
+                        - img [ref=e231]
+                        - link "data, (Directory)" [ref=e236] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/tree/main/data
+                          - text: data
+                    - cell "parallel processing" [ref=e237]:
+                      - link "parallel processing" [ref=e240] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/c8c321616106a0662b84da1ac376998fd942f1b6
+                    - cell "Jan 15, 20263 months ago" [ref=e241]:
+                      - generic [ref=e242]: Jan 15, 20263 months ago
+                  - row "qdrant_storage, (Directory) set .gitignore Jan 19, 20263 months ago" [ref=e243]:
+                    - cell "qdrant_storage, (Directory)" [ref=e244]:
+                      - generic [ref=e245]:
+                        - img [ref=e246]
+                        - link "qdrant_storage, (Directory)" [ref=e251] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/tree/main/qdrant_storage
+                          - text: qdrant_storage
+                    - cell "set .gitignore" [ref=e252]:
+                      - link "set .gitignore" [ref=e255] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/f6f5491838c901980677c7ec60f82e79d2036667
+                    - cell "Jan 19, 20263 months ago" [ref=e256]:
+                      - generic [ref=e257]: Jan 19, 20263 months ago
+                  - 'row "rag_storage, (Directory) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e258]':
+                    - cell "rag_storage, (Directory)" [ref=e259]:
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - link "rag_storage, (Directory)" [ref=e266] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/tree/main/rag_storage
+                          - text: rag_storage
+                    - 'cell "Fixed: streamlit app" [ref=e267]':
+                      - 'link "Fixed: streamlit app" [ref=e270] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e271]:
+                      - generic [ref=e272]: Jan 18, 20263 months ago
+                  - row ".DS_Store, (File) qdrant added Jan 15, 20263 months ago" [ref=e273]:
+                    - cell ".DS_Store, (File)" [ref=e274]:
+                      - generic [ref=e275]:
+                        - img [ref=e276]
+                        - link ".DS_Store, (File)" [ref=e281] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/.DS_Store
+                          - text: .DS_Store
+                    - cell "qdrant added" [ref=e282]:
+                      - link "qdrant added" [ref=e285] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e286]:
+                      - generic [ref=e287]: Jan 15, 20263 months ago
+                  - row ".env.example, (File) qdrant added Jan 15, 20263 months ago" [ref=e288]:
+                    - cell ".env.example, (File)" [ref=e289]:
+                      - generic [ref=e290]:
+                        - img [ref=e291]
+                        - link ".env.example, (File)" [ref=e296] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/.env.example
+                          - text: .env.example
+                    - cell "qdrant added" [ref=e297]:
+                      - link "qdrant added" [ref=e300] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e301]:
+                      - generic [ref=e302]: Jan 15, 20263 months ago
+                  - row ".gitignore, (File) set .gitignore Jan 19, 20263 months ago" [ref=e303]:
+                    - cell ".gitignore, (File)" [ref=e304]:
+                      - generic [ref=e305]:
+                        - img [ref=e306]
+                        - link ".gitignore, (File)" [ref=e311] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "set .gitignore" [ref=e312]:
+                      - link "set .gitignore" [ref=e315] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/f6f5491838c901980677c7ec60f82e79d2036667
+                    - cell "Jan 19, 20263 months ago" [ref=e316]:
+                      - generic [ref=e317]: Jan 19, 20263 months ago
+                  - 'row ".python-version, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e318]':
+                    - cell ".python-version, (File)" [ref=e319]:
+                      - generic [ref=e320]:
+                        - img [ref=e321]
+                        - link ".python-version, (File)" [ref=e326] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/.python-version
+                          - text: .python-version
+                    - 'cell "Fixed: streamlit app" [ref=e327]':
+                      - 'link "Fixed: streamlit app" [ref=e330] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e331]:
+                      - generic [ref=e332]: Jan 18, 20263 months ago
+                  - row "ADDING_TRANSCRIPTS.md, (File) parallel processing Jan 15, 20263 months ago" [ref=e333]:
+                    - cell "ADDING_TRANSCRIPTS.md, (File)" [ref=e334]:
+                      - generic [ref=e335]:
+                        - img [ref=e336]
+                        - link "ADDING_TRANSCRIPTS.md, (File)" [ref=e341] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/ADDING_TRANSCRIPTS.md
+                          - text: ADDING_TRANSCRIPTS.md
+                    - cell "parallel processing" [ref=e342]:
+                      - link "parallel processing" [ref=e345] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/c8c321616106a0662b84da1ac376998fd942f1b6
+                    - cell "Jan 15, 20263 months ago" [ref=e346]:
+                      - generic [ref=e347]: Jan 15, 20263 months ago
+                  - row "GRAPH_VIEWER_README.md, (File) KW added Jan 19, 20263 months ago" [ref=e348]:
+                    - cell "GRAPH_VIEWER_README.md, (File)" [ref=e349]:
+                      - generic [ref=e350]:
+                        - img [ref=e351]
+                        - link "GRAPH_VIEWER_README.md, (File)" [ref=e356] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/GRAPH_VIEWER_README.md
+                          - text: GRAPH_VIEWER_README.md
+                    - cell "KW added" [ref=e357]:
+                      - link "KW added" [ref=e360] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/b7721755073a9abc71d38921708406d510b25a08
+                    - cell "Jan 19, 20263 months ago" [ref=e361]:
+                      - generic [ref=e362]: Jan 19, 20263 months ago
+                  - row "INSTALL.md, (File) installation files added Jan 15, 20263 months ago" [ref=e363]:
+                    - cell "INSTALL.md, (File)" [ref=e364]:
+                      - generic [ref=e365]:
+                        - img [ref=e366]
+                        - link "INSTALL.md, (File)" [ref=e371] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/INSTALL.md
+                          - text: INSTALL.md
+                    - cell "installation files added" [ref=e372]:
+                      - link "installation files added" [ref=e375] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/472b90826ae5f5ad9c6a3ebce56ab11d0ae5c2f3
+                    - cell "Jan 15, 20263 months ago" [ref=e376]:
+                      - generic [ref=e377]: Jan 15, 20263 months ago
+                  - row "LICENSE, (File) Initial commit Jan 15, 20263 months ago" [ref=e378]:
+                    - cell "LICENSE, (File)" [ref=e379]:
+                      - generic [ref=e380]:
+                        - img [ref=e381]
+                        - link "LICENSE, (File)" [ref=e386] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Initial commit" [ref=e387]:
+                      - link "Initial commit" [ref=e390] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/efaae760134b1d4534f13e7e6350ab5ea16246a5
+                    - cell "Jan 15, 20263 months ago" [ref=e391]:
+                      - generic [ref=e392]: Jan 15, 20263 months ago
+                  - row "MULTI_TURN_QUESTIONS.md, (File) parallel processing Jan 15, 20263 months ago" [ref=e393]:
+                    - cell "MULTI_TURN_QUESTIONS.md, (File)" [ref=e394]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - link "MULTI_TURN_QUESTIONS.md, (File)" [ref=e401] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/MULTI_TURN_QUESTIONS.md
+                          - text: MULTI_TURN_QUESTIONS.md
+                    - cell "parallel processing" [ref=e402]:
+                      - link "parallel processing" [ref=e405] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/c8c321616106a0662b84da1ac376998fd942f1b6
+                    - cell "Jan 15, 20263 months ago" [ref=e406]:
+                      - generic [ref=e407]: Jan 15, 20263 months ago
+                  - row "OVERVIEW.md, (File) overview Jan 15, 20263 months ago" [ref=e408]:
+                    - cell "OVERVIEW.md, (File)" [ref=e409]:
+                      - generic [ref=e410]:
+                        - img [ref=e411]
+                        - link "OVERVIEW.md, (File)" [ref=e416] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/OVERVIEW.md
+                          - text: OVERVIEW.md
+                    - cell "overview" [ref=e417]:
+                      - link "overview" [ref=e420] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/940c2fec27709e5ab18939e68a146f7afc7a9e1e
+                    - cell "Jan 15, 20263 months ago" [ref=e421]:
+                      - generic [ref=e422]: Jan 15, 20263 months ago
+                  - row "PARALLEL_PROCESSING.md, (File) parallel processing Jan 15, 20263 months ago" [ref=e423]:
+                    - cell "PARALLEL_PROCESSING.md, (File)" [ref=e424]:
+                      - generic [ref=e425]:
+                        - img [ref=e426]
+                        - link "PARALLEL_PROCESSING.md, (File)" [ref=e431] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/PARALLEL_PROCESSING.md
+                          - text: PARALLEL_PROCESSING.md
+                    - cell "parallel processing" [ref=e432]:
+                      - link "parallel processing" [ref=e435] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/0591c22c5610cc13308ef2cc92f5b0ba125d72b0
+                    - cell "Jan 15, 20263 months ago" [ref=e436]:
+                      - generic [ref=e437]: Jan 15, 20263 months ago
+                  - 'row "QDRANT_SETUP.md, (File) Updated: STREAMLIT_QUICKSTART.md and QDRANT_SETUP.m Jan 18, 20263 months ago" [ref=e438]':
+                    - cell "QDRANT_SETUP.md, (File)" [ref=e439]:
+                      - generic [ref=e440]:
+                        - img [ref=e441]
+                        - link "QDRANT_SETUP.md, (File)" [ref=e446] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/QDRANT_SETUP.md
+                          - text: QDRANT_SETUP.md
+                    - 'cell "Updated: STREAMLIT_QUICKSTART.md and QDRANT_SETUP.m" [ref=e447]':
+                      - 'link "Updated: STREAMLIT_QUICKSTART.md and QDRANT_SETUP.m" [ref=e450] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/ec8d4974553f5a226d49d7a64013fdc2368a986b
+                    - cell "Jan 18, 20263 months ago" [ref=e451]:
+                      - generic [ref=e452]: Jan 18, 20263 months ago
+                  - row "QUERYING_WITH_SOURCES.md, (File) 150 transcripts Jan 15, 20263 months ago" [ref=e453]:
+                    - cell "QUERYING_WITH_SOURCES.md, (File)" [ref=e454]:
+                      - generic [ref=e455]:
+                        - img [ref=e456]
+                        - link "QUERYING_WITH_SOURCES.md, (File)" [ref=e461] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/QUERYING_WITH_SOURCES.md
+                          - text: QUERYING_WITH_SOURCES.md
+                    - cell "150 transcripts" [ref=e462]:
+                      - link "150 transcripts" [ref=e465] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/f0287cbb9f58ed478d9ef20c27b8d8a1686d431d
+                    - cell "Jan 15, 20263 months ago" [ref=e466]:
+                      - generic [ref=e467]: Jan 15, 20263 months ago
+                  - row "README.md, (File) Update image in README for knowledge graph Jan 19, 20263 months ago" [ref=e468]:
+                    - cell "README.md, (File)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "README.md, (File)" [ref=e476] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/README.md
+                          - text: README.md
+                    - cell "Update image in README for knowledge graph" [ref=e477]:
+                      - link "Update image in README for knowledge graph" [ref=e480] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/1471464eed0226edbd3d06bb8ef73ba142cab5e7
+                    - cell "Jan 19, 20263 months ago" [ref=e481]:
+                      - generic [ref=e482]: Jan 19, 20263 months ago
+                  - row "README_TRANSCRIPT_RAG.md, (File) code files added Jan 15, 20263 months ago" [ref=e483]:
+                    - cell "README_TRANSCRIPT_RAG.md, (File)" [ref=e484]:
+                      - generic [ref=e485]:
+                        - img [ref=e486]
+                        - link "README_TRANSCRIPT_RAG.md, (File)" [ref=e491] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/README_TRANSCRIPT_RAG.md
+                          - text: README_TRANSCRIPT_RAG.md
+                    - cell "code files added" [ref=e492]:
+                      - link "code files added" [ref=e495] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/1083cb1fc83823ecda44e6b84cafefcba6d7014e
+                    - cell "Jan 15, 20263 months ago" [ref=e496]:
+                      - generic [ref=e497]: Jan 15, 20263 months ago
+                  - row "SETUP_GUIDE.md, (File) qdrant added Jan 15, 20263 months ago" [ref=e498]:
+                    - cell "SETUP_GUIDE.md, (File)" [ref=e499]:
+                      - generic [ref=e500]:
+                        - img [ref=e501]
+                        - link "SETUP_GUIDE.md, (File)" [ref=e506] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/SETUP_GUIDE.md
+                          - text: SETUP_GUIDE.md
+                    - cell "qdrant added" [ref=e507]:
+                      - link "qdrant added" [ref=e510] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e511]:
+                      - generic [ref=e512]: Jan 15, 20263 months ago
+                  - 'row "STREAMLIT_QUICKSTART.md, (File) Updated: STREAMLIT_QUICKSTART.md and QDRANT_SETUP.m Jan 18, 20263 months ago" [ref=e513]':
+                    - cell "STREAMLIT_QUICKSTART.md, (File)" [ref=e514]:
+                      - generic [ref=e515]:
+                        - img [ref=e516]
+                        - link "STREAMLIT_QUICKSTART.md, (File)" [ref=e521] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/STREAMLIT_QUICKSTART.md
+                          - text: STREAMLIT_QUICKSTART.md
+                    - 'cell "Updated: STREAMLIT_QUICKSTART.md and QDRANT_SETUP.m" [ref=e522]':
+                      - 'link "Updated: STREAMLIT_QUICKSTART.md and QDRANT_SETUP.m" [ref=e525] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/ec8d4974553f5a226d49d7a64013fdc2368a986b
+                    - cell "Jan 18, 20263 months ago" [ref=e526]:
+                      - generic [ref=e527]: Jan 18, 20263 months ago
+                  - row "STREAMLIT_README.md, (File) qdrant added Jan 15, 20263 months ago" [ref=e528]:
+                    - cell "STREAMLIT_README.md, (File)" [ref=e529]:
+                      - generic [ref=e530]:
+                        - img [ref=e531]
+                        - link "STREAMLIT_README.md, (File)" [ref=e536] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/STREAMLIT_README.md
+                          - text: STREAMLIT_README.md
+                    - cell "qdrant added" [ref=e537]:
+                      - link "qdrant added" [ref=e540] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e541]:
+                      - generic [ref=e542]: Jan 15, 20263 months ago
+                  - row "VISUAL_APP_SUMMARY.md, (File) qdrant added Jan 15, 20263 months ago" [ref=e543]:
+                    - cell "VISUAL_APP_SUMMARY.md, (File)" [ref=e544]:
+                      - generic [ref=e545]:
+                        - img [ref=e546]
+                        - link "VISUAL_APP_SUMMARY.md, (File)" [ref=e551] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/VISUAL_APP_SUMMARY.md
+                          - text: VISUAL_APP_SUMMARY.md
+                    - cell "qdrant added" [ref=e552]:
+                      - link "qdrant added" [ref=e555] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e556]:
+                      - generic [ref=e557]: Jan 15, 20263 months ago
+                  - row "build_log.txt, (File) 150 transcripts Jan 15, 20263 months ago" [ref=e558]:
+                    - cell "build_log.txt, (File)" [ref=e559]:
+                      - generic [ref=e560]:
+                        - img [ref=e561]
+                        - link "build_log.txt, (File)" [ref=e566] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/build_log.txt
+                          - text: build_log.txt
+                    - cell "150 transcripts" [ref=e567]:
+                      - link "150 transcripts" [ref=e570] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/f0287cbb9f58ed478d9ef20c27b8d8a1686d431d
+                    - cell "Jan 15, 20263 months ago" [ref=e571]:
+                      - generic [ref=e572]: Jan 15, 20263 months ago
+                  - row "build_rag_quick.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e573]:
+                    - cell "build_rag_quick.py, (File)" [ref=e574]:
+                      - generic [ref=e575]:
+                        - img [ref=e576]
+                        - link "build_rag_quick.py, (File)" [ref=e581] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/build_rag_quick.py
+                          - text: build_rag_quick.py
+                    - cell "qdrant added" [ref=e582]:
+                      - link "qdrant added" [ref=e585] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e586]:
+                      - generic [ref=e587]: Jan 15, 20263 months ago
+                  - row "build_transcript_rag.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e588]:
+                    - cell "build_transcript_rag.py, (File)" [ref=e589]:
+                      - generic [ref=e590]:
+                        - img [ref=e591]
+                        - link "build_transcript_rag.py, (File)" [ref=e596] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/build_transcript_rag.py
+                          - text: build_transcript_rag.py
+                    - cell "qdrant added" [ref=e597]:
+                      - link "qdrant added" [ref=e600] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e601]:
+                      - generic [ref=e602]: Jan 15, 20263 months ago
+                  - row "build_transcript_rag_parallel.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e603]:
+                    - cell "build_transcript_rag_parallel.py, (File)" [ref=e604]:
+                      - generic [ref=e605]:
+                        - img [ref=e606]
+                        - link "build_transcript_rag_parallel.py, (File)" [ref=e611] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/build_transcript_rag_parallel.py
+                          - text: build_transcript_rag_parallel.py
+                    - cell "qdrant added" [ref=e612]:
+                      - link "qdrant added" [ref=e615] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e616]:
+                      - generic [ref=e617]: Jan 15, 20263 months ago
+                  - row "export_graph.py, (File) transcripts added Jan 15, 20263 months ago" [ref=e618]:
+                    - cell "export_graph.py, (File)" [ref=e619]:
+                      - generic [ref=e620]:
+                        - img [ref=e621]
+                        - link "export_graph.py, (File)" [ref=e626] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/export_graph.py
+                          - text: export_graph.py
+                    - cell "transcripts added" [ref=e627]:
+                      - link "transcripts added" [ref=e630] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/e6ae33b03e2902471c6462fcf976ff65208065a1
+                    - cell "Jan 15, 20263 months ago" [ref=e631]:
+                      - generic [ref=e632]: Jan 15, 20263 months ago
+                  - row "graph_data.json, (File) transcripts added Jan 15, 20263 months ago" [ref=e633]:
+                    - cell "graph_data.json, (File)" [ref=e634]:
+                      - generic [ref=e635]:
+                        - img [ref=e636]
+                        - link "graph_data.json, (File)" [ref=e641] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/graph_data.json
+                          - text: graph_data.json
+                    - cell "transcripts added" [ref=e642]:
+                      - link "transcripts added" [ref=e645] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/e6ae33b03e2902471c6462fcf976ff65208065a1
+                    - cell "Jan 15, 20263 months ago" [ref=e646]:
+                      - generic [ref=e647]: Jan 15, 20263 months ago
+                  - row "graph_viewer.html, (File) transcripts added Jan 15, 20263 months ago" [ref=e648]:
+                    - cell "graph_viewer.html, (File)" [ref=e649]:
+                      - generic [ref=e650]:
+                        - img [ref=e651]
+                        - link "graph_viewer.html, (File)" [ref=e656] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/graph_viewer.html
+                          - text: graph_viewer.html
+                    - cell "transcripts added" [ref=e657]:
+                      - link "transcripts added" [ref=e660] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/e6ae33b03e2902471c6462fcf976ff65208065a1
+                    - cell "Jan 15, 20263 months ago" [ref=e661]:
+                      - generic [ref=e662]: Jan 15, 20263 months ago
+                  - row "graph_viewer_optimized.html, (File) transcripts added Jan 15, 20263 months ago" [ref=e663]:
+                    - cell "graph_viewer_optimized.html, (File)" [ref=e664]:
+                      - generic [ref=e665]:
+                        - img [ref=e666]
+                        - link "graph_viewer_optimized.html, (File)" [ref=e671] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/graph_viewer_optimized.html
+                          - text: graph_viewer_optimized.html
+                    - cell "transcripts added" [ref=e672]:
+                      - link "transcripts added" [ref=e675] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/e6ae33b03e2902471c6462fcf976ff65208065a1
+                    - cell "Jan 15, 20263 months ago" [ref=e676]:
+                      - generic [ref=e677]: Jan 15, 20263 months ago
+                  - row "graph_viewer_simple.html, (File) KW added Jan 19, 20263 months ago" [ref=e678]:
+                    - cell "graph_viewer_simple.html, (File)" [ref=e679]:
+                      - generic [ref=e680]:
+                        - img [ref=e681]
+                        - link "graph_viewer_simple.html, (File)" [ref=e686] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/graph_viewer_simple.html
+                          - text: graph_viewer_simple.html
+                    - cell "KW added" [ref=e687]:
+                      - link "KW added" [ref=e690] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/b7721755073a9abc71d38921708406d510b25a08
+                    - cell "Jan 19, 20263 months ago" [ref=e691]:
+                      - generic [ref=e692]: Jan 19, 20263 months ago
+                  - row "install_qdrant_local.sh, (File) qdrant added Jan 15, 20263 months ago" [ref=e693]:
+                    - cell "install_qdrant_local.sh, (File)" [ref=e694]:
+                      - generic [ref=e695]:
+                        - img [ref=e696]
+                        - link "install_qdrant_local.sh, (File)" [ref=e701] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/install_qdrant_local.sh
+                          - text: install_qdrant_local.sh
+                    - cell "qdrant added" [ref=e702]:
+                      - link "qdrant added" [ref=e705] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e706]:
+                      - generic [ref=e707]: Jan 15, 20263 months ago
+                  - 'row "install_qdrant_windows.ps1, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e708]':
+                    - cell "install_qdrant_windows.ps1, (File)" [ref=e709]:
+                      - generic [ref=e710]:
+                        - img [ref=e711]
+                        - link "install_qdrant_windows.ps1, (File)" [ref=e716] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/install_qdrant_windows.ps1
+                          - text: install_qdrant_windows.ps1
+                    - 'cell "Fixed: streamlit app" [ref=e717]':
+                      - 'link "Fixed: streamlit app" [ref=e720] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e721]:
+                      - generic [ref=e722]: Jan 18, 20263 months ago
+                  - 'row "pyproject.toml, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e723]':
+                    - cell "pyproject.toml, (File)" [ref=e724]:
+                      - generic [ref=e725]:
+                        - img [ref=e726]
+                        - link "pyproject.toml, (File)" [ref=e731] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "Fixed: streamlit app" [ref=e732]':
+                      - 'link "Fixed: streamlit app" [ref=e735] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e736]:
+                      - generic [ref=e737]: Jan 18, 20263 months ago
+                  - row "qdrant.pid, (File) qdrant added Jan 15, 20263 months ago" [ref=e738]:
+                    - cell "qdrant.pid, (File)" [ref=e739]:
+                      - generic [ref=e740]:
+                        - img [ref=e741]
+                        - link "qdrant.pid, (File)" [ref=e746] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/qdrant.pid
+                          - text: qdrant.pid
+                    - cell "qdrant added" [ref=e747]:
+                      - link "qdrant added" [ref=e750] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e751]:
+                      - generic [ref=e752]: Jan 15, 20263 months ago
+                  - row "qdrant_config.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e753]:
+                    - cell "qdrant_config.py, (File)" [ref=e754]:
+                      - generic [ref=e755]:
+                        - img [ref=e756]
+                        - link "qdrant_config.py, (File)" [ref=e761] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/qdrant_config.py
+                          - text: qdrant_config.py
+                    - cell "qdrant added" [ref=e762]:
+                      - link "qdrant added" [ref=e765] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e766]:
+                      - generic [ref=e767]: Jan 15, 20263 months ago
+                  - row "qdrant_config.yaml, (File) qdrant added Jan 15, 20263 months ago" [ref=e768]:
+                    - cell "qdrant_config.yaml, (File)" [ref=e769]:
+                      - generic [ref=e770]:
+                        - img [ref=e771]
+                        - link "qdrant_config.yaml, (File)" [ref=e776] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/qdrant_config.yaml
+                          - text: qdrant_config.yaml
+                    - cell "qdrant added" [ref=e777]:
+                      - link "qdrant added" [ref=e780] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e781]:
+                      - generic [ref=e782]: Jan 15, 20263 months ago
+                  - row "query_rag.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e783]:
+                    - cell "query_rag.py, (File)" [ref=e784]:
+                      - generic [ref=e785]:
+                        - img [ref=e786]
+                        - link "query_rag.py, (File)" [ref=e791] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/query_rag.py
+                          - text: query_rag.py
+                    - cell "qdrant added" [ref=e792]:
+                      - link "qdrant added" [ref=e795] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e796]:
+                      - generic [ref=e797]: Jan 15, 20263 months ago
+                  - row "query_rag_with_chunks.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e798]:
+                    - cell "query_rag_with_chunks.py, (File)" [ref=e799]:
+                      - generic [ref=e800]:
+                        - img [ref=e801]
+                        - link "query_rag_with_chunks.py, (File)" [ref=e806] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/query_rag_with_chunks.py
+                          - text: query_rag_with_chunks.py
+                    - cell "qdrant added" [ref=e807]:
+                      - link "qdrant added" [ref=e810] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e811]:
+                      - generic [ref=e812]: Jan 15, 20263 months ago
+                  - row "query_with_sources.py, (File) qdrant added Jan 15, 20263 months ago" [ref=e813]:
+                    - cell "query_with_sources.py, (File)" [ref=e814]:
+                      - generic [ref=e815]:
+                        - img [ref=e816]
+                        - link "query_with_sources.py, (File)" [ref=e821] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/query_with_sources.py
+                          - text: query_with_sources.py
+                    - cell "qdrant added" [ref=e822]:
+                      - link "qdrant added" [ref=e825] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e826]:
+                      - generic [ref=e827]: Jan 15, 20263 months ago
+                  - 'row "query_worker.py, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e828]':
+                    - cell "query_worker.py, (File)" [ref=e829]:
+                      - generic [ref=e830]:
+                        - img [ref=e831]
+                        - link "query_worker.py, (File)" [ref=e836] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/query_worker.py
+                          - text: query_worker.py
+                    - 'cell "Fixed: streamlit app" [ref=e837]':
+                      - 'link "Fixed: streamlit app" [ref=e840] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e841]:
+                      - generic [ref=e842]: Jan 18, 20263 months ago
+                  - 'row "requirements.txt, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e843]':
+                    - cell "requirements.txt, (File)" [ref=e844]:
+                      - generic [ref=e845]:
+                        - img [ref=e846]
+                        - link "requirements.txt, (File)" [ref=e851] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - 'cell "Fixed: streamlit app" [ref=e852]':
+                      - 'link "Fixed: streamlit app" [ref=e855] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e856]:
+                      - generic [ref=e857]: Jan 18, 20263 months ago
+                  - row "run_streamlit.sh, (File) qdrant added Jan 15, 20263 months ago" [ref=e858]:
+                    - cell "run_streamlit.sh, (File)" [ref=e859]:
+                      - generic [ref=e860]:
+                        - img [ref=e861]
+                        - link "run_streamlit.sh, (File)" [ref=e866] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/run_streamlit.sh
+                          - text: run_streamlit.sh
+                    - cell "qdrant added" [ref=e867]:
+                      - link "qdrant added" [ref=e870] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e871]:
+                      - generic [ref=e872]: Jan 15, 20263 months ago
+                  - row "sample_questions.txt, (File) code files added Jan 15, 20263 months ago" [ref=e873]:
+                    - cell "sample_questions.txt, (File)" [ref=e874]:
+                      - generic [ref=e875]:
+                        - img [ref=e876]
+                        - link "sample_questions.txt, (File)" [ref=e881] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/sample_questions.txt
+                          - text: sample_questions.txt
+                    - cell "code files added" [ref=e882]:
+                      - link "code files added" [ref=e885] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/1083cb1fc83823ecda44e6b84cafefcba6d7014e
+                    - cell "Jan 15, 20263 months ago" [ref=e886]:
+                      - generic [ref=e887]: Jan 15, 20263 months ago
+                  - row "serve_graph.py, (File) KW added Jan 19, 20263 months ago" [ref=e888]:
+                    - cell "serve_graph.py, (File)" [ref=e889]:
+                      - generic [ref=e890]:
+                        - img [ref=e891]
+                        - link "serve_graph.py, (File)" [ref=e896] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/serve_graph.py
+                          - text: serve_graph.py
+                    - cell "KW added" [ref=e897]:
+                      - link "KW added" [ref=e900] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/b7721755073a9abc71d38921708406d510b25a08
+                    - cell "Jan 19, 20263 months ago" [ref=e901]:
+                      - generic [ref=e902]: Jan 19, 20263 months ago
+                  - row "setup_rag.py, (File) parallel processing Jan 15, 20263 months ago" [ref=e903]:
+                    - cell "setup_rag.py, (File)" [ref=e904]:
+                      - generic [ref=e905]:
+                        - img [ref=e906]
+                        - link "setup_rag.py, (File)" [ref=e911] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/setup_rag.py
+                          - text: setup_rag.py
+                    - cell "parallel processing" [ref=e912]:
+                      - link "parallel processing" [ref=e915] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/0591c22c5610cc13308ef2cc92f5b0ba125d72b0
+                    - cell "Jan 15, 20263 months ago" [ref=e916]:
+                      - generic [ref=e917]: Jan 15, 20263 months ago
+                  - row "start_qdrant.sh, (File) qdrant added Jan 15, 20263 months ago" [ref=e918]:
+                    - cell "start_qdrant.sh, (File)" [ref=e919]:
+                      - generic [ref=e920]:
+                        - img [ref=e921]
+                        - link "start_qdrant.sh, (File)" [ref=e926] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/start_qdrant.sh
+                          - text: start_qdrant.sh
+                    - cell "qdrant added" [ref=e927]:
+                      - link "qdrant added" [ref=e930] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e931]:
+                      - generic [ref=e932]: Jan 15, 20263 months ago
+                  - row "status_qdrant.sh, (File) qdrant added Jan 15, 20263 months ago" [ref=e933]:
+                    - cell "status_qdrant.sh, (File)" [ref=e934]:
+                      - generic [ref=e935]:
+                        - img [ref=e936]
+                        - link "status_qdrant.sh, (File)" [ref=e941] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/status_qdrant.sh
+                          - text: status_qdrant.sh
+                    - cell "qdrant added" [ref=e942]:
+                      - link "qdrant added" [ref=e945] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e946]:
+                      - generic [ref=e947]: Jan 15, 20263 months ago
+                  - row "stop_qdrant.sh, (File) qdrant added Jan 15, 20263 months ago" [ref=e948]:
+                    - cell "stop_qdrant.sh, (File)" [ref=e949]:
+                      - generic [ref=e950]:
+                        - img [ref=e951]
+                        - link "stop_qdrant.sh, (File)" [ref=e956] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/stop_qdrant.sh
+                          - text: stop_qdrant.sh
+                    - cell "qdrant added" [ref=e957]:
+                      - link "qdrant added" [ref=e960] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/commit/375c2748e0c7c01a617804ae79a279031f8f1645
+                    - cell "Jan 15, 20263 months ago" [ref=e961]:
+                      - generic [ref=e962]: Jan 15, 20263 months ago
+                  - 'row "streamlit_app.py, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e963]':
+                    - cell "streamlit_app.py, (File)" [ref=e964]:
+                      - generic [ref=e965]:
+                        - img [ref=e966]
+                        - link "streamlit_app.py, (File)" [ref=e971] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/streamlit_app.py
+                          - text: streamlit_app.py
+                    - 'cell "Fixed: streamlit app" [ref=e972]':
+                      - 'link "Fixed: streamlit app" [ref=e975] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e976]:
+                      - generic [ref=e977]: Jan 18, 20263 months ago
+                  - 'row "uv.lock, (File) Fixed: streamlit app Jan 18, 20263 months ago" [ref=e978]':
+                    - cell "uv.lock, (File)" [ref=e979]:
+                      - generic [ref=e980]:
+                        - img [ref=e981]
+                        - link "uv.lock, (File)" [ref=e986] [cursor=pointer]:
+                          - /url: /traversaal-ai/lennyhub-rag/blob/main/uv.lock
+                          - text: uv.lock
+                    - 'cell "Fixed: streamlit app" [ref=e987]':
+                      - 'link "Fixed: streamlit app" [ref=e990] [cursor=pointer]':
+                        - /url: /traversaal-ai/lennyhub-rag/commit/74579fd538ff34440fec1fa7869069b6548b3d97
+                    - cell "Jan 18, 20263 months ago" [ref=e991]:
+                      - generic [ref=e992]: Jan 18, 20263 months ago
+            - generic [ref=e994]:
+              - generic [ref=e995]:
+                - heading "Repository files navigation" [level=2] [ref=e996]
+                - navigation "Repository files" [ref=e997]:
+                  - list [ref=e998]:
+                    - listitem [ref=e999]:
+                      - link "README" [ref=e1000] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1002]
+                        - generic [ref=e1004]: README
+                    - listitem [ref=e1005]:
+                      - link "Apache-2.0 license" [ref=e1006] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1008]
+                        - generic [ref=e1010]: Apache-2.0 license
+                - button "Outline" [ref=e1011] [cursor=pointer]:
+                  - img [ref=e1012]
+              - article [ref=e1015]:
+                - generic [ref=e1016]:
+                  - heading "🎙️ LennyHub RAG" [level=1] [ref=e1017]
+                  - 'link "Permalink: 🎙️ LennyHub RAG" [ref=e1018] [cursor=pointer]':
+                    - /url: "#️-lennyhub-rag"
+                    - img [ref=e1019]
+                - paragraph [ref=e1021]:
+                  - text: A production-ready RAG (Retrieval-Augmented Generation) system built on transcripts from
+                  - link "Lenny's Podcast" [ref=e1022] [cursor=pointer]:
+                    - /url: https://www.lennysnewsletter.com/podcast
+                  - text: ", featuring conversations with top product leaders and growth experts."
+                - generic [ref=e1023]:
+                  - heading "🌟 Key Features" [level=2] [ref=e1024]
+                  - 'link "Permalink: 🌟 Key Features" [ref=e1025] [cursor=pointer]':
+                    - /url: "#-key-features"
+                    - img [ref=e1026]
+                - list [ref=e1028]:
+                  - listitem [ref=e1029]:
+                    - strong [ref=e1030]: 🚀 One-Command Setup
+                    - text: ": Automated installation and indexing with"
+                    - code [ref=e1031]: setup_rag.py
+                  - listitem [ref=e1032]:
+                    - strong [ref=e1033]: 🎨 Visual Web Interface
+                    - text: ": Beautiful Streamlit app for querying and exploration"
+                  - listitem [ref=e1034]:
+                    - strong [ref=e1035]: 🕸️ Interactive Graph Viewer
+                    - text: ": Explore 544 people and their connections with clickable network visualization"
+                  - listitem [ref=e1036]:
+                    - strong [ref=e1037]: 🗄️ Qdrant Vector Database
+                    - text: ": Production-grade local vector storage (no Docker needed)"
+                  - listitem [ref=e1038]:
+                    - strong [ref=e1039]: 📊 Knowledge Graph RAG
+                    - text: ": Advanced retrieval with LightRAG entity and relationship extraction"
+                  - listitem [ref=e1040]:
+                    - strong [ref=e1041]: 🔍 Multiple Search Modes
+                    - text: ": Hybrid, local, global, and naive search strategies"
+                  - listitem [ref=e1042]:
+                    - strong [ref=e1043]: 📚 297 Podcast Transcripts
+                    - text: ": Comprehensive knowledge base from industry leaders"
+                  - listitem [ref=e1044]:
+                    - strong [ref=e1045]: 💡 Interactive Queries
+                    - text: ": Both CLI and web-based query interfaces"
+                  - listitem [ref=e1046]:
+                    - strong [ref=e1047]: ⚡ Fast & Efficient
+                    - text: ": Caching, parallel processing, and optimized embeddings"
+                - generic [ref=e1048]:
+                  - heading "📊 Dataset" [level=2] [ref=e1049]
+                  - 'link "Permalink: 📊 Dataset" [ref=e1050] [cursor=pointer]':
+                    - /url: "#-dataset"
+                    - img [ref=e1051]
+                - generic [ref=e1053]:
+                  - heading "297 Podcast Transcripts Available" [level=3] [ref=e1054]
+                  - 'link "Permalink: 297 Podcast Transcripts Available" [ref=e1055] [cursor=pointer]':
+                    - /url: "#297-podcast-transcripts-available"
+                    - img [ref=e1056]
+                - paragraph [ref=e1058]: "Featuring conversations with:"
+                - list [ref=e1059]:
+                  - listitem [ref=e1060]:
+                    - strong [ref=e1061]: Product Leaders
+                    - text: ": Julie Zhuo, Shreyas Doshi, Adam Fishman"
+                  - listitem [ref=e1062]:
+                    - strong [ref=e1063]: Growth Experts
+                    - text: ": Brian Balfour, Elena Verna, Kevin Kwok"
+                  - listitem [ref=e1064]:
+                    - strong [ref=e1065]: Founders
+                    - text: ": Patrick Collison, Amjad Masad, Andrew Wilkinson"
+                  - listitem [ref=e1066]:
+                    - strong [ref=e1067]: Executives
+                    - text: ": Ada Chen Rekhi, Claire Hughes Johnson, Gokul Rajaram"
+                  - listitem [ref=e1068]: And many more!
+                - paragraph [ref=e1069]:
+                  - strong [ref=e1070]: Topics covered
+                  - text: ": Product management, growth strategy, career development, startup advice, leadership, decision-making frameworks, and more."
+                - generic [ref=e1071]:
+                  - heading "🚀 Quick Start (4 Steps)" [level=2] [ref=e1072]
+                  - 'link "Permalink: 🚀 Quick Start (4 Steps)" [ref=e1073] [cursor=pointer]':
+                    - /url: "#-quick-start-4-steps"
+                    - img [ref=e1074]
+                - generic [ref=e1076]:
+                  - heading "1. Clone the Repository" [level=3] [ref=e1077]
+                  - 'link "Permalink: 1. Clone the Repository" [ref=e1078] [cursor=pointer]':
+                    - /url: "#1-clone-the-repository"
+                    - img [ref=e1079]
+                - generic [ref=e1081]:
+                  - generic [ref=e1082]: git clone https://github.com/traversaal-ai/lennyhub-rag.git cd lennyhub-rag
+                  - button "Copy" [ref=e1084] [cursor=pointer]:
+                    - img [ref=e1085]
+                - generic [ref=e1088]:
+                  - heading "2. Install Dependencies" [level=3] [ref=e1089]
+                  - 'link "Permalink: 2. Install Dependencies" [ref=e1090] [cursor=pointer]':
+                    - /url: "#2-install-dependencies"
+                    - img [ref=e1091]
+                - generic [ref=e1093]:
+                  - generic [ref=e1094]: pip install -r requirements.txt
+                  - button "Copy" [ref=e1096] [cursor=pointer]:
+                    - img [ref=e1097]
+                - generic [ref=e1100]:
+                  - heading "3. Configure API Key" [level=3] [ref=e1101]
+                  - 'link "Permalink: 3. Configure API Key" [ref=e1102] [cursor=pointer]':
+                    - /url: "#3-configure-api-key"
+                    - img [ref=e1103]
+                - generic [ref=e1105]:
+                  - generic [ref=e1106]:
+                    - generic [ref=e1107]: "# Copy example environment file"
+                    - text: cp .env.example .env
+                    - generic [ref=e1108]: "# Edit .env and add your OpenAI API key"
+                    - generic [ref=e1109]: "# OPENAI_API_KEY=your-key-here"
+                  - button "Copy" [ref=e1111] [cursor=pointer]:
+                    - img [ref=e1112]
+                - generic [ref=e1115]:
+                  - heading "4. Run Automated Setup" [level=3] [ref=e1116]
+                  - 'link "Permalink: 4. Run Automated Setup" [ref=e1117] [cursor=pointer]':
+                    - /url: "#4-run-automated-setup"
+                    - img [ref=e1118]
+                - paragraph [ref=e1120]:
+                  - strong [ref=e1121]: Sequential Mode (Reliable)
+                - generic [ref=e1122]:
+                  - generic [ref=e1123]:
+                    - generic [ref=e1124]: "# Process first 10 transcripts (quick test - 5 min)"
+                    - text: python setup_rag.py --quick
+                    - generic [ref=e1125]: "# Process first 50 transcripts (30-40 min)"
+                    - text: python setup_rag.py --max 50
+                    - generic [ref=e1126]: "# Process all 297 transcripts (2-3 hours)"
+                    - text: python setup_rag.py
+                  - button "Copy" [ref=e1128] [cursor=pointer]:
+                    - img [ref=e1129]
+                - paragraph [ref=e1132]:
+                  - strong [ref=e1133]: Parallel Mode (5-10x Faster!)
+                  - text: ⚡
+                - generic [ref=e1134]:
+                  - generic [ref=e1135]:
+                    - generic [ref=e1136]: "# Process 50 transcripts in parallel (6-8 min)"
+                    - text: python setup_rag.py --max 50 --parallel
+                    - generic [ref=e1137]: "# All 297 transcripts in parallel (25-35 min)"
+                    - text: python setup_rag.py --parallel
+                    - generic [ref=e1138]: "# Custom workers (default: 5, max: 10)"
+                    - text: python setup_rag.py --parallel --workers 8
+                  - button "Copy" [ref=e1140] [cursor=pointer]:
+                    - img [ref=e1141]
+                - paragraph [ref=e1144]:
+                  - strong [ref=e1145]: "What this does:"
+                - list [ref=e1146]:
+                  - listitem [ref=e1147]: ✅ Installs Qdrant locally (if needed)
+                  - listitem [ref=e1148]: ✅ Starts Qdrant server
+                  - listitem [ref=e1149]: ✅ Builds embeddings and knowledge graph (sequential or parallel)
+                  - listitem [ref=e1150]: ✅ Automatically resumes from where you left off
+                  - listitem [ref=e1151]: ✅ Tests the system automatically
+                - generic [ref=e1152]:
+                  - heading "🎨 Visual Interface (Streamlit App)" [level=2] [ref=e1153]
+                  - 'link "Permalink: 🎨 Visual Interface (Streamlit App)" [ref=e1154] [cursor=pointer]':
+                    - /url: "#-visual-interface-streamlit-app"
+                    - img [ref=e1155]
+                - paragraph [ref=e1157]: "Launch the beautiful web UI:"
+                - paragraph [ref=e1158]:
+                  - strong [ref=e1159]: "Windows:"
+                - generic [ref=e1160]:
+                  - generic [ref=e1161]:
+                    - generic [ref=e1162]: "# First time: Install Qdrant"
+                    - text: .\install_qdrant_windows.ps1
+                    - generic [ref=e1163]: "# Run the app (Qdrant starts automatically!)"
+                    - text: .venv\Scripts\Activate.ps1 streamlit run streamlit_app.py
+                  - button "Copy" [ref=e1165] [cursor=pointer]:
+                    - img [ref=e1166]
+                - paragraph [ref=e1169]:
+                  - strong [ref=e1170]: "macOS/Linux:"
+                - generic [ref=e1171]:
+                  - generic [ref=e1172]: ./run_streamlit.sh
+                  - button "Copy" [ref=e1174] [cursor=pointer]:
+                    - img [ref=e1175]
+                - paragraph [ref=e1178]:
+                  - strong [ref=e1179]: "Features:"
+                - list [ref=e1180]:
+                  - listitem [ref=e1181]:
+                    - text: 🔍
+                    - strong [ref=e1182]: Query Tab
+                    - text: ": Ask questions with AI-powered search"
+                  - listitem [ref=e1183]:
+                    - text: 📊
+                    - strong [ref=e1184]: Statistics Tab
+                    - text: ": View system health and metrics"
+                  - listitem [ref=e1185]:
+                    - text: 📖
+                    - strong [ref=e1186]: Transcripts Tab
+                    - text: ": Browse and preview all transcripts"
+                  - listitem [ref=e1187]:
+                    - text: ⚙️
+                    - strong [ref=e1188]: Sidebar
+                    - text: ": Real-time status, settings, and quick links"
+                  - listitem [ref=e1189]:
+                    - text: 💡
+                    - strong [ref=e1190]: Sample Questions
+                    - text: ": Pre-built queries to get started"
+                  - listitem [ref=e1191]:
+                    - text: 🔄
+                    - strong [ref=e1192]: Auto-Start Qdrant
+                    - text: ": No manual startup needed"
+                  - listitem [ref=e1193]:
+                    - text: 🛡️
+                    - strong [ref=e1194]: Stable Queries
+                    - text: ": Run unlimited queries without errors"
+                - paragraph [ref=e1195]:
+                  - strong [ref=e1196]: "Screenshot Features:"
+                - list [ref=e1197]:
+                  - listitem [ref=e1198]: Clean, modern interface
+                  - listitem [ref=e1199]: Multiple query modes (hybrid, local, global, naive)
+                  - listitem [ref=e1200]: Real-time Qdrant status monitoring
+                  - listitem [ref=e1201]: Query timing and metadata
+                  - listitem [ref=e1202]: Transcript filtering and preview
+                - generic [ref=e1203]:
+                  - heading "🕸️ Knowledge Graph Viewer" [level=2] [ref=e1204]
+                  - 'link "Permalink: 🕸️ Knowledge Graph Viewer" [ref=e1205] [cursor=pointer]':
+                    - /url: "#️-knowledge-graph-viewer"
+                    - img [ref=e1206]
+                - paragraph [ref=e1208]: Explore the network of people and their connections from Lenny's podcasts with an interactive graph visualization.
+                - paragraph [ref=e1209]:
+                  - text: Knowledge Graph
+                  - link "LennyHubNetwork-TopConnectors-19January2026-ezgif com-optimize" [ref=e1211] [cursor=pointer]:
+                    - /url: https://private-user-images.githubusercontent.com/19996959/537698590-4115aa49-bc3f-4859-adfb-65e9f1edb8eb.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY1MDQ1MjIsIm5iZiI6MTc3NjUwNDIyMiwicGF0aCI6Ii8xOTk5Njk1OS81Mzc2OTg1OTAtNDExNWFhNDktYmMzZi00ODU5LWFkZmItNjVlOWYxZWRiOGViLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDE4VDA5MjM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc0YzZiZDEyODI2MzIwMWVjMGMwOWQ5NmNmMjlhZDA4MGZjODdlMzUwZjBlZDdlN2VlYzhlN2ViMzIwODVmM2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.SbFQ8lVggNBGzKnTXuq81FLvF8vazcuq-cCZxGK6iyk
+                    - img "LennyHubNetwork-TopConnectors-19January2026-ezgif com-optimize" [ref=e1212]
+                - paragraph [ref=e1213]:
+                  - strong [ref=e1214]: "Launch the Graph Viewer:"
+                - generic [ref=e1215]:
+                  - generic [ref=e1216]: python serve_graph.py
+                  - button "Copy" [ref=e1218] [cursor=pointer]:
+                    - img [ref=e1219]
+                - paragraph [ref=e1222]:
+                  - text: The graph will automatically open in your browser at
+                  - code [ref=e1223]: http://localhost:8000/graph_viewer_simple.html
+                - paragraph [ref=e1224]:
+                  - strong [ref=e1225]: "Features:"
+                - list [ref=e1226]:
+                  - listitem [ref=e1227]:
+                    - text: 🎯
+                    - strong [ref=e1228]: Interactive Network
+                    - text: ": 544 people with all names visible"
+                  - listitem [ref=e1229]:
+                    - text: 🌟
+                    - strong [ref=e1230]: Top Connectors Highlighted
+                    - text: ": See the 5 most connected people"
+                    - list [ref=e1231]:
+                      - listitem [ref=e1232]: Lenny Rachitsky (292 connections) - Gold
+                      - listitem [ref=e1233]: Bob Moesta (98 connections) - Amber
+                      - listitem [ref=e1234]: April Dunford (85 connections) - Orange
+                      - listitem [ref=e1235]: Arielle Jackson (82 connections) - Deep Orange
+                      - listitem [ref=e1236]: Andrew Wilkinson (78 connections) - Red
+                  - listitem [ref=e1237]:
+                    - text: 🔍
+                    - strong [ref=e1238]: Smart Search
+                    - text: ": Find people with exact match prioritization"
+                  - listitem [ref=e1239]:
+                    - text: 👆
+                    - strong [ref=e1240]: Clickable Legend
+                    - text: ": Click any top connector to focus on them"
+                  - listitem [ref=e1241]:
+                    - text: 🖱️
+                    - strong [ref=e1242]: Interactive Controls
+                    - text: ":"
+                    - list [ref=e1243]:
+                      - listitem [ref=e1244]: Drag nodes to reposition
+                      - listitem [ref=e1245]: Scroll to zoom in/out
+                      - listitem [ref=e1246]: Click for detailed information
+                      - listitem [ref=e1247]: Double-click to focus on a person
+                  - listitem [ref=e1248]:
+                    - text: 🎨
+                    - strong [ref=e1249]: Beautiful Design
+                    - text: ": Dark theme with Mona Sans font"
+                  - listitem [ref=e1250]:
+                    - text: ⚡
+                    - strong [ref=e1251]: Auto-Centers
+                    - text: ": Graph starts focused on Lenny Rachitsky"
+                - paragraph [ref=e1252]:
+                  - strong [ref=e1253]: "What You'll Discover:"
+                - list [ref=e1254]:
+                  - listitem [ref=e1255]: Who are the most connected people in Lenny's podcast network
+                  - listitem [ref=e1256]: Relationships between guests, experts, and industry leaders
+                  - listitem [ref=e1257]: Connection patterns across 544 people from the transcripts
+                - generic [ref=e1258]:
+                  - heading "💻 Command Line Interface" [level=2] [ref=e1259]
+                  - 'link "Permalink: 💻 Command Line Interface" [ref=e1260] [cursor=pointer]':
+                    - /url: "#-command-line-interface"
+                    - img [ref=e1261]
+                - generic [ref=e1263]:
+                  - heading "Interactive Query Mode" [level=3] [ref=e1264]
+                  - 'link "Permalink: Interactive Query Mode" [ref=e1265] [cursor=pointer]':
+                    - /url: "#interactive-query-mode"
+                    - img [ref=e1266]
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]: python query_rag.py --interactive
+                  - button "Copy" [ref=e1271] [cursor=pointer]:
+                    - img [ref=e1272]
+                - generic [ref=e1275]:
+                  - heading "Single Queries" [level=3] [ref=e1276]
+                  - 'link "Permalink: Single Queries" [ref=e1277] [cursor=pointer]':
+                    - /url: "#single-queries"
+                    - img [ref=e1278]
+                - generic [ref=e1280]:
+                  - generic [ref=e1281]:
+                    - text: python query_rag.py
+                    - generic [ref=e1282]: "\"What is a curiosity loop?\""
+                    - text: python query_rag.py
+                    - generic [ref=e1283]: "\"What is the growth competency model?\""
+                  - button "Copy" [ref=e1285] [cursor=pointer]:
+                    - img [ref=e1286]
+                - generic [ref=e1289]:
+                  - heading "Query with Sources" [level=3] [ref=e1290]
+                  - 'link "Permalink: Query with Sources" [ref=e1291] [cursor=pointer]':
+                    - /url: "#query-with-sources"
+                    - img [ref=e1292]
+                - generic [ref=e1294]:
+                  - generic [ref=e1295]:
+                    - text: python query_with_sources.py
+                    - generic [ref=e1296]: "\"What are best practices for onboarding?\""
+                    - text: python query_rag_with_chunks.py
+                    - generic [ref=e1297]: "\"How do you build a great product team?\""
+                  - button "Copy" [ref=e1299] [cursor=pointer]:
+                    - img [ref=e1300]
+                - generic [ref=e1303]:
+                  - heading "💡 Example Queries" [level=2] [ref=e1304]
+                  - 'link "Permalink: 💡 Example Queries" [ref=e1305] [cursor=pointer]':
+                    - /url: "#-example-queries"
+                    - img [ref=e1306]
+                - generic [ref=e1308]:
+                  - heading "Career Strategy" [level=3] [ref=e1309]
+                  - 'link "Permalink: Career Strategy" [ref=e1310] [cursor=pointer]':
+                    - /url: "#career-strategy"
+                    - img [ref=e1311]
+                - generic [ref=e1313]:
+                  - code [ref=e1315]: "\"What is the explore and exploit framework for career development?\" \"How do you avoid being the boiled frog in your career?\" \"What advice does Ada give about early career strategy?\" \"How should you use values to make career decisions?\""
+                  - button "Copy" [ref=e1317] [cursor=pointer]:
+                    - img [ref=e1318]
+                - generic [ref=e1321]:
+                  - heading "Growth & Product Management" [level=3] [ref=e1322]
+                  - 'link "Permalink: Growth & Product Management" [ref=e1323] [cursor=pointer]':
+                    - /url: "#growth--product-management"
+                    - img [ref=e1324]
+                - generic [ref=e1326]:
+                  - code [ref=e1328]: "\"What are the four components of the growth competency model?\" \"Why is onboarding important for growth?\" \"How can onboarding improve retention?\" \"What are opinionated defaults?\""
+                  - button "Copy" [ref=e1330] [cursor=pointer]:
+                    - img [ref=e1331]
+                - generic [ref=e1334]:
+                  - heading "Decision Making & Frameworks" [level=3] [ref=e1335]
+                  - 'link "Permalink: Decision Making & Frameworks" [ref=e1336] [cursor=pointer]':
+                    - /url: "#decision-making--frameworks"
+                    - img [ref=e1337]
+                - generic [ref=e1339]:
+                  - code [ref=e1341]: "\"What is a curiosity loop and how does it work?\" \"What is the PMF framework for choosing a company?\" \"What is the inner vs outer scorecard concept?\" \"What is the eating your vegetables concept?\""
+                  - button "Copy" [ref=e1343] [cursor=pointer]:
+                    - img [ref=e1344]
+                - generic [ref=e1347]:
+                  - heading "Leadership & Management" [level=3] [ref=e1348]
+                  - 'link "Permalink: Leadership & Management" [ref=e1349] [cursor=pointer]':
+                    - /url: "#leadership--management"
+                    - img [ref=e1350]
+                - generic [ref=e1352]:
+                  - code [ref=e1354]: "\"Should you start a company with your partner?\" \"How do you build trust with your team?\" \"What makes a great product leader?\""
+                  - button "Copy" [ref=e1356] [cursor=pointer]:
+                    - img [ref=e1357]
+                - generic [ref=e1360]:
+                  - heading "📖 Documentation" [level=2] [ref=e1361]
+                  - 'link "Permalink: 📖 Documentation" [ref=e1362] [cursor=pointer]':
+                    - /url: "#-documentation"
+                    - img [ref=e1363]
+                - generic [ref=e1365]:
+                  - heading "Quick Start Guides" [level=3] [ref=e1366]
+                  - 'link "Permalink: Quick Start Guides" [ref=e1367] [cursor=pointer]':
+                    - /url: "#quick-start-guides"
+                    - img [ref=e1368]
+                - list [ref=e1370]:
+                  - listitem [ref=e1371]:
+                    - strong [ref=e1372]:
+                      - link "SETUP_GUIDE.md" [ref=e1373] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/SETUP_GUIDE.md
+                    - text: "- Complete setup instructions"
+                  - listitem [ref=e1374]:
+                    - strong [ref=e1375]:
+                      - link "STREAMLIT_QUICKSTART.md" [ref=e1376] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/STREAMLIT_QUICKSTART.md
+                    - text: "- Launch web UI in 3 steps"
+                  - listitem [ref=e1377]:
+                    - strong [ref=e1378]:
+                      - link "VISUAL_APP_SUMMARY.md" [ref=e1379] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/VISUAL_APP_SUMMARY.md
+                    - text: "- Streamlit app features overview"
+                - generic [ref=e1380]:
+                  - heading "Technical Documentation" [level=3] [ref=e1381]
+                  - 'link "Permalink: Technical Documentation" [ref=e1382] [cursor=pointer]':
+                    - /url: "#technical-documentation"
+                    - img [ref=e1383]
+                - list [ref=e1385]:
+                  - listitem [ref=e1386]:
+                    - strong [ref=e1387]:
+                      - link "QDRANT_SETUP.md" [ref=e1388] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/QDRANT_SETUP.md
+                    - text: "- Qdrant installation and configuration"
+                  - listitem [ref=e1389]:
+                    - strong [ref=e1390]:
+                      - link "STREAMLIT_README.md" [ref=e1391] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/STREAMLIT_README.md
+                    - text: "- Full Streamlit app documentation"
+                  - listitem [ref=e1392]:
+                    - strong [ref=e1393]:
+                      - link "OVERVIEW.md" [ref=e1394] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/OVERVIEW.md
+                    - text: "- Technical architecture deep dive"
+                  - listitem [ref=e1395]:
+                    - strong [ref=e1396]:
+                      - link "ADDING_TRANSCRIPTS.md" [ref=e1397] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/ADDING_TRANSCRIPTS.md
+                    - text: "- Guide for adding more transcripts"
+                - generic [ref=e1398]:
+                  - heading "Reference" [level=3] [ref=e1399]
+                  - 'link "Permalink: Reference" [ref=e1400] [cursor=pointer]':
+                    - /url: "#reference"
+                    - img [ref=e1401]
+                - list [ref=e1403]:
+                  - listitem [ref=e1404]:
+                    - strong [ref=e1405]:
+                      - link "sample_questions.txt" [ref=e1406] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/sample_questions.txt
+                    - text: "- 70+ curated questions"
+                  - listitem [ref=e1407]:
+                    - strong [ref=e1408]:
+                      - link "MULTI_TURN_QUESTIONS.md" [ref=e1409] [cursor=pointer]:
+                        - /url: /traversaal-ai/lennyhub-rag/blob/main/MULTI_TURN_QUESTIONS.md
+                    - text: "- 85+ complex queries"
+                - generic [ref=e1410]:
+                  - heading "🗂️ Project Structure" [level=2] [ref=e1411]
+                  - 'link "Permalink: 🗂️ Project Structure" [ref=e1412] [cursor=pointer]':
+                    - /url: "#️-project-structure"
+                    - img [ref=e1413]
+                - generic [ref=e1415]:
+                  - code [ref=e1417]: "lennyhub-rag/ ├── 📊 Data & Storage │ ├── data/ # 297 podcast transcripts │ ├── rag_storage/ # Knowledge graph & metadata │ └── qdrant_storage/ # Vector embeddings (local DB) │ ├── 🚀 Setup & Configuration │ ├── setup_rag.py # One-command automated setup │ ├── install_qdrant_local.sh # Install Qdrant (macOS/Linux) │ ├── install_qdrant_windows.ps1 # Install Qdrant (Windows) │ ├── start_qdrant.sh # Start Qdrant server │ ├── stop_qdrant.sh # Stop Qdrant server │ ├── status_qdrant.sh # Check Qdrant status │ ├── qdrant_config.yaml # Qdrant configuration │ ├── qdrant_config.py # Python Qdrant config │ ├── requirements.txt # Python dependencies │ └── .env # API keys & settings │ ├── 🎨 User Interfaces │ ├── streamlit_app.py # Visual web interface │ ├── query_worker.py # Subprocess query handler │ ├── run_streamlit.sh # Launch Streamlit app │ ├── query_rag.py # CLI query interface │ ├── query_with_sources.py # Query with source attribution │ └── query_rag_with_chunks.py # Query with chunk details │ ├── 🔧 Building & Processing │ ├── build_transcript_rag.py # Build RAG (all transcripts) │ ├── build_rag_quick.py # Quick build (10 transcripts) │ └── build_transcript_rag_parallel.py # Parallel processing │ └── 📚 Documentation ├── README.md # This file ├── SETUP_GUIDE.md # Setup instructions ├── STREAMLIT_QUICKSTART.md # Streamlit quick start ├── STREAMLIT_README.md # Streamlit full docs ├── VISUAL_APP_SUMMARY.md # Streamlit features ├── QDRANT_SETUP.md # Qdrant documentation ├── OVERVIEW.md # Technical architecture └── ADDING_TRANSCRIPTS.md # Adding transcripts"
+                  - button "Copy" [ref=e1419] [cursor=pointer]:
+                    - img [ref=e1420]
+                - generic [ref=e1423]:
+                  - heading "🎯 Use Cases" [level=2] [ref=e1424]
+                  - 'link "Permalink: 🎯 Use Cases" [ref=e1425] [cursor=pointer]':
+                    - /url: "#-use-cases"
+                    - img [ref=e1426]
+                - generic [ref=e1428]:
+                  - heading "For Product Managers" [level=3] [ref=e1429]
+                  - 'link "Permalink: For Product Managers" [ref=e1430] [cursor=pointer]':
+                    - /url: "#for-product-managers"
+                    - img [ref=e1431]
+                - list [ref=e1433]:
+                  - listitem [ref=e1434]: Research frameworks and best practices
+                  - listitem [ref=e1435]: Learn from top PMs at Airbnb, Stripe, Meta
+                  - listitem [ref=e1436]: Study product strategy and execution
+                  - listitem [ref=e1437]: Interview preparation
+                - generic [ref=e1438]:
+                  - heading "For Growth Professionals" [level=3] [ref=e1439]
+                  - 'link "Permalink: For Growth Professionals" [ref=e1440] [cursor=pointer]':
+                    - /url: "#for-growth-professionals"
+                    - img [ref=e1441]
+                - list [ref=e1443]:
+                  - listitem [ref=e1444]: Understand growth competency models
+                  - listitem [ref=e1445]: Learn retention and onboarding strategies
+                  - listitem [ref=e1446]: Study successful growth strategies
+                  - listitem [ref=e1447]: Framework deep-dives
+                - generic [ref=e1448]:
+                  - heading "For Career Development" [level=3] [ref=e1449]
+                  - 'link "Permalink: For Career Development" [ref=e1450] [cursor=pointer]':
+                    - /url: "#for-career-development"
+                    - img [ref=e1451]
+                - list [ref=e1453]:
+                  - listitem [ref=e1454]: Career strategy frameworks
+                  - listitem [ref=e1455]: Decision-making guidance
+                  - listitem [ref=e1456]: Leadership insights
+                  - listitem [ref=e1457]: Personal values exploration
+                - generic [ref=e1458]:
+                  - heading "For Founders & Leaders" [level=3] [ref=e1459]
+                  - 'link "Permalink: For Founders & Leaders" [ref=e1460] [cursor=pointer]':
+                    - /url: "#for-founders--leaders"
+                    - img [ref=e1461]
+                - list [ref=e1463]:
+                  - listitem [ref=e1464]: Startup advice from successful founders
+                  - listitem [ref=e1465]: Leadership frameworks
+                  - listitem [ref=e1466]: Team building strategies
+                  - listitem [ref=e1467]: Strategic decision-making
+                - generic [ref=e1468]:
+                  - heading "🧠 How It Works" [level=2] [ref=e1469]
+                  - 'link "Permalink: 🧠 How It Works" [ref=e1470] [cursor=pointer]':
+                    - /url: "#-how-it-works"
+                    - img [ref=e1471]
+                - generic [ref=e1473]:
+                  - heading "Architecture" [level=3] [ref=e1474]
+                  - 'link "Permalink: Architecture" [ref=e1475] [cursor=pointer]':
+                    - /url: "#architecture"
+                    - img [ref=e1476]
+                - generic [ref=e1478]:
+                  - code [ref=e1480]: User Query ↓ Streamlit UI / CLI ↓ RAG System (RAG-Anything) ↓ LightRAG (Knowledge Graph) ↓ ├─→ Entity Extraction (GPT-4o-mini) ├─→ Relationship Mapping ├─→ Embeddings (text-embedding-3-small) └─→ Qdrant Vector Storage ↓ Hybrid Search (local + global + vector) ↓ Answer Synthesis (GPT-4o-mini) ↓ Results with Sources
+                  - button "Copy" [ref=e1482] [cursor=pointer]:
+                    - img [ref=e1483]
+                - generic [ref=e1486]:
+                  - heading "Parallel Processing" [level=3] [ref=e1487]
+                  - 'link "Permalink: Parallel Processing" [ref=e1488] [cursor=pointer]':
+                    - /url: "#parallel-processing"
+                    - img [ref=e1489]
+                - paragraph [ref=e1491]: "The system supports parallel transcript processing for significantly faster indexing:"
+                - paragraph [ref=e1492]:
+                  - strong [ref=e1493]: Sequential Processing
+                  - text: ":"
+                - list [ref=e1494]:
+                  - listitem [ref=e1495]: Processes one transcript at a time
+                  - listitem [ref=e1496]: Safer, more predictable
+                  - listitem [ref=e1497]: ~2-3 minutes per transcript
+                - paragraph [ref=e1498]:
+                  - strong [ref=e1499]: Parallel Processing
+                  - text: "(⚡ 5-10x faster):"
+                - list [ref=e1500]:
+                  - listitem [ref=e1501]: Processes 5-10 transcripts simultaneously
+                  - listitem [ref=e1502]: Uses asyncio semaphore for concurrency control
+                  - listitem [ref=e1503]: Rate-limit safe (max 10 workers)
+                  - listitem [ref=e1504]: "Smart resume: skips already-processed transcripts"
+                  - listitem [ref=e1505]: ~20-30 seconds per transcript (with 5 workers)
+                - generic [ref=e1506]:
+                  - generic [ref=e1507]:
+                    - generic [ref=e1508]: "# Enable parallel mode"
+                    - text: python setup_rag.py --max 50 --parallel
+                    - generic [ref=e1509]: "# Custom concurrency"
+                    - text: python setup_rag.py --parallel --workers 8
+                  - button "Copy" [ref=e1511] [cursor=pointer]:
+                    - img [ref=e1512]
+                - generic [ref=e1515]:
+                  - heading "Search Modes" [level=3] [ref=e1516]
+                  - 'link "Permalink: Search Modes" [ref=e1517] [cursor=pointer]':
+                    - /url: "#search-modes"
+                    - img [ref=e1518]
+                - paragraph [ref=e1520]:
+                  - strong [ref=e1521]: Hybrid
+                  - text: (Recommended)
+                - list [ref=e1522]:
+                  - listitem [ref=e1523]: Combines local + global + vector search
+                  - listitem [ref=e1524]: Best overall results
+                  - listitem [ref=e1525]: Balanced speed and accuracy
+                - paragraph [ref=e1526]:
+                  - strong [ref=e1527]: Local
+                - list [ref=e1528]:
+                  - listitem [ref=e1529]: Entity-focused search
+                  - listitem [ref=e1530]: Fast and precise
+                  - listitem [ref=e1531]: Great for specific concepts
+                - paragraph [ref=e1532]:
+                  - strong [ref=e1533]: Global
+                - list [ref=e1534]:
+                  - listitem [ref=e1535]: Relationship-focused
+                  - listitem [ref=e1536]: Broader context
+                  - listitem [ref=e1537]: Best for understanding connections
+                - paragraph [ref=e1538]:
+                  - strong [ref=e1539]: Naive
+                - list [ref=e1540]:
+                  - listitem [ref=e1541]: Pure vector similarity
+                  - listitem [ref=e1542]: Fastest mode
+                  - listitem [ref=e1543]: Simple semantic search
+                - separator [ref=e1544]
+                - generic [ref=e1545]:
+                  - heading "🎓 Want to Build Your Own AI Agents?" [level=2] [ref=e1546]
+                  - 'link "Permalink: 🎓 Want to Build Your Own AI Agents?" [ref=e1547] [cursor=pointer]':
+                    - /url: "#-want-to-build-your-own-ai-agents"
+                    - img [ref=e1548]
+                - link "Screenshot 2026-01-16 at 20 13 13" [ref=e1550] [cursor=pointer]:
+                  - /url: https://private-user-images.githubusercontent.com/19996959/536868860-96b446d7-7db4-4fb5-a191-23fbab77ba8f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY1MDQ1MjIsIm5iZiI6MTc3NjUwNDIyMiwicGF0aCI6Ii8xOTk5Njk1OS81MzY4Njg4NjAtOTZiNDQ2ZDctN2RiNC00ZmI1LWExOTEtMjNmYmFiNzdiYThmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDE4VDA5MjM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRmMmNhN2Q1MjdjYTU1M2YyZDRlM2UyNTZmZGViNjljNTU3ZGEyMjM4OTgwMzQ0ZmNiYTgyYzEzMmMyMmQzZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.Dpff4xi8hhX2Rr84_7QtlMVfBz2fINUaLIsJ1E_cAUk
+                  - img "Screenshot 2026-01-16 at 20 13 13" [ref=e1551]
+                - paragraph [ref=e1552]: This RAG system demonstrates advanced agent engineering with knowledge graphs, vector databases, and LLM orchestration. Want to learn how to build systems like this from scratch?
+                - paragraph [ref=e1553]:
+                  - strong [ref=e1554]: "Join the Agent Engineering Bootcamp: Developers Edition"
+                - list [ref=e1555]:
+                  - listitem [ref=e1556]: Learn to build production-ready AI agents
+                  - listitem [ref=e1557]: Master RAG, LLMs, and agentic workflows
+                  - listitem [ref=e1558]:
+                    - text: Taught by
+                    - link "Hamza Farooq" [ref=e1559] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/hamzafarooq/
+                    - text: (Ex-Google, Prof UCLA & UMN)
+                  - listitem [ref=e1560]: 4.8★ rating from 95+ students
+                - paragraph [ref=e1561]:
+                  - strong [ref=e1562]:
+                    - link "Get $200 OFF with code 200OFF →" [ref=e1563] [cursor=pointer]:
+                      - /url: https://maven.com/boring-bot/advanced-llm?promoCode=200OFF
+                - separator [ref=e1564]
+                - generic [ref=e1565]:
+                  - heading "🏗️ Technical Stack" [level=2] [ref=e1566]
+                  - 'link "Permalink: 🏗️ Technical Stack" [ref=e1567] [cursor=pointer]':
+                    - /url: "#️-technical-stack"
+                    - img [ref=e1568]
+                - list [ref=e1570]:
+                  - listitem [ref=e1571]:
+                    - strong [ref=e1572]: RAG Framework
+                    - text: ":"
+                    - link "RAG-Anything" [ref=e1573] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/RAG-Anything
+                    - text: v1.2.9+
+                  - listitem [ref=e1574]:
+                    - strong [ref=e1575]: Knowledge Graph
+                    - text: ":"
+                    - link "LightRAG" [ref=e1576] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG
+                    - text: v1.4.9+
+                  - listitem [ref=e1577]:
+                    - strong [ref=e1578]: Vector Database
+                    - text: ":"
+                    - link "Qdrant" [ref=e1579] [cursor=pointer]:
+                      - /url: https://qdrant.tech/
+                    - text: v1.16+
+                  - listitem [ref=e1580]:
+                    - strong [ref=e1581]: LLM
+                    - text: ": OpenAI GPT-4o-mini"
+                  - listitem [ref=e1582]:
+                    - strong [ref=e1583]: Embeddings
+                    - text: ": OpenAI text-embedding-3-small (1536 dims)"
+                  - listitem [ref=e1584]:
+                    - strong [ref=e1585]: Web UI
+                    - text: ": Streamlit 1.28+"
+                  - listitem [ref=e1586]:
+                    - strong [ref=e1587]: Language
+                    - text: ": Python 3.8+"
+                - generic [ref=e1588]:
+                  - heading "💰 Cost & Performance" [level=2] [ref=e1589]
+                  - 'link "Permalink: 💰 Cost & Performance" [ref=e1590] [cursor=pointer]':
+                    - /url: "#-cost--performance"
+                    - img [ref=e1591]
+                - generic [ref=e1593]:
+                  - heading "Initial Build Costs" [level=3] [ref=e1594]
+                  - 'link "Permalink: Initial Build Costs" [ref=e1595] [cursor=pointer]':
+                    - /url: "#initial-build-costs"
+                    - img [ref=e1596]
+                - table [ref=e1599]:
+                  - rowgroup [ref=e1600]:
+                    - row "Transcripts Embeddings Entity Extraction Total Sequential Parallel (5x)" [ref=e1601]:
+                      - columnheader "Transcripts" [ref=e1602]
+                      - columnheader "Embeddings" [ref=e1603]
+                      - columnheader "Entity Extraction" [ref=e1604]
+                      - columnheader "Total" [ref=e1605]
+                      - columnheader "Sequential" [ref=e1606]
+                      - columnheader "Parallel (5x)" [ref=e1607]
+                  - rowgroup [ref=e1608]:
+                    - row "10 (quick) $0.04 $0.20 ~$0.24 5 min 5 min*" [ref=e1609]:
+                      - cell "10 (quick)" [ref=e1610]
+                      - cell "$0.04" [ref=e1611]
+                      - cell "$0.20" [ref=e1612]
+                      - cell "~$0.24" [ref=e1613]
+                      - cell "5 min" [ref=e1614]
+                      - cell "5 min*" [ref=e1615]
+                    - row "50 $0.20 $1.00 ~$1.20 30-40 min 6-8 min" [ref=e1616]:
+                      - cell "50" [ref=e1617]
+                      - cell "$0.20" [ref=e1618]
+                      - cell "$1.00" [ref=e1619]
+                      - cell "~$1.20" [ref=e1620]
+                      - cell "30-40 min" [ref=e1621]
+                      - cell "6-8 min" [ref=e1622]:
+                        - strong [ref=e1623]: 6-8 min
+                    - row "297 (all) $1.20 $6.00 ~$7.20 2-3 hrs 25-35 min" [ref=e1624]:
+                      - cell "297 (all)" [ref=e1625]
+                      - cell "$1.20" [ref=e1626]
+                      - cell "$6.00" [ref=e1627]
+                      - cell "~$7.20" [ref=e1628]
+                      - cell "2-3 hrs" [ref=e1629]
+                      - cell "25-35 min" [ref=e1630]:
+                        - strong [ref=e1631]: 25-35 min
+                - paragraph [ref=e1632]: "*Small batches don't benefit much from parallelization"
+                - generic [ref=e1633]:
+                  - heading "Query Costs" [level=3] [ref=e1634]
+                  - 'link "Permalink: Query Costs" [ref=e1635] [cursor=pointer]':
+                    - /url: "#query-costs"
+                    - img [ref=e1636]
+                - list [ref=e1638]:
+                  - listitem [ref=e1639]:
+                    - strong [ref=e1640]: Per Query
+                    - text: ": $0.001-0.01"
+                  - listitem [ref=e1641]:
+                    - strong [ref=e1642]: Cached Queries
+                    - text: ": Free (stored responses)"
+                  - listitem [ref=e1643]:
+                    - strong [ref=e1644]: Typical Session
+                    - text: ": ~$0.05-0.10"
+                - generic [ref=e1645]:
+                  - heading "Cost Optimization" [level=3] [ref=e1646]
+                  - 'link "Permalink: Cost Optimization" [ref=e1647] [cursor=pointer]':
+                    - /url: "#cost-optimization"
+                    - img [ref=e1648]
+                - list [ref=e1650]:
+                  - listitem [ref=e1651]: LLM response caching (saves ~80% on repeated queries)
+                  - listitem [ref=e1652]: Efficient chunking and embedding strategies
+                  - listitem [ref=e1653]: Smart query routing
+                - generic [ref=e1654]:
+                  - heading "⚙️ System Requirements" [level=2] [ref=e1655]
+                  - 'link "Permalink: ⚙️ System Requirements" [ref=e1656] [cursor=pointer]':
+                    - /url: "#️-system-requirements"
+                    - img [ref=e1657]
+                - list [ref=e1659]:
+                  - listitem [ref=e1660]:
+                    - strong [ref=e1661]: OS
+                    - text: ": Windows, macOS, or Linux"
+                  - listitem [ref=e1662]:
+                    - strong [ref=e1663]: Python
+                    - text: ": 3.8 or higher (3.11 recommended)"
+                  - listitem [ref=e1664]:
+                    - strong [ref=e1665]: RAM
+                    - text: ": 2GB+ recommended (4GB+ for all transcripts)"
+                  - listitem [ref=e1666]:
+                    - strong [ref=e1667]: Disk Space
+                    - text: ":"
+                    - list [ref=e1668]:
+                      - listitem [ref=e1669]: "Base: ~500MB"
+                      - listitem [ref=e1670]: "10 transcripts: ~1GB"
+                      - listitem [ref=e1671]: "50 transcripts: ~2GB"
+                      - listitem [ref=e1672]: "297 transcripts: ~5GB"
+                  - listitem [ref=e1673]:
+                    - strong [ref=e1674]: Internet
+                    - text: ": Required for OpenAI API calls"
+                - generic [ref=e1675]:
+                  - heading "🔧 Advanced Usage" [level=2] [ref=e1676]
+                  - 'link "Permalink: 🔧 Advanced Usage" [ref=e1677] [cursor=pointer]':
+                    - /url: "#-advanced-usage"
+                    - img [ref=e1678]
+                - generic [ref=e1680]:
+                  - heading "Custom Configuration" [level=3] [ref=e1681]
+                  - 'link "Permalink: Custom Configuration" [ref=e1682] [cursor=pointer]':
+                    - /url: "#custom-configuration"
+                    - img [ref=e1683]
+                - paragraph [ref=e1685]:
+                  - text: Edit
+                  - code [ref=e1686]: .env
+                  - text: "file:"
+                - generic [ref=e1687]:
+                  - generic [ref=e1688]:
+                    - generic [ref=e1689]: "# Vector Database"
+                    - text: USE_QDRANT=true QDRANT_URL=http://localhost:6333 QDRANT_COLLECTION_NAME=lennyhub
+                    - generic [ref=e1690]: "# Working Directory"
+                    - text: WORKING_DIR=./rag_storage
+                  - button "Copy" [ref=e1692] [cursor=pointer]:
+                    - img [ref=e1693]
+                - generic [ref=e1696]:
+                  - heading "Qdrant Management" [level=3] [ref=e1697]
+                  - 'link "Permalink: Qdrant Management" [ref=e1698] [cursor=pointer]':
+                    - /url: "#qdrant-management"
+                    - img [ref=e1699]
+                - generic [ref=e1701]:
+                  - generic [ref=e1702]:
+                    - generic [ref=e1703]: "# Start Qdrant"
+                    - text: ./start_qdrant.sh
+                    - generic [ref=e1704]: "# Check status"
+                    - text: ./status_qdrant.sh
+                    - generic [ref=e1705]: "# View logs"
+                    - text: tail -f qdrant.log
+                    - generic [ref=e1706]: "# Stop Qdrant"
+                    - text: ./stop_qdrant.sh
+                    - generic [ref=e1707]: "# Dashboard"
+                    - text: open http://localhost:6333/dashboard
+                  - button "Copy" [ref=e1709] [cursor=pointer]:
+                    - img [ref=e1710]
+                - generic [ref=e1713]:
+                  - heading "Manual Build (Advanced)" [level=3] [ref=e1714]
+                  - 'link "Permalink: Manual Build (Advanced)" [ref=e1715] [cursor=pointer]':
+                    - /url: "#manual-build-advanced"
+                    - img [ref=e1716]
+                - paragraph [ref=e1718]:
+                  - strong [ref=e1719]: Sequential Processing
+                  - text: ":"
+                - generic [ref=e1720]:
+                  - generic [ref=e1721]:
+                    - generic [ref=e1722]: "# Build all transcripts"
+                    - text: python build_transcript_rag.py
+                    - generic [ref=e1723]: "# Quick build (10 transcripts)"
+                    - text: python build_rag_quick.py
+                  - button "Copy" [ref=e1725] [cursor=pointer]:
+                    - img [ref=e1726]
+                - paragraph [ref=e1729]:
+                  - strong [ref=e1730]: Parallel Processing
+                  - text: "(5-10x faster):"
+                - generic [ref=e1731]:
+                  - generic [ref=e1732]:
+                    - generic [ref=e1733]: "# Using setup_rag.py (recommended)"
+                    - text: python setup_rag.py --max 50 --parallel --workers 5
+                    - generic [ref=e1734]: "# Using standalone parallel script"
+                    - text: python build_transcript_rag_parallel.py
+                  - button "Copy" [ref=e1736] [cursor=pointer]:
+                    - img [ref=e1737]
+                - paragraph [ref=e1740]:
+                  - strong [ref=e1741]: Performance Comparison
+                  - text: ":"
+                - list [ref=e1742]:
+                  - listitem [ref=e1743]: "Sequential: ~2-3 min/transcript"
+                  - listitem [ref=e1744]: "Parallel (5 workers): ~20-30 sec/transcript"
+                  - listitem [ref=e1745]: "Parallel (10 workers): ~15-20 sec/transcript"
+                - generic [ref=e1746]:
+                  - heading "Programmatic Access" [level=3] [ref=e1747]
+                  - 'link "Permalink: Programmatic Access" [ref=e1748] [cursor=pointer]':
+                    - /url: "#programmatic-access"
+                    - img [ref=e1749]
+                - generic [ref=e1751]:
+                  - generic [ref=e1752]: "from raganything import RAGAnything, RAGAnythingConfig from qdrant_config import get_lightrag_kwargs import asyncio # Initialize config = RAGAnythingConfig(working_dir=\"./rag_storage\") lightrag_kwargs = get_lightrag_kwargs() rag = RAGAnything(config=config, lightrag_kwargs=lightrag_kwargs) # Query response = await rag.aquery(\"Your question here\", mode=\"hybrid\") print(response)"
+                  - button "Copy" [ref=e1754] [cursor=pointer]:
+                    - img [ref=e1755]
+                - generic [ref=e1758]:
+                  - heading "🐛 Troubleshooting" [level=2] [ref=e1759]
+                  - 'link "Permalink: 🐛 Troubleshooting" [ref=e1760] [cursor=pointer]':
+                    - /url: "#-troubleshooting"
+                    - img [ref=e1761]
+                - generic [ref=e1763]:
+                  - heading "Qdrant Issues" [level=3] [ref=e1764]
+                  - 'link "Permalink: Qdrant Issues" [ref=e1765] [cursor=pointer]':
+                    - /url: "#qdrant-issues"
+                    - img [ref=e1766]
+                - generic [ref=e1768]:
+                  - generic [ref=e1769]:
+                    - generic [ref=e1770]: "# Check if running"
+                    - text: curl http://localhost:6333/
+                    - generic [ref=e1771]: "# Restart Qdrant"
+                    - text: ./stop_qdrant.sh && ./start_qdrant.sh
+                    - generic [ref=e1772]: "# View logs"
+                    - text: tail -f qdrant.log
+                  - button "Copy" [ref=e1774] [cursor=pointer]:
+                    - img [ref=e1775]
+                - generic [ref=e1778]:
+                  - heading "Setup Issues" [level=3] [ref=e1779]
+                  - 'link "Permalink: Setup Issues" [ref=e1780] [cursor=pointer]':
+                    - /url: "#setup-issues"
+                    - img [ref=e1781]
+                - generic [ref=e1783]:
+                  - generic [ref=e1784]:
+                    - generic [ref=e1785]: "# Reinstall dependencies"
+                    - text: pip install -r requirements.txt --upgrade
+                    - generic [ref=e1786]: "# Check API key"
+                    - text: echo $OPENAI_API_KEY
+                    - generic [ref=e1787]: "# Clear cache and rebuild"
+                    - text: rm -rf rag_storage/ qdrant_storage/ python setup_rag.py --quick
+                  - button "Copy" [ref=e1789] [cursor=pointer]:
+                    - img [ref=e1790]
+                - generic [ref=e1793]:
+                  - heading "Streamlit Issues" [level=3] [ref=e1794]
+                  - 'link "Permalink: Streamlit Issues" [ref=e1795] [cursor=pointer]':
+                    - /url: "#streamlit-issues"
+                    - img [ref=e1796]
+                - generic [ref=e1798]:
+                  - generic [ref=e1799]:
+                    - generic [ref=e1800]: "# Clear cache"
+                    - text: streamlit cache clear
+                    - generic [ref=e1801]: "# Run on different port"
+                    - text: streamlit run streamlit_app.py --server.port 8502
+                    - generic [ref=e1802]: "# Check logs"
+                    - text: streamlit run streamlit_app.py --logger.level debug
+                  - button "Copy" [ref=e1804] [cursor=pointer]:
+                    - img [ref=e1805]
+                - generic [ref=e1808]:
+                  - heading "Windows-Specific Issues" [level=3] [ref=e1809]
+                  - 'link "Permalink: Windows-Specific Issues" [ref=e1810] [cursor=pointer]':
+                    - /url: "#windows-specific-issues"
+                    - img [ref=e1811]
+                - generic [ref=e1813]:
+                  - generic [ref=e1814]:
+                    - generic [ref=e1815]: "# Install Qdrant if not found"
+                    - text: .\install_qdrant_windows.ps1
+                    - generic [ref=e1816]: "# Check if Qdrant is running"
+                    - text: Invoke-RestMethod -Uri
+                    - generic [ref=e1817]: "\"http://localhost:6333/\""
+                    - generic [ref=e1818]: "# Activate virtual environment"
+                    - text: .venv\Scripts\Activate.ps1
+                    - generic [ref=e1819]: "# Install missing packages"
+                    - text: uv pip install nest-asyncio
+                  - button "Copy" [ref=e1821] [cursor=pointer]:
+                    - img [ref=e1822]
+                - generic [ref=e1825]:
+                  - heading "📈 Performance Tips" [level=2] [ref=e1826]
+                  - 'link "Permalink: 📈 Performance Tips" [ref=e1827] [cursor=pointer]':
+                    - /url: "#-performance-tips"
+                    - img [ref=e1828]
+                - generic [ref=e1830]:
+                  - heading "Indexing Performance" [level=3] [ref=e1831]
+                  - 'link "Permalink: Indexing Performance" [ref=e1832] [cursor=pointer]':
+                    - /url: "#indexing-performance"
+                    - img [ref=e1833]
+                - list [ref=e1835]:
+                  - listitem [ref=e1836]:
+                    - strong [ref=e1837]: Use Parallel Mode
+                    - text: ": 5-10x faster with"
+                    - code [ref=e1838]: "--parallel"
+                    - text: flag
+                  - listitem [ref=e1839]:
+                    - strong [ref=e1840]: Adjust Workers
+                    - text: ": More workers = faster (up to 10 for rate limits)"
+                  - listitem [ref=e1841]:
+                    - strong [ref=e1842]: Smart Resume
+                    - text: ": System automatically skips processed transcripts"
+                  - listitem [ref=e1843]:
+                    - strong [ref=e1844]: Start Small
+                    - text: ": Test with"
+                    - code [ref=e1845]: "--quick"
+                    - text: before full indexing
+                  - listitem [ref=e1846]:
+                    - strong [ref=e1847]: Monitor Resources
+                    - text: ": Check RAM usage with large datasets"
+                - generic [ref=e1848]:
+                  - heading "Query Performance" [level=3] [ref=e1849]
+                  - 'link "Permalink: Query Performance" [ref=e1850] [cursor=pointer]':
+                    - /url: "#query-performance"
+                    - img [ref=e1851]
+                - list [ref=e1853]:
+                  - listitem [ref=e1854]:
+                    - strong [ref=e1855]: Use Hybrid Mode
+                    - text: ": Best balance of speed and accuracy"
+                  - listitem [ref=e1856]:
+                    - strong [ref=e1857]: Enable Caching
+                    - text: ": Responses are cached automatically (saves ~80%)"
+                  - listitem [ref=e1858]:
+                    - strong [ref=e1859]: Batch Queries
+                    - text: ": Process multiple questions in one session"
+                  - listitem [ref=e1860]:
+                    - strong [ref=e1861]: Choose Right Mode
+                    - text: ": Naive is fastest, hybrid is most accurate"
+                  - listitem [ref=e1862]:
+                    - strong [ref=e1863]: Reuse Sessions
+                    - text: ": Keep Streamlit app running for instant queries"
+                - generic [ref=e1864]:
+                  - heading "🤝 Contributing" [level=2] [ref=e1865]
+                  - 'link "Permalink: 🤝 Contributing" [ref=e1866] [cursor=pointer]':
+                    - /url: "#-contributing"
+                    - img [ref=e1867]
+                - paragraph [ref=e1869]: "Contributions welcome! Areas for improvement:"
+                - list [ref=e1870]:
+                  - listitem [ref=e1871]: Add more transcripts
+                  - listitem [ref=e1872]: Improve query templates
+                  - listitem [ref=e1873]: Enhance UI features
+                  - listitem [ref=e1874]: Add new search modes
+                  - listitem [ref=e1875]: Optimize performance
+                  - listitem [ref=e1876]: Expand documentation
+                - generic [ref=e1877]:
+                  - heading "📝 License" [level=2] [ref=e1878]
+                  - 'link "Permalink: 📝 License" [ref=e1879] [cursor=pointer]':
+                    - /url: "#-license"
+                    - img [ref=e1880]
+                - paragraph [ref=e1882]:
+                  - text: See
+                  - link "LICENSE" [ref=e1883] [cursor=pointer]:
+                    - /url: /traversaal-ai/lennyhub-rag/blob/main/LICENSE
+                  - text: file for details.
+                - generic [ref=e1884]:
+                  - heading "🙏 Credits" [level=2] [ref=e1885]
+                  - 'link "Permalink: 🙏 Credits" [ref=e1886] [cursor=pointer]':
+                    - /url: "#-credits"
+                    - img [ref=e1887]
+                - list [ref=e1889]:
+                  - listitem [ref=e1890]:
+                    - strong [ref=e1891]: Transcripts
+                    - text: ":"
+                    - link "Lenny's Podcast" [ref=e1892] [cursor=pointer]:
+                      - /url: https://www.lennysnewsletter.com/podcast
+                  - listitem [ref=e1893]:
+                    - strong [ref=e1894]: RAG Framework
+                    - text: ":"
+                    - link "RAG-Anything" [ref=e1895] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/RAG-Anything
+                    - text: by HKUDS
+                  - listitem [ref=e1896]:
+                    - strong [ref=e1897]: Knowledge Graph
+                    - text: ":"
+                    - link "LightRAG" [ref=e1898] [cursor=pointer]:
+                      - /url: https://github.com/HKUDS/LightRAG
+                    - text: by HKUDS
+                  - listitem [ref=e1899]:
+                    - strong [ref=e1900]: Vector Database
+                    - text: ":"
+                    - link "Qdrant" [ref=e1901] [cursor=pointer]:
+                      - /url: https://qdrant.tech/
+                  - listitem [ref=e1902]:
+                    - strong [ref=e1903]: LLM & Embeddings
+                    - text: ":"
+                    - link "OpenAI" [ref=e1904] [cursor=pointer]:
+                      - /url: https://openai.com/
+                - generic [ref=e1905]:
+                  - heading "🌟 Featured Guests" [level=2] [ref=e1906]
+                  - 'link "Permalink: 🌟 Featured Guests" [ref=e1907] [cursor=pointer]':
+                    - /url: "#-featured-guests"
+                    - img [ref=e1908]
+                - paragraph [ref=e1910]: Ada Chen Rekhi, Adam Fishman, Adam Grenier, Andrew Wilkinson, Annie Duke, Brian Balfour, Casey Winters, Claire Hughes Johnson, Elena Verna, Gokul Rajaram, Jeff Weinstein, Julie Zhuo, Kevin Kwok, Lenny Rachitsky, Maggie Crowley, Marily Nika, Patrick Collison, Shreyas Doshi, and 279 more amazing guests!
+                - generic [ref=e1911]:
+                  - heading "📧 Support" [level=2] [ref=e1912]
+                  - 'link "Permalink: 📧 Support" [ref=e1913] [cursor=pointer]':
+                    - /url: "#-support"
+                    - img [ref=e1914]
+                - list [ref=e1916]:
+                  - listitem [ref=e1917]:
+                    - text: Check
+                    - link "SETUP_GUIDE.md" [ref=e1918] [cursor=pointer]:
+                      - /url: /traversaal-ai/lennyhub-rag/blob/main/SETUP_GUIDE.md
+                    - text: for detailed instructions
+                  - listitem [ref=e1919]:
+                    - text: See
+                    - link "TROUBLESHOOTING" [ref=e1920] [cursor=pointer]:
+                      - /url: /traversaal-ai/lennyhub-rag/blob/main/QDRANT_SETUP.md#troubleshooting
+                    - text: section
+                  - listitem [ref=e1921]:
+                    - text: Review
+                    - link "sample_questions.txt" [ref=e1922] [cursor=pointer]:
+                      - /url: /traversaal-ai/lennyhub-rag/blob/main/sample_questions.txt
+                    - text: for query examples
+                - generic [ref=e1923]:
+                  - heading "🎉 What's New" [level=2] [ref=e1924]
+                  - 'link "Permalink: 🎉 What''s New" [ref=e1925] [cursor=pointer]':
+                    - /url: "#-whats-new"
+                    - img [ref=e1926]
+                - generic [ref=e1928]:
+                  - heading "Latest Updates" [level=3] [ref=e1929]
+                  - 'link "Permalink: Latest Updates" [ref=e1930] [cursor=pointer]':
+                    - /url: "#latest-updates"
+                    - img [ref=e1931]
+                - list [ref=e1933]:
+                  - listitem [ref=e1934]:
+                    - text: 🪟
+                    - strong [ref=e1935]: Windows Support
+                    - text: ": Full Windows compatibility with PowerShell scripts"
+                  - listitem [ref=e1936]:
+                    - text: 🔄
+                    - strong [ref=e1937]: Auto-Start Qdrant
+                    - text: ": Streamlit app automatically starts Qdrant"
+                  - listitem [ref=e1938]:
+                    - text: 🛡️
+                    - strong [ref=e1939]: Stable Multi-Query
+                    - text: ": Subprocess isolation prevents event loop conflicts"
+                  - listitem [ref=e1940]:
+                    - text: ⚡
+                    - strong [ref=e1941]: Parallel Processing
+                    - text: ": 5-10x faster indexing with"
+                    - code [ref=e1942]: "--parallel"
+                    - text: flag
+                  - listitem [ref=e1943]:
+                    - text: ✨
+                    - strong [ref=e1944]: One-Command Setup
+                    - text: ": Automated"
+                    - code [ref=e1945]: setup_rag.py
+                    - text: script
+                  - listitem [ref=e1946]:
+                    - text: 🎨
+                    - strong [ref=e1947]: Streamlit Web UI
+                    - text: ": Beautiful visual interface"
+                  - listitem [ref=e1948]:
+                    - text: 🗄️
+                    - strong [ref=e1949]: Local Qdrant
+                    - text: ": Production vector DB (no Docker)"
+                  - listitem [ref=e1950]:
+                    - text: 📚
+                    - strong [ref=e1951]: 297 Transcripts
+                    - text: ": Complete podcast library"
+                  - listitem [ref=e1952]:
+                    - text: 🚀
+                    - strong [ref=e1953]: Smart Resume
+                    - text: ": Automatically skips processed transcripts"
+                  - listitem [ref=e1954]:
+                    - text: 📊
+                    - strong [ref=e1955]: Statistics Dashboard
+                    - text: ": Real-time system monitoring"
+                  - listitem [ref=e1956]:
+                    - text: 💡
+                    - strong [ref=e1957]: Sample Questions
+                    - text: ": Built-in query examples"
+                - separator [ref=e1958]
+                - paragraph [ref=e1959]:
+                  - strong [ref=e1960]: Ready to explore?
+                - generic [ref=e1961]:
+                  - generic [ref=e1962]: git clone https://github.com/traversaal-ai/lennyhub-rag.git cd lennyhub-rag python setup_rag.py --quick
+                  - button "Copy" [ref=e1964] [cursor=pointer]:
+                    - img [ref=e1965]
+                - separator [ref=e1968]
+                - generic [ref=e1969]:
+                  - heading "🚀 Level Up Your AI Agent Skills" [level=2] [ref=e1970]
+                  - 'link "Permalink: 🚀 Level Up Your AI Agent Skills" [ref=e1971] [cursor=pointer]':
+                    - /url: "#-level-up-your-ai-agent-skills"
+                    - img [ref=e1972]
+                - paragraph [ref=e1974]: Enjoyed building with this RAG system? Take your skills to the next level!
+                - paragraph [ref=e1975]:
+                  - strong [ref=e1976]: "Agent Engineering Bootcamp: Developers Edition"
+                  - text: teaches you to build production-ready AI agents like this one (and more advanced systems). Learn RAG pipelines, knowledge graphs, LLM orchestration, and agentic workflows from industry experts.
+                - paragraph [ref=e1977]:
+                  - strong [ref=e1978]:
+                    - text: Taught by
+                    - link "Hamza Farooq" [ref=e1979] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/hamzafarooq/
+                - list [ref=e1980]:
+                  - listitem [ref=e1981]: Founder & Ex-Google Engineer
+                  - listitem [ref=e1982]: Professor at Stanford Continuing Studies, UCLA & UMN
+                  - listitem [ref=e1983]: 4.8★ rating (95+ students)
+                - paragraph [ref=e1984]:
+                  - strong [ref=e1985]:
+                    - link "Enroll now with $200 OFF →" [ref=e1986] [cursor=pointer]:
+                      - /url: https://maven.com/boring-bot/advanced-llm?promoCode=200OFF
+                - separator [ref=e1987]
+                - paragraph [ref=e1988]: Built with ❤️ using RAG-Anything, LightRAG, Qdrant, and Streamlit
+        - generic [ref=e1992]:
+          - generic [ref=e1995]:
+            - heading "About" [level=2] [ref=e1996]
+            - generic [ref=e1997]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e1998]
+            - link "Readme" [ref=e2000] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e2001]
+              - text: Readme
+            - heading "License" [level=3] [ref=e2003]
+            - link "Apache-2.0 license" [ref=e2005] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e2006]
+              - text: Apache-2.0 license
+            - link "Activity" [ref=e2009] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/activity
+              - img [ref=e2010]
+              - text: Activity
+            - link "Custom properties" [ref=e2013] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/custom-properties
+              - img [ref=e2014]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e2016]
+            - link "517 stars" [ref=e2018] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/stargazers
+              - img [ref=e2019]
+              - strong [ref=e2021]: "517"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e2022]
+            - link "5 watching" [ref=e2024] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/watchers
+              - img [ref=e2025]
+              - strong [ref=e2027]: "5"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e2028]
+            - link "158 forks" [ref=e2030] [cursor=pointer]:
+              - /url: /traversaal-ai/lennyhub-rag/forks
+              - img [ref=e2031]
+              - strong [ref=e2033]: "158"
+              - text: forks
+            - link "Report repository" [ref=e2035] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ftraversaal-ai%2Flennyhub-rag&report=traversaal-ai+%28user%29
+          - generic [ref=e2037]:
+            - heading "Releases" [level=2] [ref=e2038]:
+              - link "Releases" [ref=e2039] [cursor=pointer]:
+                - /url: /traversaal-ai/lennyhub-rag/releases
+            - generic [ref=e2040]: No releases published
+          - generic "Loading latest packages" [ref=e2043]:
+            - heading "Packages" [level=2] [ref=e2044]:
+              - link "Packages" [ref=e2045] [cursor=pointer]:
+                - /url: /orgs/traversaal-ai/packages?repo_name=lennyhub-rag
+          - generic [ref=e2056]:
+            - heading "Contributors 2" [level=2] [ref=e2057]:
+              - link "Contributors 2" [ref=e2058] [cursor=pointer]:
+                - /url: /traversaal-ai/lennyhub-rag/graphs/contributors
+                - text: Contributors
+                - generic "2" [ref=e2059]
+            - list [ref=e2060]:
+              - listitem [ref=e2061]:
+                - link "@hamzafarooq" [ref=e2062] [cursor=pointer]:
+                  - /url: https://github.com/hamzafarooq
+                  - img "@hamzafarooq" [ref=e2063]
+                - link "hamzafarooq Hamza Farooq" [ref=e2065] [cursor=pointer]:
+                  - /url: https://github.com/hamzafarooq
+                  - strong [ref=e2066]: hamzafarooq
+                  - text: Hamza Farooq
+              - listitem [ref=e2067]:
+                - link "@alizain-traversaal" [ref=e2068] [cursor=pointer]:
+                  - /url: https://github.com/alizain-traversaal
+                  - img "@alizain-traversaal" [ref=e2069]
+                - link "alizain-traversaal" [ref=e2071] [cursor=pointer]:
+                  - /url: https://github.com/alizain-traversaal
+                  - strong [ref=e2072]: alizain-traversaal
+          - generic [ref=e2074]:
+            - heading "Languages" [level=2] [ref=e2075]
+            - list [ref=e2082]:
+              - listitem [ref=e2083]:
+                - link "Python 51.6%" [ref=e2084] [cursor=pointer]:
+                  - /url: /traversaal-ai/lennyhub-rag/search?l=python
+                  - img [ref=e2085]
+                  - generic [ref=e2087]: Python
+                  - generic [ref=e2088]: 51.6%
+              - listitem [ref=e2089]:
+                - link "HTML 41.2%" [ref=e2090] [cursor=pointer]:
+                  - /url: /traversaal-ai/lennyhub-rag/search?l=html
+                  - img [ref=e2091]
+                  - generic [ref=e2093]: HTML
+                  - generic [ref=e2094]: 41.2%
+              - listitem [ref=e2095]:
+                - link "Shell 5.0%" [ref=e2096] [cursor=pointer]:
+                  - /url: /traversaal-ai/lennyhub-rag/search?l=shell
+                  - img [ref=e2097]
+                  - generic [ref=e2099]: Shell
+                  - generic [ref=e2100]: 5.0%
+              - listitem [ref=e2101]:
+                - link "PowerShell 2.2%" [ref=e2102] [cursor=pointer]:
+                  - /url: /traversaal-ai/lennyhub-rag/search?l=powershell
+                  - img [ref=e2103]
+                  - generic [ref=e2105]: PowerShell
+                  - generic [ref=e2106]: 2.2%
