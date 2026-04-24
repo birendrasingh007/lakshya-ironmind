@@ -1,0 +1,1146 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+                - generic [ref=e53]: Search or jump to...
+                - img [ref=e55]
+              - link "Sign in" [ref=e59] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fhamzafarooq%2Fclaude-code-starter%2Fblob%2Fmain%2FREADME.md
+              - link "Sign up" [ref=e60] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=hamzafarooq%2Fclaude-code-starter
+              - button "Appearance settings" [disabled] [ref=e63]:
+                - img
+    - main [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - img [ref=e72]
+            - link "hamzafarooq" [ref=e75] [cursor=pointer]:
+              - /url: /hamzafarooq
+            - generic [ref=e76]: /
+            - strong [ref=e77]:
+              - link "claude-code-starter" [ref=e78] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter
+            - generic [ref=e79]: Public
+          - generic [ref=e80]:
+            - list:
+              - listitem [ref=e81]:
+                - link "You must be signed in to change notification settings" [ref=e82] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fhamzafarooq%2Fclaude-code-starter
+                  - img [ref=e83]
+                  - text: Notifications
+              - listitem [ref=e85]:
+                - link "Fork 3" [ref=e86] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fhamzafarooq%2Fclaude-code-starter
+                  - img [ref=e87]
+                  - text: Fork
+                  - generic "3" [ref=e89]
+              - listitem [ref=e90]:
+                - link "You must be signed in to star a repository" [ref=e92] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fhamzafarooq%2Fclaude-code-starter
+                  - img [ref=e93]
+                  - text: Star
+                  - generic "9 users starred this repository" [ref=e95]: "9"
+        - navigation "Repository" [ref=e96]:
+          - list [ref=e97]:
+            - listitem [ref=e98]:
+              - link "Code" [ref=e99] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter
+                - img [ref=e100]
+                - generic [ref=e102]: Code
+            - listitem [ref=e103]:
+              - link "Issues" [ref=e104] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter/issues
+                - img [ref=e105]
+                - generic [ref=e108]: Issues
+            - listitem [ref=e109]:
+              - link "Pull requests" [ref=e110] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter/pulls
+                - img [ref=e111]
+                - generic [ref=e113]: Pull requests
+            - listitem [ref=e114]:
+              - link "Actions" [ref=e115] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter/actions
+                - img [ref=e116]
+                - generic [ref=e118]: Actions
+            - listitem [ref=e119]:
+              - link "Projects" [ref=e120] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter/projects
+                - img [ref=e121]
+                - generic [ref=e123]: Projects
+            - listitem [ref=e124]:
+              - link "Security and quality" [ref=e125] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter/security
+                - img [ref=e126]
+                - generic [ref=e128]: Security and quality
+            - listitem [ref=e129]:
+              - link "Insights" [ref=e130] [cursor=pointer]:
+                - /url: /hamzafarooq/claude-code-starter/pulse
+                - img [ref=e131]
+                - generic [ref=e133]: Insights
+      - generic [ref=e141]:
+        - generic [ref=e143]:
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - heading "Collapse file tree" [level=2] [ref=e149]:
+                  - button "Collapse file tree" [expanded] [ref=e150] [cursor=pointer]:
+                    - img [ref=e151]
+                - heading "Files" [level=2] [ref=e154]
+              - generic [ref=e155]:
+                - button "main branch" [ref=e157] [cursor=pointer]:
+                  - generic [ref=e158]:
+                    - generic [ref=e160]:
+                      - img [ref=e162]
+                      - generic [ref=e165]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e167] [cursor=pointer]:
+                  - img [ref=e168]
+            - generic [ref=e171]:
+              - img [ref=e173]
+              - combobox "Go to file" [ref=e175]
+            - navigation "File Tree Navigation" [ref=e181]:
+              - tree "Files" [ref=e183]:
+                - treeitem ".claude" [level=1] [ref=e184]:
+                  - generic [ref=e185] [cursor=pointer]:
+                    - img [ref=e187]
+                    - generic [ref=e189]:
+                      - img [ref=e193]
+                      - generic [ref=e195]: .claude
+                - treeitem "docs" [level=1] [ref=e196]:
+                  - generic [ref=e197] [cursor=pointer]:
+                    - img [ref=e199]
+                    - generic [ref=e201]:
+                      - img [ref=e205]
+                      - generic [ref=e207]: docs
+                - treeitem "images" [level=1] [ref=e208]:
+                  - generic [ref=e209] [cursor=pointer]:
+                    - img [ref=e211]
+                    - generic [ref=e213]:
+                      - img [ref=e217]
+                      - generic [ref=e219]: images
+                - treeitem "module-1" [level=1] [ref=e220]:
+                  - generic [ref=e221] [cursor=pointer]:
+                    - img [ref=e223]
+                    - generic [ref=e225]:
+                      - img [ref=e229]
+                      - generic [ref=e231]: module-1
+                - treeitem "module-2" [level=1] [ref=e232]:
+                  - generic [ref=e233] [cursor=pointer]:
+                    - img [ref=e235]
+                    - generic [ref=e237]:
+                      - img [ref=e241]
+                      - generic [ref=e243]: module-2
+                - treeitem "module-3" [level=1] [ref=e244]:
+                  - generic [ref=e245] [cursor=pointer]:
+                    - img [ref=e247]
+                    - generic [ref=e249]:
+                      - img [ref=e253]
+                      - generic [ref=e255]: module-3
+                - treeitem ".DS_Store" [level=1] [ref=e256]:
+                  - generic [ref=e258] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]: .DS_Store
+                - treeitem ".gitignore" [level=1] [ref=e264]:
+                  - generic [ref=e266] [cursor=pointer]:
+                    - img [ref=e269]
+                    - generic [ref=e271]: .gitignore
+                - treeitem "CLAUDE.md" [level=1] [ref=e272]:
+                  - generic [ref=e274] [cursor=pointer]:
+                    - img [ref=e277]
+                    - generic [ref=e279]: CLAUDE.md
+                - treeitem "README.md" [level=1] [ref=e280]:
+                  - generic [ref=e282] [cursor=pointer]:
+                    - img [ref=e285]
+                    - generic [ref=e287]: README.md
+                - treeitem "memory.md" [level=1] [ref=e288]:
+                  - generic [ref=e290] [cursor=pointer]:
+                    - img [ref=e293]
+                    - generic [ref=e295]: memory.md
+                - treeitem "primer.md" [level=1] [ref=e296]:
+                  - generic [ref=e298] [cursor=pointer]:
+                    - img [ref=e301]
+                    - generic [ref=e303]: primer.md
+          - slider "Draggable pane splitter" [ref=e305]
+        - generic [ref=e308]:
+          - generic [ref=e312]:
+            - generic [ref=e314]:
+              - navigation "Breadcrumbs" [ref=e315]:
+                - heading "Breadcrumbs" [level=2] [ref=e316]
+                - list [ref=e317]:
+                  - listitem [ref=e318]:
+                    - link "claude-code-starter" [ref=e319] [cursor=pointer]:
+                      - /url: /hamzafarooq/claude-code-starter/tree/main
+              - generic [ref=e320]:
+                - text: /
+                - heading "README.md" [level=1] [ref=e321]
+              - button "Copy path" [ref=e322] [cursor=pointer]:
+                - img [ref=e323]
+            - button "More file actions" [ref=e329] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e332]:
+            - generic [ref=e334]:
+              - heading "Latest commit" [level=2] [ref=e335]
+              - generic [ref=e338]:
+                - heading "History" [level=2] [ref=e339]
+                - link "History" [ref=e340] [cursor=pointer]:
+                  - /url: /hamzafarooq/claude-code-starter/commits/main/README.md
+                  - generic [ref=e341]:
+                    - generic:
+                      - img
+                    - generic [ref=e342]: History
+            - generic [ref=e344]:
+              - generic [ref=e346]:
+                - heading "File metadata and controls" [level=2] [ref=e347]
+                - generic [ref=e348]:
+                  - list "File view" [ref=e349]:
+                    - listitem [ref=e350]:
+                      - button "Preview" [ref=e351] [cursor=pointer]:
+                        - generic [ref=e353]: Preview
+                    - listitem [ref=e354]:
+                      - button "Code" [ref=e355] [cursor=pointer]:
+                        - generic [ref=e357]: Code
+                    - listitem [ref=e358]:
+                      - button "Blame" [ref=e359] [cursor=pointer]:
+                        - generic [ref=e361]: Blame
+                  - generic "17.9 KB" [ref=e364]: 338 lines (232 loc) · 17.9 KB
+                - generic [ref=e365]:
+                  - generic [ref=e366]:
+                    - generic [ref=e367]:
+                      - link "Raw" [ref=e369] [cursor=pointer]:
+                        - /url: https://github.com/hamzafarooq/claude-code-starter/raw/refs/heads/main/README.md
+                        - generic [ref=e371]: Raw
+                      - button "Copy raw file" [ref=e373] [cursor=pointer]:
+                        - img [ref=e374]
+                      - button "Download raw file" [ref=e378] [cursor=pointer]:
+                        - img [ref=e379]
+                    - generic [ref=e382]:
+                      - button "You must be signed in to make or propose changes" [disabled] [ref=e384]:
+                        - img [ref=e385]
+                      - button "More edit options" [ref=e388] [cursor=pointer]:
+                        - img [ref=e389]
+                  - button "Outline" [ref=e391] [cursor=pointer]:
+                    - img [ref=e392]
+              - region "README.md" [ref=e395]:
+                - article [ref=e397]:
+                  - generic [ref=e398]:
+                    - heading "Claude Code in Practice" [level=1] [ref=e399]
+                    - 'link "Permalink: Claude Code in Practice" [ref=e400] [cursor=pointer]':
+                      - /url: "#claude-code-in-practice"
+                      - img [ref=e401]
+                  - paragraph [ref=e403]:
+                    - strong [ref=e404]: A hands-on course for product managers who want to ship real things — without waiting on engineering.
+                  - paragraph [ref=e405]: Build production apps, write PRDs with AI, and go from idea to deployed product using Claude Code. No coding background required.
+                  - paragraph [ref=e406]:
+                    - link "Maven Course" [ref=e407] [cursor=pointer]:
+                      - /url: https://maven.com/boring-bot/claude-code-in-practice
+                      - img "Maven Course" [ref=e408]
+                    - link "Modules" [ref=e409] [cursor=pointer]:
+                      - /url: "#-course-modules"
+                      - img "Modules" [ref=e410]
+                    - link "Apps Built" [ref=e411] [cursor=pointer]:
+                      - /url: "#-built-with-claude-code"
+                      - img "Apps Built" [ref=e412]
+                    - link "Status" [ref=e413] [cursor=pointer]:
+                      - /url: "#"
+                      - img "Status" [ref=e414]
+                    - link "Instructor" [ref=e415] [cursor=pointer]:
+                      - /url: https://maven.com/boring-bot/claude-code-in-practice
+                      - img "Instructor" [ref=e416]
+                  - blockquote [ref=e417]:
+                    - paragraph [ref=e418]:
+                      - text: Taught by
+                      - strong [ref=e419]: Hamza Farooq
+                      - text: — Founder at Traversaal.ai · UCLA Anderson · ex-Google
+                  - paragraph [ref=e420]:
+                    - link "Enroll in Claude Code in Practice on Maven" [ref=e421] [cursor=pointer]:
+                      - /url: https://maven.com/boring-bot/claude-code-in-practice
+                      - img "Enroll in Claude Code in Practice on Maven" [ref=e422]
+                  - separator [ref=e423]
+                  - generic [ref=e424]:
+                    - heading "🚀 Get Started" [level=2] [ref=e425]
+                    - 'link "Permalink: 🚀 Get Started" [ref=e426] [cursor=pointer]':
+                      - /url: "#-get-started"
+                      - img [ref=e427]
+                  - paragraph [ref=e429]:
+                    - strong [ref=e430]: "Three steps to your first session:"
+                  - generic [ref=e431]:
+                    - generic [ref=e432]:
+                      - generic [ref=e433]: "# 1. Clone the repo"
+                      - text: git clone https://github.com/hamzafarooq/claude-code-starter.git cd claude-code-starter/module-1
+                      - generic [ref=e434]: "# 2. Launch Claude Code"
+                      - text: claude
+                      - generic [ref=e435]: "# 3. Open your first assignment"
+                      - generic [ref=e436]: "# → See module-1/README.md"
+                    - button "Copy" [ref=e438] [cursor=pointer]:
+                      - img [ref=e439]
+                  - blockquote [ref=e442]:
+                    - paragraph [ref=e443]:
+                      - text: First time? Follow the full
+                      - link "Installation guide" [ref=e444] [cursor=pointer]:
+                        - /url: "#-installation"
+                      - text: below — takes about 10 minutes.
+                  - separator [ref=e445]
+                  - generic [ref=e446]:
+                    - heading "📦 What's in This Repo" [level=2] [ref=e447]
+                    - 'link "Permalink: 📦 What''s in This Repo" [ref=e448] [cursor=pointer]':
+                      - /url: "#-whats-in-this-repo"
+                      - img [ref=e449]
+                  - paragraph [ref=e451]: All course code, templates, skills, and commands live here. Come back here whenever you need files from class.
+                  - table [ref=e453]:
+                    - rowgroup [ref=e454]:
+                      - row "What Where" [ref=e455]:
+                        - columnheader "What" [ref=e456]
+                        - columnheader "Where" [ref=e457]
+                    - rowgroup [ref=e458]:
+                      - row "Module guides & assignments module-N/README.md" [ref=e459]:
+                        - cell "Module guides & assignments" [ref=e460]
+                        - cell "module-N/README.md" [ref=e461]:
+                          - code [ref=e462]: module-N/README.md
+                      - row "CLAUDE.md starter templates module-N/CLAUDE-template.md" [ref=e463]:
+                        - cell "CLAUDE.md starter templates" [ref=e464]
+                        - cell "module-N/CLAUDE-template.md" [ref=e465]:
+                          - code [ref=e466]: module-N/CLAUDE-template.md
+                      - row "Skills module-N/.claude/skills/<name>/SKILL.md" [ref=e467]:
+                        - cell "Skills" [ref=e468]
+                        - cell "module-N/.claude/skills/<name>/SKILL.md" [ref=e469]:
+                          - code [ref=e470]: module-N/.claude/skills/<name>/SKILL.md
+                      - row "Commands module-N/.claude/commands/<name>.md" [ref=e471]:
+                        - cell "Commands" [ref=e472]
+                        - cell "module-N/.claude/commands/<name>.md" [ref=e473]:
+                          - code [ref=e474]: module-N/.claude/commands/<name>.md
+                      - row "Community resources docs/resources.md" [ref=e475]:
+                        - cell "Community resources" [ref=e476]
+                        - cell "docs/resources.md" [ref=e477]:
+                          - link "docs/resources.md" [ref=e478] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/docs/resources.md
+                            - code [ref=e479]: docs/resources.md
+                  - separator [ref=e480]
+                  - generic [ref=e481]:
+                    - heading "📚 Course Modules" [level=2] [ref=e482]
+                    - 'link "Permalink: 📚 Course Modules" [ref=e483] [cursor=pointer]':
+                      - /url: "#-course-modules"
+                      - img [ref=e484]
+                  - generic [ref=e486]:
+                    - 'heading "Module 1: From Idea to Shipped Product" [level=3] [ref=e487]':
+                      - 'link "Module 1: From Idea to Shipped Product" [ref=e488] [cursor=pointer]':
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/README.md
+                    - 'link "Permalink: Module 1: From Idea to Shipped Product" [ref=e489] [cursor=pointer]':
+                      - /url: "#module-1-from-idea-to-shipped-product"
+                      - img [ref=e490]
+                  - paragraph [ref=e492]:
+                    - text: Set up Claude Code, write a
+                    - code [ref=e493]: CLAUDE.md
+                    - text: that gives Claude context about your project, install two skills, and ship something by the end of the module.
+                  - table [ref=e495]:
+                    - rowgroup [ref=e496]:
+                      - row "Assignment What you'll do" [ref=e497]:
+                        - columnheader "Assignment" [ref=e498]
+                        - columnheader "What you'll do" [ref=e499]
+                    - rowgroup [ref=e500]:
+                      - row "1. Set up CLAUDE.md Write your project context file so Claude knows your stack and goals" [ref=e501]:
+                        - cell "1. Set up CLAUDE.md" [ref=e502]:
+                          - text: 1. Set up
+                          - code [ref=e503]: CLAUDE.md
+                        - cell "Write your project context file so Claude knows your stack and goals" [ref=e504]
+                      - row "2. Install skills Add /prd-generator and /user-story-writer to your workflow" [ref=e505]:
+                        - cell "2. Install skills" [ref=e506]
+                        - cell "Add /prd-generator and /user-story-writer to your workflow" [ref=e507]:
+                          - text: Add
+                          - code [ref=e508]: /prd-generator
+                          - text: and
+                          - code [ref=e509]: /user-story-writer
+                          - text: to your workflow
+                      - row "3. Ship something Go from idea → PRD → working MVP" [ref=e510]:
+                        - cell "3. Ship something" [ref=e511]
+                        - cell "Go from idea → PRD → working MVP" [ref=e512]
+                  - paragraph [ref=e513]:
+                    - strong [ref=e514]: "Skills included:"
+                  - list [ref=e515]:
+                    - listitem [ref=e516]:
+                      - code [ref=e517]: /prd-generator
+                      - text: — generates a structured PRD from a feature description
+                    - listitem [ref=e518]:
+                      - code [ref=e519]: /user-story-writer
+                      - text: — converts rough ideas into user stories with acceptance criteria
+                  - paragraph [ref=e520]:
+                    - strong [ref=e521]: "Files:"
+                  - list [ref=e522]:
+                    - listitem [ref=e523]:
+                      - link "module-1/README.md" [ref=e524] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/README.md
+                      - text: — setup guide and assignments
+                    - listitem [ref=e525]:
+                      - link "module-1/CLAUDE-template.md" [ref=e526] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/CLAUDE-template.md
+                      - text: — starter template
+                    - listitem [ref=e527]:
+                      - link "module-1/.claude/skills/" [ref=e528] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/.claude/skills/prd-generator/SKILL.md
+                      - text: — skill files
+                  - separator [ref=e529]
+                  - generic [ref=e530]:
+                    - 'heading "Module 2: How the Web Works — and How to Read Code You Didn''t Write" [level=3] [ref=e531]':
+                      - 'link "Module 2: How the Web Works — and How to Read Code You Didn''t Write" [ref=e532] [cursor=pointer]':
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/README.md
+                    - 'link "Permalink: Module 2: How the Web Works — and How to Read Code You Didn''t Write" [ref=e533] [cursor=pointer]':
+                      - /url: "#module-2-how-the-web-works--and-how-to-read-code-you-didnt-write"
+                      - img [ref=e534]
+                  - paragraph [ref=e536]: Learn what frontend, backend, and AI backend actually mean, build a custom skill that reads GitHub repos, set up Brave MCP for live browsing, and use it all to understand a real codebase.
+                  - table [ref=e538]:
+                    - rowgroup [ref=e539]:
+                      - row "Assignment What you'll do" [ref=e540]:
+                        - columnheader "Assignment" [ref=e541]
+                        - columnheader "What you'll do" [ref=e542]
+                    - rowgroup [ref=e543]:
+                      - row "1. Build /explain-me-a-repo Write a skill that uses Brave MCP to read and summarize any GitHub repo" [ref=e544]:
+                        - cell "1. Build /explain-me-a-repo" [ref=e545]:
+                          - text: 1. Build
+                          - code [ref=e546]: /explain-me-a-repo
+                        - cell "Write a skill that uses Brave MCP to read and summarize any GitHub repo" [ref=e547]
+                      - row "2. Set up Brave MCP Connect Claude Code to a live browser" [ref=e548]:
+                        - cell "2. Set up Brave MCP" [ref=e549]
+                        - cell "Connect Claude Code to a live browser" [ref=e550]
+                      - row "3. Use it on a real codebase Run the skill on a repo you care about" [ref=e551]:
+                        - cell "3. Use it on a real codebase" [ref=e552]
+                        - cell "Run the skill on a repo you care about" [ref=e553]
+                  - paragraph [ref=e554]:
+                    - strong [ref=e555]: "Skills & commands included:"
+                  - list [ref=e556]:
+                    - listitem [ref=e557]:
+                      - code [ref=e558]: /explain-me-a-repo
+                      - text: — navigates to a GitHub URL and produces a structured repo write-up
+                    - listitem [ref=e559]:
+                      - code [ref=e560]: /youtube-deepdive
+                      - text: — visits YouTube URLs and produces a highlight report with timestamps and top comments
+                  - paragraph [ref=e561]:
+                    - strong [ref=e562]: "Files:"
+                  - list [ref=e563]:
+                    - listitem [ref=e564]:
+                      - link "module-2/README.md" [ref=e565] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/README.md
+                      - text: — assignment guide
+                    - listitem [ref=e566]:
+                      - link "module-2/CLAUDE-template.md" [ref=e567] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/CLAUDE-template.md
+                      - text: — starter template
+                    - listitem [ref=e568]:
+                      - link "module-2/demo/index.html" [ref=e569] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/demo/index.html
+                      - text: — frontend/backend/AI backend live demo
+                    - listitem [ref=e570]:
+                      - link "module-2/.claude/skills/explain-me-a-repo/SKILL.md" [ref=e571] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/.claude/skills/explain-me-a-repo/SKILL.md
+                  - separator [ref=e572]
+                  - generic [ref=e573]:
+                    - 'heading "Module 3: Sub-Agents — Your Team of Specialists" [level=3] [ref=e574]':
+                      - 'link "Module 3: Sub-Agents — Your Team of Specialists" [ref=e575] [cursor=pointer]':
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/README.md
+                    - 'link "Permalink: Module 3: Sub-Agents — Your Team of Specialists" [ref=e576] [cursor=pointer]':
+                      - /url: "#module-3-sub-agents--your-team-of-specialists"
+                      - img [ref=e577]
+                  - paragraph [ref=e579]: "Learn what sub-agents are, when to use them vs. skills, and build a library of 5 specialist agents. Culminates in a three-stage automated pipeline: competitor research → PRD → spec review — in one prompt."
+                  - table [ref=e581]:
+                    - rowgroup [ref=e582]:
+                      - row "Assignment What you'll do" [ref=e583]:
+                        - columnheader "Assignment" [ref=e584]
+                        - columnheader "What you'll do" [ref=e585]
+                    - rowgroup [ref=e586]:
+                      - row "3a. Build research-agent Web search specialist that returns clean structured findings" [ref=e587]:
+                        - cell "3a. Build research-agent" [ref=e588]:
+                          - text: 3a. Build
+                          - code [ref=e589]: research-agent
+                        - cell "Web search specialist that returns clean structured findings" [ref=e590]
+                      - row "3b. Build prd-reviewer Reads any PRD and returns risks, edge cases, and scope creep flag" [ref=e591]:
+                        - cell "3b. Build prd-reviewer" [ref=e592]:
+                          - text: 3b. Build
+                          - code [ref=e593]: prd-reviewer
+                        - cell "Reads any PRD and returns risks, edge cases, and scope creep flag" [ref=e594]
+                      - row "3c. Build a pipeline Chain research-agent → write PRD → prd-reviewer in a single prompt" [ref=e595]:
+                        - cell "3c. Build a pipeline" [ref=e596]
+                        - cell "Chain research-agent → write PRD → prd-reviewer in a single prompt" [ref=e597]
+                      - row "3d. Build code-reviewer Read-only code audit for security and logic errors" [ref=e598]:
+                        - cell "3d. Build code-reviewer" [ref=e599]:
+                          - text: 3d. Build
+                          - code [ref=e600]: code-reviewer
+                        - cell "Read-only code audit for security and logic errors" [ref=e601]
+                      - row "3e. Add data-analyst + copy-writer (optional) Complete your specialist library" [ref=e602]:
+                        - cell "3e. Add data-analyst + copy-writer (optional)" [ref=e603]:
+                          - text: 3e. Add
+                          - code [ref=e604]: data-analyst
+                          - text: +
+                          - code [ref=e605]: copy-writer
+                          - text: (optional)
+                        - cell "Complete your specialist library" [ref=e606]
+                  - paragraph [ref=e607]:
+                    - strong [ref=e608]: "Agents included:"
+                  - list [ref=e609]:
+                    - listitem [ref=e610]:
+                      - code [ref=e611]: research-agent
+                      - text: — Opus + web search, structured findings
+                    - listitem [ref=e612]:
+                      - code [ref=e613]: prd-reviewer
+                      - text: — Sonnet, reads and audits any PRD
+                    - listitem [ref=e614]:
+                      - code [ref=e615]: code-reviewer
+                      - text: — Sonnet, read-only security and logic review
+                    - listitem [ref=e616]:
+                      - code [ref=e617]: data-analyst
+                      - text: — Sonnet, stats and anomaly detection from data files
+                    - listitem [ref=e618]:
+                      - code [ref=e619]: copy-writer
+                      - text: — Haiku, fast in-app copy with 3 tone options
+                  - paragraph [ref=e620]:
+                    - strong [ref=e621]: "Files:"
+                  - list [ref=e622]:
+                    - listitem [ref=e623]:
+                      - link "module-3/README.md" [ref=e624] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/README.md
+                      - text: — assignment guide
+                    - listitem [ref=e625]:
+                      - link "module-3/.claude/agents/" [ref=e626] [cursor=pointer]:
+                        - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/.claude/agents/research-agent.md
+                      - text: — all 5 agent files
+                  - separator [ref=e627]
+                  - generic [ref=e628]:
+                    - heading "🧩 Skills Library" [level=2] [ref=e629]
+                    - 'link "Permalink: 🧩 Skills Library" [ref=e630] [cursor=pointer]':
+                      - /url: "#-skills-library"
+                      - img [ref=e631]
+                  - paragraph [ref=e633]:
+                    - text: Skills are triggered with a
+                    - code [ref=e634]: /command
+                    - text: . You install them once; Claude runs them on demand. All skills live in
+                    - code [ref=e635]: .claude/skills/<name>/SKILL.md
+                    - text: .
+                  - table [ref=e637]:
+                    - rowgroup [ref=e638]:
+                      - row "Skill Command What it does Module" [ref=e639]:
+                        - columnheader "Skill" [ref=e640]
+                        - columnheader "Command" [ref=e641]
+                        - columnheader "What it does" [ref=e642]
+                        - columnheader "Module" [ref=e643]
+                    - rowgroup [ref=e644]:
+                      - row "PRD Generator /prd-generator Asks for a feature name, problem, target user, and constraints — then writes a full 9-section PRD with risks, acceptance criteria, and open questions Module 1" [ref=e645]:
+                        - cell "PRD Generator" [ref=e646]
+                        - cell "/prd-generator" [ref=e647]:
+                          - code [ref=e648]: /prd-generator
+                        - cell "Asks for a feature name, problem, target user, and constraints — then writes a full 9-section PRD with risks, acceptance criteria, and open questions" [ref=e649]
+                        - cell "Module 1" [ref=e650]:
+                          - link "Module 1" [ref=e651] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/.claude/skills/prd-generator/SKILL.md
+                      - row "User Story Writer /user-story-writer Turns a rough feature idea into prioritised user stories with Given/When/Then acceptance criteria, edge cases, and open questions Module 1" [ref=e652]:
+                        - cell "User Story Writer" [ref=e653]
+                        - cell "/user-story-writer" [ref=e654]:
+                          - code [ref=e655]: /user-story-writer
+                        - cell "Turns a rough feature idea into prioritised user stories with Given/When/Then acceptance criteria, edge cases, and open questions" [ref=e656]
+                        - cell "Module 1" [ref=e657]:
+                          - link "Module 1" [ref=e658] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/.claude/skills/user-story-writer/SKILL.md
+                      - 'row "YouTube Deep Dive /youtube-deepdive Takes one or more YouTube URLs, visits each with Brave MCP, and returns a structured highlight report: timestamps, key moments, and top comments — so you skip to the best parts Module 2" [ref=e659]':
+                        - cell "YouTube Deep Dive" [ref=e660]
+                        - cell "/youtube-deepdive" [ref=e661]:
+                          - code [ref=e662]: /youtube-deepdive
+                        - 'cell "Takes one or more YouTube URLs, visits each with Brave MCP, and returns a structured highlight report: timestamps, key moments, and top comments — so you skip to the best parts" [ref=e663]'
+                        - cell "Module 2" [ref=e664]:
+                          - link "Module 2" [ref=e665] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/.claude/skills/youtube-deepdive/SKILL.md
+                      - row "YouTube Researcher /youtube-researcher Searches YouTube on any topic and returns a ranked table of videos with titles, channels, view counts, and a top-pick recommendation Module 2" [ref=e666]:
+                        - cell "YouTube Researcher" [ref=e667]
+                        - cell "/youtube-researcher" [ref=e668]:
+                          - code [ref=e669]: /youtube-researcher
+                        - cell "Searches YouTube on any topic and returns a ranked table of videos with titles, channels, view counts, and a top-pick recommendation" [ref=e670]
+                        - cell "Module 2" [ref=e671]:
+                          - link "Module 2" [ref=e672] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/.claude/skills/youtube-researcher/SKILL.md
+                      - 'row "Explain Me a Repo /explain-me-a-repo Takes a GitHub URL, navigates to it with Brave MCP, and produces a structured repo write-up: what it does, how it''s built, key files, and who it''s for Module 2" [ref=e673]':
+                        - cell "Explain Me a Repo" [ref=e674]
+                        - cell "/explain-me-a-repo" [ref=e675]:
+                          - code [ref=e676]: /explain-me-a-repo
+                        - 'cell "Takes a GitHub URL, navigates to it with Brave MCP, and produces a structured repo write-up: what it does, how it''s built, key files, and who it''s for" [ref=e677]'
+                        - cell "Module 2" [ref=e678]:
+                          - link "Module 2" [ref=e679] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-2/.claude/commands/explain-me-a-repo.md
+                  - separator [ref=e680]
+                  - generic [ref=e681]:
+                    - heading "🤖 Sub-Agents Library" [level=2] [ref=e682]
+                    - 'link "Permalink: 🤖 Sub-Agents Library" [ref=e683] [cursor=pointer]':
+                      - /url: "#-sub-agents-library"
+                      - img [ref=e684]
+                  - paragraph [ref=e686]:
+                    - text: Sub-agents are specialists Claude delegates to automatically — no
+                    - code [ref=e687]: /command
+                    - text: needed. When your request matches an agent's description, Claude hands it off, runs it in a separate context, and returns only the findings. All agents live in
+                    - code [ref=e688]: .claude/agents/<name>.md
+                    - text: .
+                  - table [ref=e690]:
+                    - rowgroup [ref=e691]:
+                      - row "Agent Model What it does Module" [ref=e692]:
+                        - columnheader "Agent" [ref=e693]
+                        - columnheader "Model" [ref=e694]
+                        - columnheader "What it does" [ref=e695]
+                        - columnheader "Module" [ref=e696]
+                    - rowgroup [ref=e697]:
+                      - 'row "research-agent Opus Searches the web and returns structured findings: key facts, sources, and gaps. Triggers on any research, competitor analysis, or market context request Module 3" [ref=e698]':
+                        - cell "research-agent" [ref=e699]:
+                          - code [ref=e700]: research-agent
+                        - cell "Opus" [ref=e701]
+                        - 'cell "Searches the web and returns structured findings: key facts, sources, and gaps. Triggers on any research, competitor analysis, or market context request" [ref=e702]'
+                        - cell "Module 3" [ref=e703]:
+                          - link "Module 3" [ref=e704] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/.claude/agents/research-agent.md
+                      - row "prd-reviewer Sonnet Reads any PRD and returns exactly 3 risks (rated HIGH/MED/LOW), 3 missing edge cases, and 1 scope creep flag — no summaries, no praise Module 3" [ref=e705]:
+                        - cell "prd-reviewer" [ref=e706]:
+                          - code [ref=e707]: prd-reviewer
+                        - cell "Sonnet" [ref=e708]
+                        - cell "Reads any PRD and returns exactly 3 risks (rated HIGH/MED/LOW), 3 missing edge cases, and 1 scope creep flag — no summaries, no praise" [ref=e709]
+                        - cell "Module 3" [ref=e710]:
+                          - link "Module 3" [ref=e711] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/.claude/agents/prd-reviewer.md
+                      - row "code-reviewer Sonnet Read-only audit of code files — flags security vulnerabilities, logic errors, and missing test coverage. Never modifies files Module 3" [ref=e712]:
+                        - cell "code-reviewer" [ref=e713]:
+                          - code [ref=e714]: code-reviewer
+                        - cell "Sonnet" [ref=e715]
+                        - cell "Read-only audit of code files — flags security vulnerabilities, logic errors, and missing test coverage. Never modifies files" [ref=e716]
+                        - cell "Module 3" [ref=e717]:
+                          - link "Module 3" [ref=e718] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/.claude/agents/code-reviewer.md
+                      - row "data-analyst Sonnet Reads CSV, JSON, or data exports and returns 3 key stats, 1 anomaly worth investigating, and 1 directional trend Module 3" [ref=e719]:
+                        - cell "data-analyst" [ref=e720]:
+                          - code [ref=e721]: data-analyst
+                        - cell "Sonnet" [ref=e722]
+                        - cell "Reads CSV, JSON, or data exports and returns 3 key stats, 1 anomaly worth investigating, and 1 directional trend" [ref=e723]
+                        - cell "Module 3" [ref=e724]:
+                          - link "Module 3" [ref=e725] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/.claude/agents/data-analyst.md
+                      - row "copy-writer Haiku Writes in-app copy, tooltips, button labels, and microcopy. Returns 3 options tagged [Direct], [Warm], or [Bold] — all under 12 words Module 3" [ref=e726]:
+                        - cell "copy-writer" [ref=e727]:
+                          - code [ref=e728]: copy-writer
+                        - cell "Haiku" [ref=e729]
+                        - cell "Writes in-app copy, tooltips, button labels, and microcopy. Returns 3 options tagged [Direct], [Warm], or [Bold] — all under 12 words" [ref=e730]
+                        - cell "Module 3" [ref=e731]:
+                          - link "Module 3" [ref=e732] [cursor=pointer]:
+                            - /url: /hamzafarooq/claude-code-starter/blob/main/module-3/.claude/agents/copy-writer.md
+                  - separator [ref=e733]
+                  - generic [ref=e734]:
+                    - heading "🧠 Skills vs Sub-Agents vs Agents — What's the Difference?" [level=2] [ref=e735]
+                    - 'link "Permalink: 🧠 Skills vs Sub-Agents vs Agents — What''s the Difference?" [ref=e736] [cursor=pointer]':
+                      - /url: "#-skills-vs-sub-agents-vs-agents--whats-the-difference"
+                      - img [ref=e737]
+                  - paragraph [ref=e739]: "Three different ways to extend Claude Code. Here's when to use each one:"
+                  - table [ref=e741]:
+                    - rowgroup [ref=e742]:
+                      - row "Skill Sub-Agent Agent" [ref=e743]:
+                        - columnheader [ref=e744]
+                        - columnheader "Skill" [ref=e745]
+                        - columnheader "Sub-Agent" [ref=e746]
+                        - columnheader "Agent" [ref=e747]
+                    - rowgroup [ref=e748]:
+                      - row "What it is A prompt template you invoke with a /command A specialist Claude spins up automatically and delegates to A fully autonomous Claude instance with its own tools, model, and instructions" [ref=e749]:
+                        - cell "What it is" [ref=e750]:
+                          - strong [ref=e751]: What it is
+                        - cell "A prompt template you invoke with a /command" [ref=e752]:
+                          - text: A prompt template you invoke with a
+                          - code [ref=e753]: /command
+                        - cell "A specialist Claude spins up automatically and delegates to" [ref=e754]
+                        - cell "A fully autonomous Claude instance with its own tools, model, and instructions" [ref=e755]
+                      - row "How it's triggered You type /skill-name Claude decides when to use it based on your request Triggered by Claude or called explicitly via the Agent tool" [ref=e756]:
+                        - cell "How it's triggered" [ref=e757]:
+                          - strong [ref=e758]: How it's triggered
+                        - cell "You type /skill-name" [ref=e759]:
+                          - text: You type
+                          - code [ref=e760]: /skill-name
+                        - cell "Claude decides when to use it based on your request" [ref=e761]
+                        - cell "Triggered by Claude or called explicitly via the Agent tool" [ref=e762]
+                      - row "Who controls it You — you call it deliberately Claude — it decides when to hand off Claude or the system" [ref=e763]:
+                        - cell "Who controls it" [ref=e764]:
+                          - strong [ref=e765]: Who controls it
+                        - cell "You — you call it deliberately" [ref=e766]
+                        - cell "Claude — it decides when to hand off" [ref=e767]
+                        - cell "Claude or the system" [ref=e768]
+                      - row "Memory/context Shares the main conversation context Runs in a separate context, returns only results Fully isolated context with its own tool access" [ref=e769]:
+                        - cell "Memory/context" [ref=e770]:
+                          - strong [ref=e771]: Memory/context
+                        - cell "Shares the main conversation context" [ref=e772]
+                        - cell "Runs in a separate context, returns only results" [ref=e773]
+                        - cell "Fully isolated context with its own tool access" [ref=e774]
+                      - row "Best for Repeatable tasks you always want to run the same way (PRD generation, user stories) Background specialists that shouldn't clutter your main thread (research, code review, data analysis) Complex multi-step tasks that need dedicated focus or different model/tool access" [ref=e775]:
+                        - cell "Best for" [ref=e776]:
+                          - strong [ref=e777]: Best for
+                        - cell "Repeatable tasks you always want to run the same way (PRD generation, user stories)" [ref=e778]
+                        - cell "Background specialists that shouldn't clutter your main thread (research, code review, data analysis)" [ref=e779]
+                        - cell "Complex multi-step tasks that need dedicated focus or different model/tool access" [ref=e780]
+                      - row "Lives in .claude/skills/<name>/SKILL.md .claude/agents/<name>.md .claude/agents/<name>.md (same file format as sub-agents)" [ref=e781]:
+                        - cell "Lives in" [ref=e782]:
+                          - strong [ref=e783]: Lives in
+                        - cell ".claude/skills/<name>/SKILL.md" [ref=e784]:
+                          - code [ref=e785]: .claude/skills/<name>/SKILL.md
+                        - cell ".claude/agents/<name>.md" [ref=e786]:
+                          - code [ref=e787]: .claude/agents/<name>.md
+                        - cell ".claude/agents/<name>.md (same file format as sub-agents)" [ref=e788]:
+                          - code [ref=e789]: .claude/agents/<name>.md
+                          - text: (same file format as sub-agents)
+                      - row "Example /prd-generator — you run it, Claude fills in a PRD research-agent — Claude uses it when you ask for competitor research A pipeline agent that runs research → writes PRD → reviews PRD autonomously" [ref=e790]:
+                        - cell "Example" [ref=e791]:
+                          - strong [ref=e792]: Example
+                        - cell "/prd-generator — you run it, Claude fills in a PRD" [ref=e793]:
+                          - code [ref=e794]: /prd-generator
+                          - text: — you run it, Claude fills in a PRD
+                        - cell "research-agent — Claude uses it when you ask for competitor research" [ref=e795]:
+                          - code [ref=e796]: research-agent
+                          - text: — Claude uses it when you ask for competitor research
+                        - cell "A pipeline agent that runs research → writes PRD → reviews PRD autonomously" [ref=e797]
+                  - paragraph [ref=e798]:
+                    - strong [ref=e799]: "Simple rule of thumb:"
+                  - list [ref=e800]:
+                    - listitem [ref=e801]:
+                      - text: Use a
+                      - strong [ref=e802]: skill
+                      - text: when you want to run the same prompt yourself, on demand.
+                    - listitem [ref=e803]:
+                      - text: Use a
+                      - strong [ref=e804]: sub-agent
+                      - text: when you want Claude to automatically hand off specialist work (and you don't want the details in your main chat).
+                    - listitem [ref=e805]:
+                      - text: An
+                      - strong [ref=e806]: agent
+                      - text: is the underlying mechanism — sub-agents
+                      - emphasis [ref=e807]: are
+                      - text: agents, just scoped to delegate-and-return behavior. You'll hear both terms used interchangeably.
+                  - separator [ref=e808]
+                  - generic [ref=e809]:
+                    - heading "🌐 Playwright vs MCP — What's the Difference?" [level=2] [ref=e810]
+                    - 'link "Permalink: 🌐 Playwright vs MCP — What''s the Difference?" [ref=e811] [cursor=pointer]':
+                      - /url: "#-playwright-vs-mcp--whats-the-difference"
+                      - img [ref=e812]
+                  - paragraph [ref=e814]: "Both let Claude interact with a browser. Here's when to use each:"
+                  - table [ref=e816]:
+                    - rowgroup [ref=e817]:
+                      - row "Playwright MCP (e.g. Brave MCP)" [ref=e818]:
+                        - columnheader [ref=e819]
+                        - columnheader "Playwright" [ref=e820]
+                        - columnheader "MCP (e.g. Brave MCP)" [ref=e821]
+                    - rowgroup [ref=e822]:
+                      - row "What it is A code library that automates browsers via scripts A live browser Claude controls in real time through a protocol" [ref=e823]:
+                        - cell "What it is" [ref=e824]:
+                          - strong [ref=e825]: What it is
+                        - cell "A code library that automates browsers via scripts" [ref=e826]
+                        - cell "A live browser Claude controls in real time through a protocol" [ref=e827]
+                      - row "How it works You (or Claude) writes code that drives the browser — clicks, fills forms, scrapes pages Claude connects to a running browser and takes actions directly, no code required" [ref=e828]:
+                        - cell "How it works" [ref=e829]:
+                          - strong [ref=e830]: How it works
+                        - cell "You (or Claude) writes code that drives the browser — clicks, fills forms, scrapes pages" [ref=e831]
+                        - cell "Claude connects to a running browser and takes actions directly, no code required" [ref=e832]
+                      - row "Best for Repeatable, scheduled, or high-volume browser tasks (scraping, regression testing, form automation) One-off research, reading live pages, visiting URLs during a conversation" [ref=e833]:
+                        - cell "Best for" [ref=e834]:
+                          - strong [ref=e835]: Best for
+                        - cell "Repeatable, scheduled, or high-volume browser tasks (scraping, regression testing, form automation)" [ref=e836]
+                        - cell "One-off research, reading live pages, visiting URLs during a conversation" [ref=e837]
+                      - row "Requires coding? Yes — Python or JavaScript scripts No — Claude drives it through natural language" [ref=e838]:
+                        - cell "Requires coding?" [ref=e839]:
+                          - strong [ref=e840]: Requires coding?
+                        - cell "Yes — Python or JavaScript scripts" [ref=e841]
+                        - cell "No — Claude drives it through natural language" [ref=e842]
+                      - row "Speed Fast at scale, runs headless Slower, real browser with a visible UI" [ref=e843]:
+                        - cell "Speed" [ref=e844]:
+                          - strong [ref=e845]: Speed
+                        - cell "Fast at scale, runs headless" [ref=e846]
+                        - cell "Slower, real browser with a visible UI" [ref=e847]
+                      - row "When you'd use it \"Scrape 500 product pages every night\" or \"Run login tests on every deploy\" \"Visit this GitHub repo and summarise it\" or \"Read the top 3 results for this search\"" [ref=e848]:
+                        - cell "When you'd use it" [ref=e849]:
+                          - strong [ref=e850]: When you'd use it
+                        - cell "\"Scrape 500 product pages every night\" or \"Run login tests on every deploy\"" [ref=e851]
+                        - cell "\"Visit this GitHub repo and summarise it\" or \"Read the top 3 results for this search\"" [ref=e852]
+                      - row "In this course Not covered (engineering territory) Used in Module 2 for /explain-me-a-repo and /youtube-deepdive" [ref=e853]:
+                        - cell "In this course" [ref=e854]:
+                          - strong [ref=e855]: In this course
+                        - cell "Not covered (engineering territory)" [ref=e856]
+                        - cell "Used in Module 2 for /explain-me-a-repo and /youtube-deepdive" [ref=e857]:
+                          - text: Used in Module 2 for
+                          - code [ref=e858]: /explain-me-a-repo
+                          - text: and
+                          - code [ref=e859]: /youtube-deepdive
+                  - paragraph [ref=e860]:
+                    - strong [ref=e861]: "Simple rule of thumb:"
+                    - text: Use MCP when you want Claude to browse something
+                    - emphasis [ref=e862]: now
+                    - text: ", in conversation. Use Playwright when you need browser automation to run reliably at scale or on a schedule — that's usually an engineering task."
+                  - separator [ref=e863]
+                  - generic [ref=e864]:
+                    - heading "🛠️ Built with Claude Code" [level=2] [ref=e865]
+                    - 'link "Permalink: 🛠️ Built with Claude Code" [ref=e866] [cursor=pointer]':
+                      - /url: "#️-built-with-claude-code"
+                      - img [ref=e867]
+                  - paragraph [ref=e869]: These are real, full-stack applications you can try out today — built live in class using Claude Code, with no engineering team. Fork them, break them, learn from them.
+                  - table [ref=e871]:
+                    - rowgroup [ref=e872]:
+                      - row "App What it does" [ref=e873]:
+                        - columnheader "App" [ref=e874]
+                        - columnheader "What it does" [ref=e875]
+                    - rowgroup [ref=e876]:
+                      - row "word-humanizer Word add-in that rewrites AI-generated paragraphs to sound human — sits inside Word as a sidebar, rewrites one paragraph at a time, and shows exactly what patterns were removed" [ref=e877]:
+                        - cell "word-humanizer" [ref=e878]:
+                          - link "word-humanizer" [ref=e879] [cursor=pointer]:
+                            - /url: https://github.com/hamzafarooq/word-humanizer/
+                        - cell "Word add-in that rewrites AI-generated paragraphs to sound human — sits inside Word as a sidebar, rewrites one paragraph at a time, and shows exactly what patterns were removed" [ref=e880]
+                      - row "seo-writer AI agent that researches a topic, finds images, and produces a finished SEO article in Markdown, HTML, and DOCX — learns from your existing articles to match your voice" [ref=e881]:
+                        - cell "seo-writer" [ref=e882]:
+                          - link "seo-writer" [ref=e883] [cursor=pointer]:
+                            - /url: https://github.com/hamzafarooq/seo-writer
+                        - cell "AI agent that researches a topic, finds images, and produces a finished SEO article in Markdown, HTML, and DOCX — learns from your existing articles to match your voice" [ref=e884]
+                      - row "linkedin-growth Audits your LinkedIn profile against profiles you admire and produces a 90-day content plan — all from a single command in Claude Code" [ref=e885]:
+                        - cell "linkedin-growth" [ref=e886]:
+                          - link "linkedin-growth" [ref=e887] [cursor=pointer]:
+                            - /url: https://github.com/hamzafarooq/linkedin-growth
+                        - cell "Audits your LinkedIn profile against profiles you admire and produces a 90-day content plan — all from a single command in Claude Code" [ref=e888]
+                  - paragraph [ref=e889]: More apps get added as the course runs.
+                  - separator [ref=e890]
+                  - generic [ref=e891]:
+                    - heading "🌐 Community Resources" [level=2] [ref=e892]
+                    - 'link "Permalink: 🌐 Community Resources" [ref=e893] [cursor=pointer]':
+                      - /url: "#-community-resources"
+                      - img [ref=e894]
+                  - paragraph [ref=e896]:
+                    - text: Top GitHub repos for going deeper on skills, best practices, and memory management. Full write-ups in
+                    - link "docs/resources.md" [ref=e897] [cursor=pointer]:
+                      - /url: /hamzafarooq/claude-code-starter/blob/main/docs/resources.md
+                    - text: .
+                  - generic [ref=e898]:
+                    - heading "Discover & Browse" [level=3] [ref=e899]
+                    - 'link "Permalink: Discover & Browse" [ref=e900] [cursor=pointer]':
+                      - /url: "#discover--browse"
+                      - img [ref=e901]
+                  - table [ref=e904]:
+                    - rowgroup [ref=e905]:
+                      - row "Repo Stars What it is" [ref=e906]:
+                        - columnheader "Repo" [ref=e907]
+                        - columnheader "Stars" [ref=e908]
+                        - columnheader "What it is" [ref=e909]
+                    - rowgroup [ref=e910]:
+                      - 'row "hesreallyhim/awesome-claude-code ⭐ 39k The definitive curated list: skills, hooks, commands, agents, plugins" [ref=e911]':
+                        - cell "hesreallyhim/awesome-claude-code" [ref=e912]:
+                          - link "hesreallyhim/awesome-claude-code" [ref=e913] [cursor=pointer]:
+                            - /url: https://github.com/hesreallyhim/awesome-claude-code
+                        - cell "⭐ 39k" [ref=e914]
+                        - 'cell "The definitive curated list: skills, hooks, commands, agents, plugins" [ref=e915]'
+                      - row "sickn33/antigravity-awesome-skills ⭐ 33k 1,400+ installable agentic skills for Claude Code and other AI CLIs" [ref=e916]:
+                        - cell "sickn33/antigravity-awesome-skills" [ref=e917]:
+                          - link "sickn33/antigravity-awesome-skills" [ref=e918] [cursor=pointer]:
+                            - /url: https://github.com/sickn33/antigravity-awesome-skills
+                        - cell "⭐ 33k" [ref=e919]
+                        - cell "1,400+ installable agentic skills for Claude Code and other AI CLIs" [ref=e920]
+                      - row "VoltAgent/awesome-claude-code-subagents ⭐ 17k 100+ specialized Claude Code subagents for development use cases" [ref=e921]:
+                        - cell "VoltAgent/awesome-claude-code-subagents" [ref=e922]:
+                          - link "VoltAgent/awesome-claude-code-subagents" [ref=e923] [cursor=pointer]:
+                            - /url: https://github.com/VoltAgent/awesome-claude-code-subagents
+                        - cell "⭐ 17k" [ref=e924]
+                        - cell "100+ specialized Claude Code subagents for development use cases" [ref=e925]
+                      - row "VoltAgent/awesome-agent-skills ⭐ 16k 1,000+ agent skills from official teams and the community" [ref=e926]:
+                        - cell "VoltAgent/awesome-agent-skills" [ref=e927]:
+                          - link "VoltAgent/awesome-agent-skills" [ref=e928] [cursor=pointer]:
+                            - /url: https://github.com/VoltAgent/awesome-agent-skills
+                        - cell "⭐ 16k" [ref=e929]
+                        - cell "1,000+ agent skills from official teams and the community" [ref=e930]
+                      - row "travisvn/awesome-claude-skills ⭐ 11k Curated Claude Skills list with workflow examples" [ref=e931]:
+                        - cell "travisvn/awesome-claude-skills" [ref=e932]:
+                          - link "travisvn/awesome-claude-skills" [ref=e933] [cursor=pointer]:
+                            - /url: https://github.com/travisvn/awesome-claude-skills
+                        - cell "⭐ 11k" [ref=e934]
+                        - cell "Curated Claude Skills list with workflow examples" [ref=e935]
+                  - generic [ref=e936]:
+                    - heading "Skills & Best Practices" [level=3] [ref=e937]
+                    - 'link "Permalink: Skills & Best Practices" [ref=e938] [cursor=pointer]':
+                      - /url: "#skills--best-practices"
+                      - img [ref=e939]
+                  - table [ref=e942]:
+                    - rowgroup [ref=e943]:
+                      - row "Repo Stars What it is" [ref=e944]:
+                        - columnheader "Repo" [ref=e945]
+                        - columnheader "Stars" [ref=e946]
+                        - columnheader "What it is" [ref=e947]
+                    - rowgroup [ref=e948]:
+                      - row "YYH211/Claude-meta-skill ⭐ 256 Reusable skill modules — good reference for structuring your own" [ref=e949]:
+                        - cell "YYH211/Claude-meta-skill" [ref=e950]:
+                          - link "YYH211/Claude-meta-skill" [ref=e951] [cursor=pointer]:
+                            - /url: https://github.com/YYH211/Claude-meta-skill
+                        - cell "⭐ 256" [ref=e952]
+                        - cell "Reusable skill modules — good reference for structuring your own" [ref=e953]
+                      - row "agamm/claude-code-owasp ⭐ 128 OWASP security best practices skill (Top 10:2025, ASVS 5.0)" [ref=e954]:
+                        - cell "agamm/claude-code-owasp" [ref=e955]:
+                          - link "agamm/claude-code-owasp" [ref=e956] [cursor=pointer]:
+                            - /url: https://github.com/agamm/claude-code-owasp
+                        - cell "⭐ 128" [ref=e957]
+                        - cell "OWASP security best practices skill (Top 10:2025, ASVS 5.0)" [ref=e958]
+                      - row "ThamJiaHe/claude-code-handbook ⭐ 104 Guide for professional Claude prompts with MCP and Skills" [ref=e959]:
+                        - cell "ThamJiaHe/claude-code-handbook" [ref=e960]:
+                          - link "ThamJiaHe/claude-code-handbook" [ref=e961] [cursor=pointer]:
+                            - /url: https://github.com/ThamJiaHe/claude-code-handbook
+                        - cell "⭐ 104" [ref=e962]
+                        - cell "Guide for professional Claude prompts with MCP and Skills" [ref=e963]
+                  - generic [ref=e964]:
+                    - heading "Memory Management" [level=3] [ref=e965]
+                    - 'link "Permalink: Memory Management" [ref=e966] [cursor=pointer]':
+                      - /url: "#memory-management"
+                      - img [ref=e967]
+                  - table [ref=e970]:
+                    - rowgroup [ref=e971]:
+                      - row "Repo What it is" [ref=e972]:
+                        - columnheader "Repo" [ref=e973]
+                        - columnheader "What it is" [ref=e974]
+                    - rowgroup [ref=e975]:
+                      - row "lucasrosati/claude-code-memory-setup Obsidian + Graphify — up to 71.5x fewer tokens per session. Persistent memory and codebase knowledge graphs." [ref=e976]:
+                        - cell "lucasrosati/claude-code-memory-setup" [ref=e977]:
+                          - link "lucasrosati/claude-code-memory-setup" [ref=e978] [cursor=pointer]:
+                            - /url: https://github.com/lucasrosati/claude-code-memory-setup
+                        - cell "Obsidian + Graphify — up to 71.5x fewer tokens per session. Persistent memory and codebase knowledge graphs." [ref=e979]:
+                          - strong [ref=e980]: Obsidian + Graphify
+                          - text: — up to 71.5x fewer tokens per session. Persistent memory and codebase knowledge graphs.
+                  - separator [ref=e981]
+                  - generic [ref=e982]:
+                    - heading "🤔 What is Claude Code?" [level=2] [ref=e983]
+                    - 'link "Permalink: 🤔 What is Claude Code?" [ref=e984] [cursor=pointer]':
+                      - /url: "#-what-is-claude-code"
+                      - img [ref=e985]
+                  - paragraph [ref=e987]: An AI assistant that runs inside your project folder and reads your actual files. Not a chatbot — a collaborator.
+                  - table [ref=e989]:
+                    - rowgroup [ref=e990]:
+                      - row "Claude.ai / ChatGPT Claude Code" [ref=e991]:
+                        - columnheader "Claude.ai / ChatGPT" [ref=e992]
+                        - columnheader "Claude Code" [ref=e993]
+                    - rowgroup [ref=e994]:
+                      - row "You paste text into a chat box Claude reads your actual files" [ref=e995]:
+                        - cell "You paste text into a chat box" [ref=e996]
+                        - cell "Claude reads your actual files" [ref=e997]
+                      - row "Starts fresh every conversation Remembers your project through CLAUDE.md" [ref=e998]:
+                        - cell "Starts fresh every conversation" [ref=e999]
+                        - cell "Remembers your project through CLAUDE.md" [ref=e1000]:
+                          - text: Remembers your project through
+                          - code [ref=e1001]: CLAUDE.md
+                      - row "You copy-paste results manually Edits files directly" [ref=e1002]:
+                        - cell "You copy-paste results manually" [ref=e1003]
+                        - cell "Edits files directly" [ref=e1004]
+                      - row "General-purpose Configured for how your team works" [ref=e1005]:
+                        - cell "General-purpose" [ref=e1006]
+                        - cell "Configured for how your team works" [ref=e1007]
+                  - separator [ref=e1008]
+                  - generic [ref=e1009]:
+                    - heading "⚙️ Installation" [level=2] [ref=e1010]
+                    - 'link "Permalink: ⚙️ Installation" [ref=e1011] [cursor=pointer]':
+                      - /url: "#️-installation"
+                      - img [ref=e1012]
+                  - paragraph [ref=e1014]: Takes about 10 minutes. You'll do it once.
+                  - generic [ref=e1015]:
+                    - heading "Step 1 — Choose your access method" [level=3] [ref=e1016]
+                    - 'link "Permalink: Step 1 — Choose your access method" [ref=e1017] [cursor=pointer]':
+                      - /url: "#step-1--choose-your-access-method"
+                      - img [ref=e1018]
+                  - paragraph [ref=e1020]:
+                    - strong [ref=e1021]: "Option A: Claude Max (recommended)"
+                  - paragraph [ref=e1022]: Claude Max ($100/month) includes Claude Code with no usage limits and no per-token billing.
+                  - list [ref=e1023]:
+                    - listitem [ref=e1024]:
+                      - text: Go to
+                      - link "claude.ai/upgrade" [ref=e1025] [cursor=pointer]:
+                        - /url: https://claude.ai/upgrade
+                      - text: → subscribe to
+                      - strong [ref=e1026]: Max
+                    - listitem [ref=e1027]: Claude Code is included — no API key needed
+                    - listitem [ref=e1028]:
+                      - text: Run
+                      - code [ref=e1029]: claude
+                      - text: and log in with your Claude account
+                  - paragraph [ref=e1030]:
+                    - strong [ref=e1031]: "Option B: API Key (pay as you go)"
+                  - paragraph [ref=e1032]: Better if you want to control costs or are already an API customer.
+                  - list [ref=e1033]:
+                    - listitem [ref=e1034]:
+                      - text: Go to
+                      - link "console.anthropic.com" [ref=e1035] [cursor=pointer]:
+                        - /url: https://console.anthropic.com
+                      - text: → create account →
+                      - strong [ref=e1036]: API Keys
+                      - text: →
+                      - strong [ref=e1037]: Create Key
+                  - paragraph [ref=e1038]:
+                    - link "Anthropic Console — API Keys page" [ref=e1039] [cursor=pointer]:
+                      - /url: https://camo.githubusercontent.com/187b446491a472edb78542fd995fdf346ae8a89fea3ae39ae2f845539c4d6ff1/68747470733a2f2f646576656c6f7065722e70757465722e636f6d2f6173736574732f696d672f616e7468726f7069632f6170692d6b65792d706167652e77656270
+                      - img "Anthropic Console — API Keys page" [ref=e1040]
+                  - list [ref=e1041]:
+                    - listitem [ref=e1042]:
+                      - text: Copy the key (starts with
+                      - code [ref=e1043]: sk-ant-...
+                      - text: ) — you won't see it again
+                    - listitem [ref=e1044]: "Set it in your terminal:"
+                  - generic [ref=e1045]:
+                    - generic [ref=e1046]:
+                      - text: export ANTHROPIC_API_KEY=sk-ant-your-key-here
+                      - generic [ref=e1047]: "# Make it permanent:"
+                      - text: echo
+                      - generic [ref=e1048]: "'export ANTHROPIC_API_KEY=sk-ant-your-key-here'"
+                      - text: ">> ~/.zshrc source ~/.zshrc"
+                    - button "Copy" [ref=e1050] [cursor=pointer]:
+                      - img [ref=e1051]
+                  - blockquote [ref=e1054]:
+                    - paragraph [ref=e1055]: Never commit your API key to GitHub.
+                  - generic [ref=e1056]:
+                    - heading "Step 2 — Install Claude Code" [level=3] [ref=e1057]
+                    - 'link "Permalink: Step 2 — Install Claude Code" [ref=e1058] [cursor=pointer]':
+                      - /url: "#step-2--install-claude-code"
+                      - img [ref=e1059]
+                  - paragraph [ref=e1061]:
+                    - text: Requires
+                    - link "Node.js" [ref=e1062] [cursor=pointer]:
+                      - /url: https://nodejs.org
+                    - text: (LTS version).
+                  - generic [ref=e1063]:
+                    - generic [ref=e1064]:
+                      - text: npm install -g @anthropic/claude-code
+                      - generic [ref=e1065]: "# Verify:"
+                      - text: claude --version
+                    - button "Copy" [ref=e1067] [cursor=pointer]:
+                      - img [ref=e1068]
+                  - generic [ref=e1071]:
+                    - heading "Step 3 — Start Claude Code" [level=3] [ref=e1072]
+                    - 'link "Permalink: Step 3 — Start Claude Code" [ref=e1073] [cursor=pointer]':
+                      - /url: "#step-3--start-claude-code"
+                      - img [ref=e1074]
+                  - generic [ref=e1076]:
+                    - generic [ref=e1077]: cd claude-code-starter/module-1 claude
+                    - button "Copy" [ref=e1079] [cursor=pointer]:
+                      - img [ref=e1080]
+                  - paragraph [ref=e1083]:
+                    - link "Claude Code running in terminal" [ref=e1085] [cursor=pointer]:
+                      - /url: https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif
+                      - img "Claude Code running in terminal" [ref=e1086]
+                  - paragraph [ref=e1087]:
+                    - text: You're in. Head to
+                    - link "module-1/README.md" [ref=e1088] [cursor=pointer]:
+                      - /url: /hamzafarooq/claude-code-starter/blob/main/module-1/README.md
+                    - text: for your first assignment.
+                  - separator [ref=e1089]
+                  - generic [ref=e1090]:
+                    - heading "💬 Prompts Worth Keeping" [level=2] [ref=e1091]
+                    - 'link "Permalink: 💬 Prompts Worth Keeping" [ref=e1092] [cursor=pointer]':
+                      - /url: "#-prompts-worth-keeping"
+                      - img [ref=e1093]
+                  - table [ref=e1096]:
+                    - rowgroup [ref=e1097]:
+                      - row "What you want What to type" [ref=e1098]:
+                        - columnheader "What you want" [ref=e1099]
+                        - columnheader "What to type" [ref=e1100]
+                    - rowgroup [ref=e1101]:
+                      - row "Generate a PRD /prd-generator" [ref=e1102]:
+                        - cell "Generate a PRD" [ref=e1103]
+                        - cell "/prd-generator" [ref=e1104]:
+                          - code [ref=e1105]: /prd-generator
+                      - row "Write user stories /user-story-writer" [ref=e1106]:
+                        - cell "Write user stories" [ref=e1107]
+                        - cell "/user-story-writer" [ref=e1108]:
+                          - code [ref=e1109]: /user-story-writer
+                      - row "Find gaps in a spec \"Review docs/prd.md and tell me what's missing\"" [ref=e1110]:
+                        - cell "Find gaps in a spec" [ref=e1111]
+                        - cell "\"Review docs/prd.md and tell me what's missing\"" [ref=e1112]:
+                          - code [ref=e1113]: "\"Review docs/prd.md and tell me what's missing\""
+                      - row "Write for execs \"Rewrite this as 3 bullets for a VP with 10 seconds\"" [ref=e1114]:
+                        - cell "Write for execs" [ref=e1115]
+                        - cell "\"Rewrite this as 3 bullets for a VP with 10 seconds\"" [ref=e1116]:
+                          - code [ref=e1117]: "\"Rewrite this as 3 bullets for a VP with 10 seconds\""
+                      - row "Prep for engineering \"What questions will engineers ask about this PRD?\"" [ref=e1118]:
+                        - cell "Prep for engineering" [ref=e1119]
+                        - cell "\"What questions will engineers ask about this PRD?\"" [ref=e1120]:
+                          - code [ref=e1121]: "\"What questions will engineers ask about this PRD?\""
+                      - row "Build a sprint plan \"Turn the must-have stories into a 2-week sprint plan\"" [ref=e1122]:
+                        - cell "Build a sprint plan" [ref=e1123]
+                        - cell "\"Turn the must-have stories into a 2-week sprint plan\"" [ref=e1124]:
+                          - code [ref=e1125]: "\"Turn the must-have stories into a 2-week sprint plan\""
+                      - row "Stress-test a flow \"What edge cases am I missing here?\"" [ref=e1126]:
+                        - cell "Stress-test a flow" [ref=e1127]
+                        - cell "\"What edge cases am I missing here?\"" [ref=e1128]:
+                          - code [ref=e1129]: "\"What edge cases am I missing here?\""
+                  - separator [ref=e1130]
+                  - generic [ref=e1131]:
+                    - heading "🔧 Troubleshooting" [level=2] [ref=e1132]
+                    - 'link "Permalink: 🔧 Troubleshooting" [ref=e1133] [cursor=pointer]':
+                      - /url: "#-troubleshooting"
+                      - img [ref=e1134]
+                  - paragraph [ref=e1136]:
+                    - strong [ref=e1137]:
+                      - code [ref=e1138]: "command not found: claude"
+                    - text: Run
+                    - code [ref=e1139]: npm install -g @anthropic/claude-code
+                    - text: "again. Check Node.js is installed:"
+                    - code [ref=e1140]: node --version
+                    - text: .
+                  - paragraph [ref=e1141]:
+                    - strong [ref=e1142]: API key error
+                    - text: Run
+                    - code [ref=e1143]: export ANTHROPIC_API_KEY=your-key-here
+                    - text: . Make sure the key includes
+                    - code [ref=e1144]: sk-ant-
+                    - text: .
+                  - paragraph [ref=e1145]:
+                    - strong [ref=e1146]: Claude isn't reading my CLAUDE.md
+                    - text: The file must be named exactly
+                    - code [ref=e1147]: CLAUDE.md
+                    - text: (all caps) in the folder where you ran
+                    - code [ref=e1148]: claude
+                    - text: .
+                  - paragraph [ref=e1149]:
+                    - strong [ref=e1150]: Skill not triggering
+                    - text: Check the path is
+                    - code [ref=e1151]: .claude/skills/<name>/SKILL.md
+                    - text: and the
+                    - code [ref=e1152]: "name:"
+                    - text: field in the frontmatter matches what you typed after
+                    - code [ref=e1153]: /
+                    - text: .
+                  - separator [ref=e1154]
+                  - paragraph [ref=e1155]:
+                    - link "Enroll in Claude Code in Practice on Maven" [ref=e1156] [cursor=pointer]:
+                      - /url: https://maven.com/boring-bot/claude-code-in-practice
+                      - img "Enroll in Claude Code in Practice on Maven" [ref=e1157]
+                  - paragraph [ref=e1158]:
+                    - emphasis [ref=e1159]:
+                      - link "Claude Code in Practice" [ref=e1160] [cursor=pointer]:
+                        - /url: https://maven.com/boring-bot/claude-code-in-practice
+                      - text: · Hamza Farooq · Traversaal.ai
+  - alert [ref=e1164]

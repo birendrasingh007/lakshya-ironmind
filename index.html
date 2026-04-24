@@ -1,12 +1,213 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lakshya-ironmind — Health &amp; Habit Co-Pilot</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IronMind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+  <div class="max-w-3xl mx-auto p-4">
+    <h1 class="text-4xl font-bold text-center my-8">💪 IronMind</h1>
+    
+    <!-- CHECKIN PAGE -->
+    <div id="checkinPage" class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-bold mb-6">Daily Check-in</h2>
+      
+      <form id="checkinForm" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium mb-2">Energy Level</label>
+          <div class="flex gap-2">
+            <label><input type="radio" name="energy" value="Low"> Low</label>
+            <label><input type="radio" name="energy" value="Medium" checked> Medium</label>
+            <label><input type="radio" name="energy" value="High"> High</label>
+          </div>
+        </div>
+        
+        <div>
+          <label class="block text-sm font-medium mb-2">Time Available (minutes)</label>
+          <input type="number" name="timeAvailable" value="90" class="w-full border p-2 rounded">
+        </div>
+        
+        <div>
+          <label class="block text-sm font-medium mb-2">Constraints (optional)</label>
+          <input type="text" name="constraints" placeholder="e.g., kids, back pain" class="w-full border p-2 rounded">
+        </div>
+        
+        <div>
+          <label class="block text-sm font-medium mb-2">Workout Preference</label>
+          <select name="workoutType" class="w-full border p-2 rounded">
+            <option>Strength</option>
+            <option>Cardio</option>
+            <option>Yoga</option>
+            <option>Mobility</option>
+            <option>Other</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="w-full bg-green-600 text-white p-3 rounded font-bold hover:bg-green-700">Get Today's Habit</button>
+      </form>
+    </div>
+    
+    <!-- PLAN PAGE -->
+    <div id="planPage" class="bg-white rounded-lg shadow p-6 hidden">
+      <h2 class="text-2xl font-bold mb-4">Your Personalized Plan</h2>
+      
+      <div id="planContent" class="bg-gray-50 p-4 rounded text-sm whitespace-pre-wrap font-mono mb-6 max-h-96 overflow-auto"></div>
+      
+      <div class="flex gap-2">
+        <button id="approvePlan" class="flex-1 bg-green-600 text-white p-3 rounded font-bold hover:bg-green-700">✓ Approve</button>
+        <button id="regeneratePlan" class="flex-1 bg-blue-600 text-white p-3 rounded font-bold hover:bg-blue-700">⟳ Regenerate</button>
+        <button id="backToCheckin" class="flex-1 bg-gray-600 text-white p-3 rounded font-bold hover:bg-gray-700">← Back</button>
+      </div>
+    </div>
+    
+    <!-- APPROVED PAGE -->
+    <div id="approvedPage" class="bg-white rounded-lg shadow p-6 hidden">
+      <h2 class="text-2xl font-bold mb-4">✓ Plan Approved</h2>
+      <p class="text-gray-600 mb-4">Your workout plan is locked in. You'll get nudges throughout the day:</p>
+      <div id="nudgeSchedule" class="space-y-2 mb-6"></div>
+      <button id="continueToSummary" class="w-full bg-green-600 text-white p-3 rounded font-bold hover:bg-green-700">Continue to Evening Summary</button>
+    </div>
+    
+    <!-- SUMMARY PAGE -->
+    <div id="summaryPage" class="bg-white rounded-lg shadow p-6 hidden">
+      <h2 class="text-2xl font-bold mb-6">Evening Summary</h2>
+      
+      <form id="summaryForm" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium mb-2">How was your workout? (optional)</label>
+          <textarea name="sessionNotes" rows="4" placeholder="e.g., Completed all sets, felt strong on squats, skipped cardio" class="w-full border p-2 rounded"></textarea>
+        </div>
+        
+        <button type="submit" class="w-full bg-green-600 text-white p-3 rounded font-bold hover:bg-green-700">Get Evening Insights</button>
+      </form>
+      
+      <div id="summaryResult" class="mt-6 hidden">
+        <h3 class="text-lg font-bold mb-3">Daily Recap</h3>
+        <div id="summaryContent" class="bg-gray-50 p-4 rounded text-sm whitespace-pre-wrap font-mono max-h-96 overflow-auto"></div>
+        <button id="resetDay" class="w-full mt-4 bg-green-600 text-white p-3 rounded font-bold hover:bg-green-700">✓ Complete & Start Fresh Tomorrow</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentCheckin = null;
+
+    // CHECKIN SUBMISSION
+    document.getElementById('checkinForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      currentCheckin = {
+        energy: document.querySelector('input[name="energy"]:checked').value,
+        timeAvailable: parseInt(document.querySelector('input[name="timeAvailable"]').value),
+        constraints: document.querySelector('input[name="constraints"]').value,
+        workoutType: document.querySelector('select[name="workoutType"]').value
+      };
+      
+      try {
+        const res = await fetch('http://localhost:3001/api/checkin', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(currentCheckin)
+        });
+        
+        const data = await res.json();
+        if (data.success) {
+          generatePlan();
+        }
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+    });
+
+    // PLAN GENERATION
+    async function generatePlan() {
+      try {
+        const res = await fetch('http://localhost:3001/api/plan', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(currentCheckin)
+        });
+        
+        const data = await res.json();
+        if (data.success) {
+          document.getElementById('checkinPage').classList.add('hidden');
+          document.getElementById('planPage').classList.remove('hidden');
+          document.getElementById('planContent').textContent = data.output;
+        }
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+    }
+
+    // REGENERATE PLAN
+    document.getElementById('regeneratePlan').addEventListener('click', generatePlan);
+
+    // APPROVE PLAN
+    document.getElementById('approvePlan').addEventListener('click', () => {
+      document.getElementById('planPage').classList.add('hidden');
+      document.getElementById('approvedPage').classList.remove('hidden');
+      
+      const nudges = [
+        { time: '11:00 AM', text: 'Time to hit the gym' },
+        { time: '12:30 PM', text: 'Mid-session check-in' },
+        { time: '2:00 PM', text: 'Log your lifts' },
+        { time: '8:00 PM', text: 'Evening summary' }
+      ];
+      
+      document.getElementById('nudgeSchedule').innerHTML = nudges.map(n => 
+        `<div class="flex justify-between items-center p-2 bg-gray-100 rounded">
+          <span class="font-bold">${n.time}</span>
+          <span>${n.text}</span>
+        </div>`
+      ).join('');
+    });
+
+    // CONTINUE TO SUMMARY
+    document.getElementById('continueToSummary').addEventListener('click', () => {
+      document.getElementById('approvedPage').classList.add('hidden');
+      document.getElementById('summaryPage').classList.remove('hidden');
+    });
+
+    // BACK TO CHECKIN
+    document.getElementById('backToCheckin').addEventListener('click', () => {
+      document.getElementById('planPage').classList.add('hidden');
+      document.getElementById('checkinPage').classList.remove('hidden');
+    });
+
+    // SUMMARY SUBMISSION
+    document.getElementById('summaryForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const sessionNotes = document.querySelector('textarea[name="sessionNotes"]').value || 'Completed workout as planned.';
+      
+      try {
+        const res = await fetch('http://localhost:3001/api/summary', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ sessionNotes })
+        });
+        
+        const data = await res.json();
+        if (data.success) {
+          document.getElementById('summaryForm').classList.add('hidden');
+          document.getElementById('summaryResult').classList.remove('hidden');
+          document.getElementById('summaryContent').textContent = data.output;
+        }
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+    });
+
+    // RESET FOR NEXT DAY
+    document.getElementById('resetDay').addEventListener('click', () => {
+      document.getElementById('summaryPage').classList.add('hidden');
+      document.getElementById('checkinPage').classList.remove('hidden');
+      document.getElementById('summaryForm').classList.remove('hidden');
+      document.getElementById('summaryResult').classList.add('hidden');
+      document.getElementById('checkinForm').reset();
+    });
+  </script>
+</body>
 </html>

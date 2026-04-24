@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -19,5 +22,21 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.16",
     "vite": "^6.0.5"
-  }
+  },
+  "description": "Personalized Health &amp; Habit Co-Pilot — Claude Code Capstone",
+  "main": "postcss.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birendrasingh007/lakshya-ironmind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birendrasingh007/lakshya-ironmind/issues"
+  },
+  "homepage": "https://github.com/birendrasingh007/lakshya-ironmind#readme"
 }
