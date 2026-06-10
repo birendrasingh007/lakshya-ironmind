@@ -22,6 +22,93 @@ A: Capstone context (Hamza's course). Claude's instruction-following superior fo
 
 ---
 
+## Technology Stack
+
+### Q: Why React + Vite instead of Next.js or plain HTML/CSS?
+
+**Decision:** React + Vite for frontend framework.
+
+**Rationale:**
+- **Speed:** Vite rebuilds in <100ms (vs Webpack's seconds). Critical for rapid iteration in 16-day sprint.
+- **React ecosystem:** Large component library, hooks for state management, easier to reuse components across screens (/checkin, /reset, /complete, /cohort).
+- **Simplicity:** Don't need Next.js full-stack routing for capstone MVP. Just frontend + separate Express backend.
+- **Lightweight:** No unnecessary server-side rendering for this use case.
+
+**Post-capstone consideration:** Could migrate to Next.js for integrated API routes, but MVP doesn't justify the complexity.
+
+**Interview angle:** "I evaluated create-react-app vs Vite. Vite's fast rebuild loop was worth the learning curve for a tight capstone timeline."
+
+---
+
+### Q: Why Express backend instead of serverless (AWS Lambda, Vercel Functions)?
+
+**Decision:** Express.js backend for server-side agent orchestration.
+
+**Rationale:**
+- **Agent state:** Claude agents need persistent memory (user_history, user-pattern.md). Express server can maintain this between requests.
+- **Cost:** Free tier is sufficient for 5-8 users. Serverless pricing per invocation would be overkill.
+- **Control:** Full control over request/response cycle, agent chaining (stress-checkin-agent → reset-plan-agent → database).
+- **Deployment:** Railway (free tier) or Vercel backend functions both work. Express is portable.
+
+**Trade-off:** Serverless would be simpler for stateless APIs. But agent logic requires state management.
+
+**Interview angle:** "For agentic workflows, I need request context to carry data between agent calls. Express gives me that control."
+
+---
+
+### Q: Why Tailwind CSS instead of styled-components or vanilla CSS?
+
+**Decision:** Tailwind CSS for styling.
+
+**Rationale:**
+- **Speed:** Utility-first approach = faster styling than writing custom CSS. Critical for MVP timeline.
+- **Consistency:** Predefined color palette, spacing, typography ensures cohesive UI.
+- **Minimal setup:** Works out-of-the-box with Vite. No runtime overhead (vs styled-components).
+- **Responsive:** Built-in mobile-first breakpoints (needed for eventual React Native port).
+
+**Trade-off:** Larger initial CSS bundle. But for capstone scale, negligible.
+
+**Interview angle:** "Tailwind trades raw CSS flexibility for speed. For capstone with tight deadline, speed wins."
+
+---
+
+### Q: Why @anthropic-ai/sdk instead of REST API calls?
+
+**Decision:** Use Anthropic's official SDK (`@anthropic-ai/sdk`) for Claude API calls.
+
+**Rationale:**
+- **Type safety:** SDK provides TypeScript types, error handling, retry logic out-of-the-box.
+- **Reliability:** Official SDK = guaranteed compatibility with latest Claude models.
+- **Agent patterns:** SDK naturally supports multi-turn conversations (needed for agent chaining).
+- **Simpler code:** vs manually building HTTP requests with axios + parsing JSON.
+
+**Example (SDK):**
+```javascript
+const response = await client.messages.create({
+  model: "claude-sonnet-4-20250514",
+  max_tokens: 500,
+  system: "You are stress-checkin-agent...",
+  messages: [{ role: "user", content: JSON.stringify(userInput) }]
+});
+```
+
+**vs (REST):**
+```javascript
+const response = await fetch("https://api.anthropic.com/v1/messages", {
+  method: "POST",
+  headers: { "anthropic-api-key": KEY, "content-type": "application/json" },
+  body: JSON.stringify({ model: "claude-sonnet-4-20250514", ... })
+});
+```
+
+**SDK is cleaner + more maintainable.**
+
+**Interview angle:** "Official SDKs reduce boilerplate and maintenance burden. I chose SDK over raw REST to focus on agent logic, not API plumbing."
+
+---
+
+---
+
 ## Architecture
 
 **Q: Why one `DailyState` table instead of separate tables per wheel?**
