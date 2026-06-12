@@ -1,198 +1,98 @@
 import React, { useState } from 'react';
 import './index.css';
+import CheckinForm from './screens/Checkin';
+import ResetScreen from './screens/Reset';
+import CompleteScreen from './screens/Complete';
+
 
 /**
- * CheckinScreen Component
+ * App Component (Main Screen Router)
  * 
- * WHAT: React form that captures user's daily stress state
- * (stress_score, energy_level, time_available_mins, stress_trigger)
+ * WHAT: Manages navigation between /checkin and /reset screens
  * 
- * WHY: Agentic design pattern - collect raw input, validate, pass to agents.
- * Separates concerns: UI (this file) vs Logic (backend agents).
+ * WHY: Single source of truth for:
+ * - Which screen to show (checkin vs reset)
+ * - Reset plan data (passes to /reset)
+ * - Navigation between screens
  * 
- * HOW: 
- * 1. useState tracks form state (4 fields)
- * 2. Handlers update state on user input (slider, buttons, dropdown)
- * 3. handleSubmit sends POST to /api/checkin (backend)
- * 4. Backend calls stress-checkin-agent for validation
- * 5. Frontend shows success or error message
- * 
- * KEY PARTS:
- * - Stress slider (1-10): Direct emotional input
- * - Energy buttons (Low/Med/High): Quick categorical choice
- * - Time dropdown (2/5/10): Constraint awareness
- * - Trigger buttons (Work/Family/Body/Sleep/Unknown): Context
+ * HOW:
+ * 1. State: currentScreen ('checkin' or 'reset'), resetPlan (data from API)
+ * 2. User submits /checkin form
+ * 3. handleCheckinSubmit stores reset data + switches to /reset screen
+ * 4. User clicks button on /reset
+ * 5. handleResetComplete handles action (Done/Skip/Regenerate)
+ * 6. Navigate accordingly (back to checkin or to complete screen TODO)
  */
 
-export default function CheckinScreen() {
-  const [formData, setFormData] = useState({
-    stress_score: 5,
-    energy_level: 'Medium',
-    time_available_mins: 5,
-    stress_trigger: 'Work'
-  });
+export default function App() {
+  const [currentScreen, setCurrentScreen] = useState('checkin');
+  const [resetPlan, setResetPlan] = useState(null);
+  const [checkinData, setCheckinData] = useState(null);
+  const [completionStatus, setCompletionStatus] = useState(null); // "done" or "skipped"
+ 
 
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const [success, setSuccess] = useState(false);
-
-  // HANDLERS: Update state when user interacts
-  const handleStressChange = (e) => {
-    setFormData({ ...formData, stress_score: parseInt(e.target.value) });
+  // When /checkin form submitted successfully
+  const handleCheckinSubmit = (apiResponse) => {
+    console.log('Checkin submitted, moving to reset screen:', apiResponse);
+    
+    setCheckinData({
+      user_id: apiResponse.user_id || 'birendra-001',
+      stress_score: apiResponse.stress_score,
+      energy_level: apiResponse.energy_level,
+      time_available_mins: apiResponse.time_available_mins,
+      stress_trigger: apiResponse.stress_trigger
+    });
+    
+    setResetPlan({
+      reset_plan_id: apiResponse.reset_plan_id,
+      reset_title: apiResponse.reset_title,
+      duration_mins: apiResponse.duration_mins,
+      steps: apiResponse.steps,
+      why_this_reset: apiResponse.why_this_reset,
+      follow_up: apiResponse.follow_up
+    });
+    
+    setCurrentScreen('reset');
   };
 
-  const handleEnergyChange = (value) => {
-    setFormData({ ...formData, energy_level: value });
-  };
-
-  const handleTimeChange = (e) => {
-    setFormData({ ...formData, time_available_mins: parseInt(e.target.value) });
-  };
-
-  const handleTriggerChange = (value) => {
-    setFormData({ ...formData, stress_trigger: value });
-  };
-
-  // SUBMIT: Send form data to backend
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // Prevent page reload. We handle via API.
-
-    setLoading(true);
-    setError(null);
-    setSuccess(false);
-    // Reset status before new request.
-
-    try {
-      // CLIENT-SIDE VALIDATION (for UX)
-      if (formData.stress_score < 1 || formData.stress_score > 10) {
-        throw new Error('Stress must be 1-10');
-      }
-
-      // CALL BACKEND
-      // Backend will:
-      // 1. Call stress-checkin-agent (Haiku) to validate
-      // 2. Call reset-plan-agent (Sonnet) to generate reset
-      // 3. Store in AirTable DailyState table
-      const response = await fetch('/api/checkin', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          user_id: 'birendra-001', // TODO: Replace with actual auth
-          stress_score: formData.stress_score,
-          energy_level: formData.energy_level,
-          time_available_mins: formData.time_available_mins,
-          stress_trigger: formData.stress_trigger
-        })
-      });
-
-      // SERVER-SIDE VALIDATION (security)
-      if (!response.ok) throw new Error('API error');
-
-      const data = await response.json();
-      console.log('Checkin response:', data);
-      // TODO: Navigate to /reset screen with data.reset_plan_id
-
-      setSuccess(true);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-      // Always disable button, whether success or error.
+  const handleResetComplete = (actionData) => {
+    console.log('Reset action:', actionData);
+    
+    if (actionData?.action === 'done' || actionData?.action === 'skip') {
+      setCompletionStatus(actionData.action); // Store action type
+      setCurrentScreen('complete'); // Navigate to complete screen
     }
   };
 
+  const handleCompleteSubmit = (feedbackData) => {
+    console.log('Feedback submitted:', feedbackData);
+    // Reset everything, go back to checkin
+    setCurrentScreen('checkin');
+    setResetPlan(null);
+    setCheckinData(null);
+    setCompletionStatus(null);
+  };
+
   return (
-    <div className="checkin-container">
-      <div className="checkin-card">
-        <h1>📊 How Are You Today?</h1>
-        
-        <form onSubmit={handleSubmit}>
-          
-          {/* STRESS LEVEL SLIDER */}
-          <div className="form-group">
-            <label>
-              Stress Level: <strong>{formData.stress_score}/10</strong>
-            </label>
-            <input
-              type="range"
-              min="1"
-              max="10"
-              value={formData.stress_score}
-              onChange={handleStressChange}
-              className="slider"
-            />
-            <div className="slider-labels">
-              <span>Calm</span>
-              <span>Overwhelmed</span>
-            </div>
-          </div>
-
-          {/* ENERGY LEVEL BUTTONS */}
-          <div className="form-group">
-            <label>Energy Level:</label>
-            <div className="button-group">
-              {['Low', 'Medium', 'High'].map((level) => (
-                <button
-                  key={level}
-                  type="button"
-                  className={`btn-energy ${formData.energy_level === level ? 'active' : ''}`}
-                  onClick={() => handleEnergyChange(level)}
-                >
-                  {level}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* TIME AVAILABLE DROPDOWN */}
-          <div className="form-group">
-            <label htmlFor="time">Time Available:</label>
-            <select
-              id="time"
-              value={formData.time_available_mins}
-              onChange={handleTimeChange}
-              className="select"
-            >
-              <option value={2}>2 minutes</option>
-              <option value={5}>5 minutes</option>
-              <option value={10}>10 minutes</option>
-            </select>
-          </div>
-
-          {/* STRESS TRIGGER BUTTONS */}
-          <div className="form-group">
-            <label>What Triggered This?</label>
-            <div className="trigger-grid">
-              {['Work', 'Family', 'Body', 'Sleep', 'Unknown'].map((trigger) => (
-                <button
-                  key={trigger}
-                  type="button"
-                  className={`btn-trigger ${formData.stress_trigger === trigger ? 'active' : ''}`}
-                  onClick={() => handleTriggerChange(trigger)}
-                >
-                  {trigger}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* ERROR MESSAGE */}
-          {error && <div className="error">{error}</div>}
-
-          {/* SUCCESS MESSAGE */}
-          {success && <div className="success">✅ Check-in saved! Loading your reset...</div>}
-
-          {/* SUBMIT BUTTON */}
-          <button
-            type="submit"
-            disabled={loading}
-            className="btn-submit"
-          >
-            {loading ? 'Generating Reset...' : 'Generate Reset'}
-          </button>
-        </form>
-      </div>
-    </div>
+    <>
+      {currentScreen === 'checkin' && (
+        <CheckinForm onSubmit={handleCheckinSubmit} />
+      )}
+      {currentScreen === 'reset' && resetPlan && (
+        <ResetScreen 
+          resetPlan={resetPlan} 
+          checkinData={checkinData}
+          onComplete={handleResetComplete} 
+        />
+      )}
+      {currentScreen === 'complete' && resetPlan && (
+        <CompleteScreen 
+          resetPlan={resetPlan}
+          completionStatus={completionStatus}
+          onComplete={handleCompleteSubmit}
+        />
+      )}
+    </>
   );
+
 }
