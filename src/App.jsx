@@ -4,6 +4,7 @@ import CheckinForm from './screens/Checkin';
 import ResetScreen from './screens/Reset';
 import CompleteScreen from './screens/Complete';
 import CohortScreen from './screens/Cohort';
+import SummaryScreen from './screens/Summary';
 
 
 /**
@@ -31,7 +32,8 @@ export default function App() {
   const [checkinData, setCheckinData] = useState(null);
   const [completionStatus, setCompletionStatus] = useState(null); // "done" or "skipped"
   const [showCohort, setShowCohort] = useState(false);  
- 
+  const [showSummary, setShowSummary] = useState(false);
+
 
   // When /checkin form submitted successfully
   const handleCheckinSubmit = (apiResponse) => {
@@ -79,36 +81,47 @@ export default function App() {
   };
 
   const handleCohortBack = () => {
+    // Instead of going back to checkin, show options:
+    // For now, just go back to checkin
     setShowCohort(false);
+    setShowSummary(true);
     setCurrentScreen('checkin');
     setResetPlan(null);
     setCheckinData(null);
     setCompletionStatus(null);
   };
   
+  const handleSummaryBack = () => {
+    setShowSummary(false);
+    setShowCohort(true);
+  };
+  
   return (
     <>
-      {!showCohort && currentScreen === 'checkin' && (
+      {!showCohort && !showSummary && currentScreen === 'checkin' && (
         <CheckinForm onSubmit={handleCheckinSubmit} />
       )}
-      {!showCohort && currentScreen === 'reset' && resetPlan && (
+      {!showCohort && !showSummary && currentScreen === 'reset' && resetPlan && (
         <ResetScreen 
           resetPlan={resetPlan} 
           checkinData={checkinData}
           onComplete={handleResetComplete} 
         />
       )}
-      {!showCohort && currentScreen === 'complete' && resetPlan && (
+      {!showCohort && !showSummary && currentScreen === 'complete' && resetPlan && (
         <CompleteScreen 
           resetPlan={resetPlan}
           completionStatus={completionStatus}
           onComplete={handleCompleteSubmit}
         />
       )}
-      {showCohort && (
+      {showCohort && !showSummary && (
         <CohortScreen onNavigateBack={handleCohortBack} />
+      )}
+      {showSummary && (
+        <SummaryScreen onNavigateBack={handleSummaryBack} />
       )}
     </>
   );
-  
+
 }

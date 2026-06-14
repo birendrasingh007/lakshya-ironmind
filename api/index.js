@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import checkinHandler from './checkin.js';
 import cohortHandler from './cohort.js';
+import summaryHandler from './summary.js';
 
 
 dotenv.config();
@@ -50,6 +51,11 @@ app.get('/api/cohort', async (req, res) => {
     await cohortHandler(req, res);
   });  
 
+// Route: GET /api/summary
+app.get('/api/summary', async (req, res) => {
+    await summaryHandler(req, res);
+  });
+  
 app.listen(PORT, () => {
   console.log(`Backend server running on http://localhost:${PORT}`);
 });
