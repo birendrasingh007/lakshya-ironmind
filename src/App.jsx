@@ -3,6 +3,7 @@ import './index.css';
 import CheckinForm from './screens/Checkin';
 import ResetScreen from './screens/Reset';
 import CompleteScreen from './screens/Complete';
+import CohortScreen from './screens/Cohort';
 
 
 /**
@@ -29,6 +30,7 @@ export default function App() {
   const [resetPlan, setResetPlan] = useState(null);
   const [checkinData, setCheckinData] = useState(null);
   const [completionStatus, setCompletionStatus] = useState(null); // "done" or "skipped"
+  const [showCohort, setShowCohort] = useState(false);  
  
 
   // When /checkin form submitted successfully
@@ -66,6 +68,9 @@ export default function App() {
 
   const handleCompleteSubmit = (feedbackData) => {
     console.log('Feedback submitted:', feedbackData);
+    // Navigate to /cohort instead of /checkin
+    setShowCohort(true);
+
     // Reset everything, go back to checkin
     setCurrentScreen('checkin');
     setResetPlan(null);
@@ -73,26 +78,37 @@ export default function App() {
     setCompletionStatus(null);
   };
 
+  const handleCohortBack = () => {
+    setShowCohort(false);
+    setCurrentScreen('checkin');
+    setResetPlan(null);
+    setCheckinData(null);
+    setCompletionStatus(null);
+  };
+  
   return (
     <>
-      {currentScreen === 'checkin' && (
+      {!showCohort && currentScreen === 'checkin' && (
         <CheckinForm onSubmit={handleCheckinSubmit} />
       )}
-      {currentScreen === 'reset' && resetPlan && (
+      {!showCohort && currentScreen === 'reset' && resetPlan && (
         <ResetScreen 
           resetPlan={resetPlan} 
           checkinData={checkinData}
           onComplete={handleResetComplete} 
         />
       )}
-      {currentScreen === 'complete' && resetPlan && (
+      {!showCohort && currentScreen === 'complete' && resetPlan && (
         <CompleteScreen 
           resetPlan={resetPlan}
           completionStatus={completionStatus}
           onComplete={handleCompleteSubmit}
         />
       )}
+      {showCohort && (
+        <CohortScreen onNavigateBack={handleCohortBack} />
+      )}
     </>
   );
-
+  
 }

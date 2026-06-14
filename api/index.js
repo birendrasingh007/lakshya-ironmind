@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import checkinHandler from './checkin.js';
+import cohortHandler from './cohort.js';
+
 
 dotenv.config();
 
@@ -42,6 +44,11 @@ app.post('/api/reset-feedback', async (req, res) => {
       return res.status(500).json({ error: err.message });
     }
   });
+
+// Route: GET /api/cohort
+app.get('/api/cohort', async (req, res) => {
+    await cohortHandler(req, res);
+  });  
 
 app.listen(PORT, () => {
   console.log(`Backend server running on http://localhost:${PORT}`);
