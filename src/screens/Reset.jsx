@@ -47,7 +47,7 @@ export default function ResetScreen({ resetPlan: initialPlan, checkinData, onCom
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          user_id: checkinData?.user_id || 'birendra-001',
+          user_id: localStorage.getItem('user_id'),          
           stress_score: checkinData?.stress_score,
           energy_level: checkinData?.energy_level,
           time_available_mins: checkinData?.time_available_mins,

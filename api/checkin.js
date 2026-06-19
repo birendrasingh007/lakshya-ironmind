@@ -145,30 +145,38 @@ async function generateResetPlan(validatedInput, userHistory, stressTrigger) {
 
 // Save reset plan to AirTable ResetPlans
 async function saveResetPlan(userId, dailyStateId, resetPlan) {
-  try {
-    const records = await base.table("ResetPlans").create([{
-        fields: {
-          user_id: userId,
-          daily_state_id: dailyStateId,
-          plan_date: new Date().toISOString().split('T')[0],
-          reset_title: resetPlan.reset_title,
-          reset_json: JSON.stringify(resetPlan),
-          duration_mins: resetPlan.duration_mins,
-          reasoning: resetPlan.why_this_reset,
-          agent_name: "reset-plan-agent"
-        }
-      }]);
-      
-      return records[0].id;
-  } catch (err) {
-    console.error("ResetPlans save error:", err);
-    throw new Error("Failed to save reset plan to database");
+    try {
+      // Generate unique reset_plan_id
+      const resetPlanId = `rp-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+  
+      const records = await base.table("ResetPlans").create([{
+          fields: {
+            reset_plan_id: resetPlanId,
+            user_id: userId,
+            daily_state_id: dailyStateId,
+            plan_date: new Date().toISOString().split('T')[0],
+            reset_title: resetPlan.reset_title,
+            // ❌ REMOVE reset_type — field doesn't exist in AirTable
+            reset_json: JSON.stringify(resetPlan),
+            duration_mins: resetPlan.duration_mins,
+            reasoning: resetPlan.why_this_reset,
+            agent_name: "reset-plan-agent"
+          }
+        }]);
+        
+        const recordId = records[0].id;
+        console.log("ResetPlan created with reset_plan_id:", resetPlanId, "record ID:", recordId);
+        
+        return recordId;
+    } catch (err) {
+      console.error("ResetPlans save error:", err);
+      throw new Error("Failed to save reset plan to database");
+    }
   }
-}
 
 // MAIN HANDLER
 export default async function handler(req, res) {
-  if (req.method !== 'POST') {
+  if (req.method !== 'POST') { 
     return res.status(405).json({ error: 'Method not allowed' });
   }
 

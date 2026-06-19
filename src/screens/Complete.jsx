@@ -13,7 +13,7 @@ import '../index.css';
  * 2. User clicks: Yes / No / Not sure
  * 3. POST to /api/reset-feedback with feedback
  * 4. Show success message
- * 5. Navigate back to /checkin
+ * 5. Navigate to cohort
  */
 
 export default function CompleteScreen({ resetPlan, completionStatus, onComplete }) {
@@ -28,12 +28,14 @@ export default function CompleteScreen({ resetPlan, completionStatus, onComplete
     setError(null);
 
     try {
+      const user_id = localStorage.getItem('user_id');  // ← GET FROM LOCALSTORAGE
+      
       // POST to /api/reset-feedback
       const response = await fetch('/api/reset-feedback', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          user_id: 'birendra-001',
+          user_id,  // ← FROM LOCALSTORAGE (not hardcoded)
           reset_plan_id: resetPlan?.reset_plan_id,
           completion_status: completionStatus, // "done" or "skipped"
           was_helpful: feedback // "yes", "no", "not_sure"
@@ -46,7 +48,7 @@ export default function CompleteScreen({ resetPlan, completionStatus, onComplete
       console.log('Feedback saved:', data);
       setSuccess(true);
 
-      // Navigate back after 1.5 seconds
+      // Navigate to cohort after 1.5 seconds
       setTimeout(() => {
         if (onComplete) {
           onComplete({ feedback, completionStatus });
@@ -100,10 +102,11 @@ export default function CompleteScreen({ resetPlan, completionStatus, onComplete
             </div>
           </>
         ) : (
-          <div className="success complete-success">
-            ✅ Thanks for the feedback!
-            <div className="complete-message">
-              Your insight helps us learn what works for you. Returning to check-in...
+          <div className="complete-success">
+            <div className="success-emoji">✅</div>
+            <div className="success-title">Thanks for the feedback!</div>
+            <div className="success-message">
+              Your insight helps us learn what works for you. Taking you to your cohort...
             </div>
           </div>
         )}

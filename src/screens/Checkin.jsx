@@ -69,7 +69,7 @@ export default function CheckinForm({ onSubmit }) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          user_id: 'birendra-001',
+          user_id: localStorage.getItem('user_id'),
           stress_score: formData.stress_score,
           energy_level: formData.energy_level,
           time_available_mins: formData.time_available_mins,
@@ -103,6 +103,26 @@ export default function CheckinForm({ onSubmit }) {
   return (
     <div className="checkin-container">
       <div className="checkin-card">
+
+        <button type="button" onClick={() => {
+            localStorage.clear();
+            window.location.href = '/';
+        }}
+        style={{
+            position: 'absolute',
+            top: '20px',
+            right: '20px',
+            padding: '8px 12px',
+            background: '#f3f4f6',
+            border: '1px solid #d1d5db',
+            borderRadius: '4px',
+            fontSize: '12px',
+            cursor: 'pointer'
+        }}
+        >
+        Switch User
+        </button>
+        
         <h1>📊 How Are You Today?</h1>
         
         <form onSubmit={handleSubmit}>

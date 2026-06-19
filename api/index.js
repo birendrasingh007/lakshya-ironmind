@@ -4,7 +4,8 @@ import dotenv from 'dotenv';
 import checkinHandler from './checkin.js';
 import cohortHandler from './cohort.js';
 import summaryHandler from './summary.js';
-
+import authHandler from './auth.js';
+import resetFeedbackHandler from './reset-feedback.js';
 
 dotenv.config();
 
@@ -15,9 +16,29 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// Route: POST /api/auth
+app.post('/api/auth', async (req, res) => {
+  await authHandler(req, res);
+});
+
 // Route: POST /api/checkin
 app.post('/api/checkin', async (req, res) => {
   await checkinHandler(req, res);
+});
+
+// Route: POST /api/reset-feedback
+app.post('/api/reset-feedback', async (req, res) => {
+  await resetFeedbackHandler(req, res);
+});
+
+// Route: GET /api/cohort
+app.get('/api/cohort', async (req, res) => {
+  await cohortHandler(req, res);
+});
+
+// Route: GET /api/summary
+app.get('/api/summary', async (req, res) => {
+  await summaryHandler(req, res);
 });
 
 // Health check
@@ -25,37 +46,6 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-// Route: POST /api/reset-feedback
-app.post('/api/reset-feedback', async (req, res) => {
-    const { user_id, reset_plan_id, completion_status, was_helpful } = req.body;
-  
-    try {
-      console.log('Reset feedback:', { user_id, reset_plan_id, completion_status, was_helpful });
-  
-      // TODO: POST to AirTable ResetLogs table
-      // For now, just return success
-  
-      return res.status(200).json({
-        success: true,
-        message: 'Feedback saved',
-        reset_log_id: 'rec_temp_' + Date.now()
-      });
-    } catch (err) {
-      console.error('Reset feedback error:', err);
-      return res.status(500).json({ error: err.message });
-    }
-  });
-
-// Route: GET /api/cohort
-app.get('/api/cohort', async (req, res) => {
-    await cohortHandler(req, res);
-  });  
-
-// Route: GET /api/summary
-app.get('/api/summary', async (req, res) => {
-    await summaryHandler(req, res);
-  });
-  
 app.listen(PORT, () => {
   console.log(`Backend server running on http://localhost:${PORT}`);
 });
