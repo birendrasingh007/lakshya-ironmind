@@ -43,7 +43,8 @@ export default function ResetScreen({ resetPlan: initialPlan, checkinData, onCom
   
     try {
       // Use actual checkin data from props
-      const response = await fetch('/api/checkin', {
+      //const response = await fetch('/api/checkin', {
+      const response = await fetch('https://lakshya-ironmind-production.up.railway.app/api/checkin', {  
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

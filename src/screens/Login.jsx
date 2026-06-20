@@ -44,7 +44,8 @@ export default function LoginScreen({ onLoginSuccess }) {
 
     try {
       // CALL BACKEND: /api/auth
-      const response = await fetch('/api/auth', {
+      //const response = await fetch('/api/auth', {
+      const response = await fetch('https://lakshya-ironmind-production.up.railway.app/api/auth', {  
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

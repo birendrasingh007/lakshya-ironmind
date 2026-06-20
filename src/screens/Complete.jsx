@@ -31,7 +31,8 @@ export default function CompleteScreen({ resetPlan, completionStatus, onComplete
       const user_id = localStorage.getItem('user_id');  // ← GET FROM LOCALSTORAGE
       
       // POST to /api/reset-feedback
-      const response = await fetch('/api/reset-feedback', {
+      //const response = await fetch('/api/reset-feedback', {
+      const response = await fetch('https://lakshya-ironmind-production.up.railway.app/api/reset-feedback', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

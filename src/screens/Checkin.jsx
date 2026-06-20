@@ -65,7 +65,8 @@ export default function CheckinForm({ onSubmit }) {
         throw new Error('Stress must be 1-10');
       }
 
-      const response = await fetch('/api/checkin', {
+      //const response = await fetch('/api/checkin', {
+      const response = await fetch('https://lakshya-ironmind-production.up.railway.app/api/checkin', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

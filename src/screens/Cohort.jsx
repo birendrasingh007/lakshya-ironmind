@@ -43,7 +43,9 @@ export default function CohortScreen({ onNavigateBack }) {
       setError(null);
 
       try {
-        const response = await fetch('/api/cohort');
+        //const response = await fetch('/api/cohort');
+        const response = await fetch('https://lakshya-ironmind-production.up.railway.app/api/cohort');
+
         
         if (!response.ok) throw new Error('Failed to load cohort');
 

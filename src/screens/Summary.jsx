@@ -39,7 +39,9 @@ export default function SummaryScreen({ onNavigateBack }) {
 
       try {
         const user_id = localStorage.getItem('user_id');
-        const response = await fetch(`/api/summary?user_id=${user_id}`);
+        //const response = await fetch(`/api/summary?user_id=${user_id}`);
+        const response = await fetch(`https://lakshya-ironmind-production.up.railway.app/api/summary?user_id=${user_id}`);
+
         
         if (!response.ok) throw new Error('Failed to load summary');
 
