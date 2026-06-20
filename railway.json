@@ -3,6 +3,7 @@
     "builder": "nixpacks"
   },
   "deploy": {
-    "startCommand": "node backend-server.cjs"
+    "startCommand": "node api/index.js",
+    "restartPolicyType": "on_failure"
   }
 }
