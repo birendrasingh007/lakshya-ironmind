@@ -1,0 +1,188 @@
+{
+  "version": "v1",
+  "generated_at": "2026-08-16T18:53:23.456Z",
+  "model": "claude-sonnet-4-6",
+  "userHistory": [],
+  "cases": [
+    {
+      "id": 1,
+      "input": {
+        "stress_score": 5,
+        "energy_level": "Medium",
+        "time_available_mins": 5,
+        "stress_trigger": "Work",
+        "userHistory": []
+      },
+      "output": {
+        "reset_title": "5-Minute Work Stress Reset",
+        "duration_mins": 5,
+        "steps": [
+          "Find a quiet spot away from your screen and sit comfortably with feet flat on the floor (30 seconds)",
+          "Close your eyes and take 3 slow deep breaths: inhale for 4 counts, hold for 2 counts, exhale for 6 counts (2 minutes)",
+          "Gently roll your shoulders backward 5 times, then forward 5 times to release tension (1 minute)",
+          "Bring one positive intention or small win from today to mind and hold it for a moment (1 minute)",
+          "Open your eyes, stretch your arms overhead, and return to your task with a fresh focus (30 seconds)"
+        ],
+        "why_this_reset": "With a moderate stress level and medium energy, a short structured reset combining breathing and light movement gives your nervous system a gentle reset without draining your energy further. The 4-2-6 breathing pattern promotes calm by extending the exhale, which activates your parasympathetic response.",
+        "follow_up": "After returning to work, try breaking your next task into one small 10-minute chunk to maintain momentum without feeling overwhelmed."
+      },
+      "evaluations": {
+        "time_compliance": {
+          "result": "PASS",
+          "requested_time": 5,
+          "generated_duration": 5
+        },
+        "overall_appropriateness": {
+          "result": "PASS",
+          "reason": "The plan is appropriate for a moderate stress level and medium energy, fits within 5 minutes based on actual step timings (30s + 2min + 1min + 1min + 30s = 5min), is relevant to a work stress trigger, and is internally consistent with the 4-2-6 breathing pattern described in both steps and explanation."
+        }
+      },
+      "error": null
+    },
+    {
+      "id": 2,
+      "input": {
+        "stress_score": 9,
+        "energy_level": "Low",
+        "time_available_mins": 2,
+        "stress_trigger": "Work",
+        "userHistory": []
+      },
+      "output": {
+        "reset_title": "2-Minute Calm Breathing Reset",
+        "duration_mins": 2,
+        "steps": [
+          "Find a comfortable seated position at your desk or chair and close your eyes",
+          "Inhale slowly through your nose for 4 counts",
+          "Hold your breath gently for 2 counts",
+          "Exhale fully through your mouth for 6 counts",
+          "Repeat this 4-2-6 breathing cycle for the full 2 minutes (approximately 5-6 cycles)",
+          "On your final exhale, let your shoulders drop and open your eyes slowly"
+        ],
+        "why_this_reset": "Your stress is very high at 9/10 and your energy is low, but you only have 2 minutes. A focused 4-2-6 breathing pattern activates your parasympathetic nervous system quickly, reducing the cortisol spike triggered by work stress without requiring you to leave your space or expend physical energy.",
+        "follow_up": "After this reset, take 10 seconds to set one small, manageable intention for your next work task to help maintain a sense of control and prevent stress from spiking again immediately."
+      },
+      "evaluations": {
+        "time_compliance": {
+          "result": "PASS",
+          "requested_time": 2,
+          "generated_duration": 2
+        },
+        "overall_appropriateness": {
+          "result": "PASS",
+          "reason": "The plan is internally consistent, appropriately low-effort for low energy and high stress, work-trigger relevant, and the 5-6 breathing cycles of 12 counts each (~60-72 seconds total breath time) realistically fit within 2 minutes."
+        }
+      },
+      "error": null
+    },
+    {
+      "id": 3,
+      "input": {
+        "stress_score": 8,
+        "energy_level": "Low",
+        "time_available_mins": 5,
+        "stress_trigger": "Sleep",
+        "userHistory": []
+      },
+      "output": {
+        "reset_title": "Gentle 4-2-6 Breathing Reset",
+        "duration_mins": 4,
+        "steps": [
+          "Find a comfortable seated or lying position and close your eyes",
+          "Inhale slowly through your nose for 4 counts",
+          "Hold your breath gently for 2 counts",
+          "Exhale slowly through your mouth for 6 counts, releasing all tension",
+          "Repeat this 4-2-6 breathing cycle for 3 minutes, focusing only on the breath",
+          "On the final exhale, set a simple intention: 'I am allowing my body to rest'"
+        ],
+        "why_this_reset": "With a stress score of 8 and low energy from sleep disruption, your nervous system needs a quick, gentle downregulation. The extended exhale in this 4-2-6 pattern activates your parasympathetic system, helping to reduce cortisol and calm the sleep-stress cycle without demanding energy you don't have.",
+        "follow_up": "After this reset, consider dimming any nearby screens or lights. If this is a morning reset, pair it with a glass of water. If evening, keep the calm going by avoiding stimulating content for the next 20 minutes to support better sleep tonight."
+      },
+      "evaluations": {
+        "time_compliance": {
+          "result": "PASS",
+          "requested_time": 5,
+          "generated_duration": 4
+        },
+        "overall_appropriateness": {
+          "result": "PASS",
+          "reason": "The plan is appropriate for high stress with low energy and a sleep trigger, the 4-2-6 breathing pattern is internally consistent throughout, and the actual steps (roughly 1 minute of setup plus 3 minutes of breathing plus a brief final exhale intention) fit comfortably within the 5-minute available time."
+        }
+      },
+      "error": null
+    },
+    {
+      "id": 4,
+      "input": {
+        "stress_score": 3,
+        "energy_level": "High",
+        "time_available_mins": 10,
+        "stress_trigger": "Body",
+        "userHistory": []
+      },
+      "output": {
+        "reset_title": "Full-Body Tension Release",
+        "duration_mins": 8,
+        "steps": [
+          "Stand up and shake out your hands and arms for 30 seconds to release stored tension",
+          "Roll your shoulders slowly backward 5 times, then forward 5 times, focusing on any tight spots",
+          "Gently tilt your head side to side, holding each stretch for 5 seconds — repeat 3 times per side",
+          "Interlace your fingers and stretch your arms overhead, holding for 10 seconds, then release",
+          "Do 5 slow neck rolls, pausing wherever you feel tightness",
+          "Place hands on lower back and gently arch backward, then round forward into a standing cat-cow stretch — repeat 5 times",
+          "Finish with 3 deep breaths: inhale for 4 counts, exhale for 6 counts, letting your body soften on each exhale"
+        ],
+        "why_this_reset": "Your stress is low and energy is high, so a light movement-based reset is ideal. Since your trigger is body tension, this sequence targets the most common tension-holding areas — neck, shoulders, and back — without requiring you to slow down too much.",
+        "follow_up": "Notice which area felt the tightest during the reset. If tension returns in that spot later today, do a quick 60-second targeted stretch before it builds up again."
+      },
+      "evaluations": {
+        "time_compliance": {
+          "result": "PASS",
+          "requested_time": 10,
+          "generated_duration": 8
+        },
+        "overall_appropriateness": {
+          "result": "PASS",
+          "reason": "The plan is appropriate for low stress, high energy, and a body trigger, the steps are internally consistent, and the actual timings (~30s + shoulder rolls + neck tilts + overhead stretch + neck rolls + cat-cow + breathing) realistically fit within 8–10 minutes."
+        }
+      },
+      "error": null
+    },
+    {
+      "id": 5,
+      "input": {
+        "stress_score": 9,
+        "energy_level": "Medium",
+        "time_available_mins": 2,
+        "stress_trigger": "Family",
+        "userHistory": []
+      },
+      "output": {
+        "reset_title": "2-Minute Calming Breath Reset",
+        "duration_mins": 2,
+        "steps": [
+          "Find a comfortable seated or standing position and close your eyes if it feels safe to do so.",
+          "Inhale slowly through your nose for 4 counts.",
+          "Hold your breath gently for 2 counts.",
+          "Exhale fully through your mouth for 6 counts, releasing tension as you breathe out.",
+          "Repeat this 4-2-6 breathing cycle for 4 rounds, focusing only on the rhythm of your breath.",
+          "On the final exhale, silently remind yourself: 'This moment will pass. I am okay right now.'"
+        ],
+        "why_this_reset": "Your stress is very high (9/10) and you only have 2 minutes, so a quick but structured breathing technique is the most effective tool right now. Family stress often triggers a fight-or-flight response — the extended exhale in this 4-2-6 pattern actively activates your parasympathetic nervous system to calm your body quickly.",
+        "follow_up": "After your 2 minutes, try to delay re-engaging with the family situation for at least 5 more minutes if possible. When you're ready, consider writing down one specific thing that's bothering you — naming it precisely often reduces its emotional intensity."
+      },
+      "evaluations": {
+        "time_compliance": {
+          "result": "PASS",
+          "requested_time": 2,
+          "generated_duration": 2
+        },
+        "overall_appropriateness": {
+          "result": "PASS",
+          "reason": "The plan is internally consistent, appropriately targets high stress with a simple breathwork technique fitting a 2-minute window, the 4-2-6 pattern is correctly named and described throughout, and the steps are realistically completable in under 2 minutes."
+        }
+      },
+      "error": null
+    }
+  ]
+}

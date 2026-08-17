@@ -111,6 +111,16 @@ async function generateResetPlan(validatedInput, userHistory, stressTrigger) {
     - If user completed same reset 3+ times and marked helpful: Suggest it again
     - Never suggest something user skipped 3+ times
     
+    Breathing consistency rules:
+    - If a breathing technique or breathing pattern is named, the name must exactly match the inhale / hold / exhale counts described in the steps.
+    - Never describe one breathing sequence and then label it as a different named pattern.
+    - Example of an invalid output: steps describe 4-2-6 breathing but later call it "4-7-8".
+    - If using custom breathing counts that do not match a known named technique, describe the counts directly and do not give the pattern a conflicting name.
+    
+    Consistency rules:
+    - Before returning the JSON, ensure reset_title, duration_mins, steps, why_this_reset, and follow_up are internally consistent with each other.
+    - Ensure the actual steps can realistically fit within time_available_mins.
+    
     User History:
     ${JSON.stringify(userHistory, null, 2)}
     
